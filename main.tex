@@ -1,0 +1,56 @@
+%% main.tex
+%% 主文档
+\documentclass[11pt,a4paper,twoside,titlepage,UTF8]{ctexbook}
+%% ctex设置
+\ctexset{
+    section/format = \Large\bfseries\raggedright,
+    paragraph = {
+    	beforeskip = 0pt
+    },
+	subsubsection = {
+		numbering = true
+	}
+}
+%% ams宏包
+\usepackage{amsmath}
+\usepackage{amssymb}
+%% unicode-math宏包
+\usepackage{unicode-math}
+\setmainfont
+[    Extension = .otf,
+   UprightFont = *-regular,
+      BoldFont = *-bold,
+    ItalicFont = *-italic,
+BoldItalicFont = *-bolditalic,
+]{xits}
+\setmathfont
+[    Extension = .otf,
+      BoldFont = *bold,
+      bold-style = ISO
+]{xits-math}
+%% 图片宏包
+\usepackage{graphicx}
+%% 引用紧凑列表宏包
+\usepackage{mdwlist}
+%% 化学式宏包
+\usepackage[version=4]{mhchem}
+
+%% 调整段落和页面格式
+\usepackage[left=1.91cm, right=1.91cm, top=2.54cm, bottom=2.54cm]{geometry}
+\setlength{\parskip}{0pt}
+%% 包含文件
+
+%% 文档属性
+\title{\heiti{{\Huge 激光遥感复习整理}}}
+\author{\fangsong{\Large 胡奕公}}
+\date{}
+\begin{document}
+\maketitle %% 标题页
+\frontmatter %% 前文页码
+\tableofcontents %% 目录
+
+%% 正文开始
+\mainmatter
+\include{Chapter01-绪论} % 绪论
+
+\end{document}
