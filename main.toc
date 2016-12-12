@@ -1,16 +1,152 @@
-\contentsline {chapter}{\numberline {第一章\hspace {0.3em}}绪论}{1}
-\contentsline {section}{\numberline {1.1}基本概念}{1}
-\contentsline {section}{\numberline {1.2}应用现状}{1}
-\contentsline {section}{\numberline {1.3}LiDAR技术特点}{2}
-\contentsline {section}{\numberline {1.4}激光成像技术}{2}
-\contentsline {subsection}{\numberline {1.4.1}激光}{2}
-\contentsline {paragraph}{地位}{2}
-\contentsline {paragraph}{激光的亮度}{2}
-\contentsline {paragraph}{激光的特点}{2}
-\contentsline {paragraph}{激光设备}{3}
-\contentsline {paragraph}{激光的应用}{3}
-\contentsline {paragraph}{微波雷达的局限性}{3}
-\contentsline {subsection}{\numberline {1.4.2}激光雷达与激光成像雷达}{3}
-\contentsline {paragraph}{激光雷达的光源类型}{3}
-\contentsline {paragraph}{激光成像雷达的基本结构}{4}
-\contentsline {paragraph}{激光雷达的关键技术}{4}
+\contentsline {chapter}{\numberline {第1章\hspace {0.3em}}绪论}{1}{chapter.1}
+\contentsline {section}{\numberline {1.1}基本概念}{1}{section.1.1}
+\contentsline {section}{\numberline {1.2}应用现状}{1}{section.1.2}
+\contentsline {section}{\numberline {1.3}LiDAR技术特点}{2}{section.1.3}
+\contentsline {section}{\numberline {1.4}激光成像技术}{2}{section.1.4}
+\contentsline {subsection}{\numberline {1.4.1}激光}{2}{subsection.1.4.1}
+\contentsline {paragraph}{地位}{2}{paragraph*.2}
+\contentsline {paragraph}{激光的亮度}{2}{paragraph*.3}
+\contentsline {paragraph}{激光的特点}{2}{paragraph*.4}
+\contentsline {paragraph}{激光设备}{3}{paragraph*.5}
+\contentsline {paragraph}{激光的应用}{3}{paragraph*.6}
+\contentsline {paragraph}{微波雷达的局限性}{3}{paragraph*.7}
+\contentsline {subsection}{\numberline {1.4.2}激光雷达与激光成像雷达}{3}{subsection.1.4.2}
+\contentsline {paragraph}{激光雷达的光源类型}{3}{paragraph*.8}
+\contentsline {paragraph}{激光成像雷达的基本结构}{4}{paragraph*.9}
+\contentsline {paragraph}{激光成像雷达的发展}{4}{paragraph*.11}
+\contentsline {paragraph}{激光雷达的新类型}{4}{paragraph*.12}
+\contentsline {subsection}{\numberline {1.4.3}激光雷达的关键技术}{5}{subsection.1.4.3}
+\contentsline {section}{\numberline {1.5}激光遥感集成系统}{7}{section.1.5}
+\contentsline {paragraph}{激光成像雷达的不足}{7}{paragraph*.14}
+\contentsline {paragraph}{激光遥感集成系统}{8}{paragraph*.15}
+\contentsline {paragraph}{激光遥感观测系统}{8}{paragraph*.17}
+\contentsline {paragraph}{激光遥感集成系统的发展}{8}{paragraph*.18}
+\contentsline {section}{\numberline {1.6}国内常见LiDAR系统的扫描方式}{8}{section.1.6}
+\contentsline {paragraph}{摆镜扫描}{8}{paragraph*.19}
+\contentsline {paragraph}{旋转棱镜扫描}{8}{paragraph*.21}
+\contentsline {paragraph}{光线扫描方式}{8}{paragraph*.23}
+\contentsline {paragraph}{圆锥镜扫描方式}{8}{paragraph*.25}
+\contentsline {section}{\numberline {1.7}机载激光三维测量系统对比}{10}{section.1.7}
+\contentsline {chapter}{\numberline {第2章\hspace {0.3em}}激光及激光雷达系统}{11}{chapter.2}
+\contentsline {section}{\numberline {2.1}激光}{11}{section.2.1}
+\contentsline {subsection}{\numberline {2.1.1}辐射与原子}{11}{subsection.2.1.1}
+\contentsline {paragraph}{辐射与原子的相互作用的三种过程}{11}{paragraph*.28}
+\contentsline {subsection}{\numberline {2.1.2}受激辐射放大}{12}{subsection.2.1.2}
+\contentsline {paragraph}{外来辐射场的作用}{12}{paragraph*.32}
+\contentsline {paragraph}{辐射场增强的条件}{12}{paragraph*.33}
+\contentsline {subsection}{\numberline {2.1.3}激光的产生}{13}{subsection.2.1.3}
+\contentsline {paragraph}{工作物质}{13}{paragraph*.34}
+\contentsline {paragraph}{激光产生的条件}{13}{paragraph*.35}
+\contentsline {paragraph}{激光产生的过程}{13}{paragraph*.36}
+\contentsline {section}{\numberline {2.2}激光器}{13}{section.2.2}
+\contentsline {paragraph}{激光器}{13}{paragraph*.38}
+\contentsline {paragraph}{激光器的组成}{13}{paragraph*.39}
+\contentsline {paragraph}{激光器的分类}{13}{paragraph*.40}
+\contentsline {paragraph}{激光的应用}{14}{paragraph*.41}
+\contentsline {paragraph}{未来激光器的发展}{14}{paragraph*.42}
+\contentsline {subsection}{\numberline {2.2.1}气体激光器}{15}{subsection.2.2.1}
+\contentsline {paragraph}{用于激光雷达的气体激光器}{15}{paragraph*.43}
+\contentsline {paragraph}{\ce {CO2}激光器}{15}{paragraph*.44}
+\contentsline {paragraph}{\ce {CO2}分子的震动方式}{15}{paragraph*.45}
+\contentsline {paragraph}{\ce {CO2}激光器的优点}{15}{paragraph*.47}
+\contentsline {paragraph}{\ce {CO2}激光器的缺点}{15}{paragraph*.48}
+\contentsline {paragraph}{\ce {CO2}激光器的跃迁机理}{15}{paragraph*.49}
+\contentsline {subsection}{\numberline {2.2.2}固体激光器}{16}{subsection.2.2.2}
+\contentsline {paragraph}{常见的固体激光器}{16}{paragraph*.50}
+\contentsline {paragraph}{固体激光器的特点}{16}{paragraph*.51}
+\contentsline {paragraph}{Nd:YAG激光器}{16}{paragraph*.52}
+\contentsline {paragraph}{二极管泵浦YAG激光器}{16}{paragraph*.53}
+\contentsline {paragraph}{固体可调谐激光器}{16}{paragraph*.55}
+\contentsline {subsection}{\numberline {2.2.3}半导体二极管激光器}{17}{subsection.2.2.3}
+\contentsline {paragraph}{半导体二极管激光器的特点}{17}{paragraph*.56}
+\contentsline {paragraph}{半导体二极管激光器的工作原理}{18}{paragraph*.58}
+\contentsline {section}{\numberline {2.3}激光雷达系统}{18}{section.2.3}
+\contentsline {subsection}{\numberline {2.3.1}激光雷达系统概述}{18}{subsection.2.3.1}
+\contentsline {paragraph}{激光雷达的产生}{18}{paragraph*.61}
+\contentsline {paragraph}{激光雷达的特点}{19}{paragraph*.62}
+\contentsline {paragraph}{激光雷达的要求}{19}{paragraph*.63}
+\contentsline {paragraph}{激光雷达系统的分类}{19}{paragraph*.64}
+\contentsline {paragraph}{双视场米氏散射激光雷达}{19}{paragraph*.65}
+\contentsline {paragraph}{激光雷达系统的结构}{20}{paragraph*.66}
+\contentsline {subsection}{\numberline {2.3.2}光束整形}{20}{subsection.2.3.2}
+\contentsline {paragraph}{光束整形}{20}{paragraph*.69}
+\contentsline {paragraph}{光束整形的方法}{20}{paragraph*.71}
+\contentsline {subsection}{\numberline {2.3.3}激光扫描}{21}{subsection.2.3.3}
+\contentsline {paragraph}{激光扫描}{21}{paragraph*.72}
+\contentsline {paragraph}{激光扫描技术的分类}{21}{paragraph*.73}
+\contentsline {paragraph}{衍射光学元件(DOE)}{21}{paragraph*.74}
+\contentsline {subsection}{\numberline {2.3.4}信号接收的探测技术}{21}{subsection.2.3.4}
+\contentsline {paragraph}{直接探测}{21}{paragraph*.76}
+\contentsline {paragraph}{相干探测}{22}{paragraph*.77}
+\contentsline {paragraph}{接收孔直径}{23}{paragraph*.81}
+\contentsline {section}{\numberline {2.4}激光信号的大气衰减}{23}{section.2.4}
+\contentsline {paragraph}{激光的大气干扰}{23}{paragraph*.82}
+\contentsline {paragraph}{激光大气干扰的表现}{23}{paragraph*.83}
+\contentsline {paragraph}{激光雷达的性能}{23}{paragraph*.84}
+\contentsline {subsection}{\numberline {2.4.1}大气衰减效应}{24}{subsection.2.4.1}
+\contentsline {paragraph}{布格埃—朗伯特定律}{24}{paragraph*.85}
+\contentsline {paragraph}{大气透过率}{24}{paragraph*.86}
+\contentsline {paragraph}{总的衰减系数}{24}{paragraph*.87}
+\contentsline {subsection}{\numberline {2.4.2}大气折射效应}{25}{subsection.2.4.2}
+\contentsline {paragraph}{大气折射效应}{25}{paragraph*.88}
+\contentsline {paragraph}{折射率}{25}{paragraph*.89}
+\contentsline {section}{\numberline {2.5}激光雷达系统能量方程}{25}{section.2.5}
+\contentsline {paragraph}{激光雷达方程}{25}{paragraph*.90}
+\contentsline {paragraph}{激光雷达方程的一般形式}{26}{paragraph*.91}
+\contentsline {paragraph}{单脉冲稳频激光雷达}{26}{paragraph*.92}
+\contentsline {chapter}{\numberline {第3章\hspace {0.3em}}机载LiDAR数据获取基本原理}{27}{chapter.3}
+\contentsline {paragraph}{机载LiDAR系统工作原理}{27}{paragraph*.93}
+\contentsline {paragraph}{关键技术}{27}{paragraph*.95}
+\contentsline {section}{\numberline {3.1}激光测距}{28}{section.3.1}
+\contentsline {paragraph}{机载LiDAR系统对测距仪的要求}{28}{paragraph*.96}
+\contentsline {paragraph}{激光测距基本原理}{28}{paragraph*.97}
+\contentsline {subsection}{\numberline {3.1.1}测距方式}{28}{subsection.3.1.1}
+\contentsline {paragraph}{脉冲测距}{28}{paragraph*.99}
+\contentsline {paragraph}{连续波相位差测距}{29}{paragraph*.101}
+\contentsline {paragraph}{结论}{30}{paragraph*.103}
+\contentsline {subsection}{\numberline {3.1.2}测距精度和信噪比}{30}{subsection.3.1.2}
+\contentsline {paragraph}{测距精度和信噪比的关系}{30}{paragraph*.104}
+\contentsline {paragraph}{信噪比}{30}{paragraph*.105}
+\contentsline {paragraph}{两种测距方式的精度}{31}{paragraph*.107}
+\contentsline {paragraph}{现状}{31}{paragraph*.108}
+\contentsline {paragraph}{测距误差}{31}{paragraph*.109}
+\contentsline {subsection}{\numberline {3.1.3}功率}{32}{subsection.3.1.3}
+\contentsline {paragraph}{峰值功率与平均功率}{32}{paragraph*.110}
+\contentsline {paragraph}{发射功率与接受功率}{32}{paragraph*.111}
+\contentsline {subsection}{\numberline {3.1.4}体积}{33}{subsection.3.1.4}
+\contentsline {subsection}{\numberline {3.1.5}波长}{33}{subsection.3.1.5}
+\contentsline {paragraph}{选择波长的依据}{33}{paragraph*.112}
+\contentsline {paragraph}{常见LiDAR系统的激光波长}{33}{paragraph*.113}
+\contentsline {section}{\numberline {3.2}全球定位系统技术}{33}{section.3.2}
+\contentsline {paragraph}{全球定位系统}{33}{paragraph*.115}
+\contentsline {paragraph}{GPS定位原理}{33}{paragraph*.116}
+\contentsline {paragraph}{GPS的组成}{33}{paragraph*.117}
+\contentsline {paragraph}{GPS的优点}{34}{paragraph*.119}
+\contentsline {paragraph}{GPS定位分类}{34}{paragraph*.120}
+\contentsline {paragraph}{GPS精度影响因素}{34}{paragraph*.121}
+\contentsline {paragraph}{LiDAR系统的GPS技术}{35}{paragraph*.122}
+\contentsline {paragraph}{LiDAR系统中GPS的作用}{35}{paragraph*.123}
+\contentsline {section}{\numberline {3.3}惯性测量系统技术}{35}{section.3.3}
+\contentsline {subsection}{\numberline {3.3.1}惯性导航系统}{35}{subsection.3.3.1}
+\contentsline {paragraph}{基本原理}{35}{paragraph*.124}
+\contentsline {paragraph}{作用}{35}{paragraph*.126}
+\contentsline {paragraph}{惯性测量单元}{35}{paragraph*.127}
+\contentsline {subsection}{\numberline {3.3.2}IMU与DGPS组合定位技术}{36}{subsection.3.3.2}
+\contentsline {paragraph}{DGPS技术的特点}{36}{paragraph*.128}
+\contentsline {paragraph}{IMU技术的特点}{36}{paragraph*.129}
+\contentsline {paragraph}{POS系统}{36}{paragraph*.130}
+\contentsline {section}{\numberline {3.4}高性能二维扫描技术}{36}{section.3.4}
+\contentsline {subsection}{\numberline {3.4.1}机载LiDAR系统四种典型的扫描方式}{36}{subsection.3.4.1}
+\contentsline {subsection}{\numberline {3.4.2}扫描线形状}{36}{subsection.3.4.2}
+\contentsline {paragraph}{分类}{38}{paragraph*.135}
+\contentsline {section}{\numberline {3.5}LiDAR数据获取处理}{38}{section.3.5}
+\contentsline {paragraph}{机载LiDAR获取的数据}{38}{paragraph*.136}
+\contentsline {subsection}{\numberline {3.5.1}离线时间同步方案}{38}{subsection.3.5.1}
+\contentsline {subsection}{\numberline {3.5.2}机载LiDAR系统对地定位方程}{39}{subsection.3.5.2}
+\contentsline {paragraph}{摆镜扫描对地定位方程}{39}{paragraph*.138}
+\contentsline {paragraph}{椭圆扫描定位方程}{39}{paragraph*.139}
+\contentsline {section}{\numberline {3.6}机载LiDAR数据获取新技术}{39}{section.3.6}
+\contentsline {paragraph}{数字化全波形技术}{39}{paragraph*.140}
+\contentsline {paragraph}{空中内插多脉冲技术}{39}{paragraph*.142}
+\contentsline {paragraph}{双扫描仪组合技术}{39}{paragraph*.144}
+\contentsfinish 

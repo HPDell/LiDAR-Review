@@ -45,17 +45,10 @@ BoldItalicFont = *-bolditalic,
 \usepackage[version=4]{mhchem}
 %% textcomp宏包，显示单位
 \usepackage{textcomp}
-%% 分栏宏包
+%% 多列宏包
 \usepackage{multicol}
-%% 表格宏包
-\usepackage{multirow}
 %% 定义微分符号d
 \newcommand{\diff}{\symrm{d }}
-%% 定义常量pi
-\newcommand{\cpi}{\symrm{\pi}}
-%% 定义左对齐 右对齐
-\newcommand{\alignleft}{\raggedright}
-\newcommand{\alignright}{\raggedleft}
 
 %%%%<!-------------------- 格式设置 -------------------->
 %% 调整段落和页面格式
@@ -66,30 +59,29 @@ BoldItalicFont = *-bolditalic,
 \usepackage{titletoc}
 \titlecontents{chapter}[4em]{\vspace{3mm}\heiti}{\contentslabel{4.0em}}{}{\titlerule*[0.3pc]{.}\small\contentspage}
 \titlecontents{section}[4em]{\normalsize}{\contentslabel{2.5em}}{}{\titlerule*[0.3pc]{.}\small\contentspage}
-\titlecontents{subsection}[7em]{\normalsize\kaishu}{\contentslabel{3em}}{}{\titlerule*[0.3pc]{.}\small\contentspage}
+\titlecontents{subsection}[7em]{\normalsize}{\contentslabel{3em}}{}{\titlerule*[0.3pc]{.}\small\contentspage}
 %% 调整图标标题格式
 \usepackage{caption}
 \usepackage{subcaption}
 \captionsetup{labelfont=bf,labelsep=quad}
 %% 引用列表宏包调整列表格式
-\usepackage[inline]{enumitem}
-\setlist{topsep=0pt,partopsep=0pt,parsep=0pt,itemsep=0pt,itemjoin=\quad\quad}
+\usepackage{enumitem}
+\setlist{topsep=0pt,partopsep=0pt,parsep=0pt,itemsep=0pt}
 %% 脚注每页重新标号
 \usepackage[perpage]{footmisc}
-%% 设置积分号
-\usepackage[fourier]{varint}
 %% 定制标题页、目录页和正文的格式
 \newcommand{\docmaketitle}{\pagestyle{empty}\maketitle}
 \newcommand{\doctableofcontents}{\frontmatter\pagestyle{headings}\tableofcontents\mainmatter}
+\newenvironment
 
 %%%%<!-------------------- 文档设置 -------------------->
 %% 包含文件
-%\includeonly{Chapter03-机载LiDAR数据获取基本原理}
+%\includeonly{Chapter02-激光及激光雷达系统}
 
 %% 文档属性
 \title{\heiti{\Huge{激光遥感复习整理}}}
 \author{\fangsong{\LARGE{胡奕公}}}
-\date{}
+\date{\kaishu 武汉大学遥感信息工程学院}
 
 %%%%<!-------------------- 正文 -------------------->
 \begin{document}
@@ -98,7 +90,5 @@ BoldItalicFont = *-bolditalic,
 %% 正文开始
 \include{Chapter01-绪论}
 \include{Chapter02-激光及激光雷达系统}
-\include{Chapter03-机载LiDAR数据获取基本原理}
-
 
 \end{document}
