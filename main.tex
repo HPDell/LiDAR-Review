@@ -93,7 +93,25 @@ BoldItalicFont = *-bolditalic,
 
 %%%%<!-------------------- 正文 -------------------->
 \begin{document}
-\docmaketitle %% 标题页
+%% 标题页
+\pagestyle{empty}
+\begin{titlepage}
+	\centering
+	\vspace{2cm}
+	\includegraphics[width=0.15\textwidth]{figure/透明底篮标}\par\vspace{0.5cm}
+	{\scshape\LARGE 武汉大学遥感信息工程学院 \par}
+	\vspace{2.5cm}
+	{\scshape\Large\bfseries 激光遥感\par}
+	\vspace{0.5cm}
+	{\Huge\bfseries 复习整理\par}
+	\vspace{2cm}
+	{\Large\itshape 胡奕公\par}
+	
+	\vfill
+	% Bottom of the page
+	{\large \LaTeX \par}
+\end{titlepage}
+
 \doctableofcontents %% 目录
 %% 正文开始
 \include{Chapter01-绪论}
