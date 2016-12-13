@@ -38,9 +38,6 @@ BoldItalicFont = *-bolditalic,
 ]{xits-math}
 %% 图片宏包
 \usepackage{graphicx}
-%% 引用紧凑列表宏包
-% \usepackage{mdwlist}
-
 %% 化学式宏包
 \usepackage[version=4]{mhchem}
 %% textcomp宏包，显示单位
@@ -56,6 +53,13 @@ BoldItalicFont = *-bolditalic,
 %% 定义左对齐 右对齐
 \newcommand{\alignleft}{\raggedright}
 \newcommand{\alignright}{\raggedleft}
+%% 定义楷体加粗的段落
+\newcommand{\kaiparagraph}[1]{\paragraph{\kaishu {#1}}}
+%% 引入pgf与tikz绘图宏包
+\usepackage{tikz}
+\usetikzlibrary{graphs,arrows,shapes,chains}
+%% 子图宏包
+\usepackage{subfig}
 
 %%%%<!-------------------- 格式设置 -------------------->
 %% 调整段落和页面格式
@@ -69,7 +73,7 @@ BoldItalicFont = *-bolditalic,
 \titlecontents{subsection}[7em]{\normalsize\kaishu}{\contentslabel{3em}}{}{\titlerule*[0.3pc]{.}\small\contentspage}
 %% 调整图标标题格式
 \usepackage{caption}
-\usepackage{subcaption}
+%\usepackage{subcaption}
 \captionsetup{labelfont=bf,labelsep=quad}
 %% 引用列表宏包调整列表格式
 \usepackage[inline]{enumitem}
@@ -84,7 +88,7 @@ BoldItalicFont = *-bolditalic,
 
 %%%%<!-------------------- 文档设置 -------------------->
 %% 包含文件
-%\includeonly{Chapter03-机载LiDAR数据获取基本原理}
+\includeonly{Chapter05-LiDAR工程数据获取}
 
 %% 文档属性
 \title{\heiti{\Huge{激光遥感复习整理}}}
@@ -117,6 +121,8 @@ BoldItalicFont = *-bolditalic,
 \include{Chapter01-绪论}
 \include{Chapter02-激光及激光雷达系统}
 \include{Chapter03-机载LiDAR数据获取基本原理}
+\include{Chapter04-LiDAR数据获取重要参数}
+\include{Chapter05-LiDAR工程数据获取}
 
 
 \end{document}

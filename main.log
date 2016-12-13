@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99996 (TeX Live 2016) (preloaded format=xelatex 2016.10.20)  12 DEC 2016 23:07
+This is XeTeX, Version 3.14159265-2.6-0.99996 (TeX Live 2016) (preloaded format=xelatex 2016.10.20)  13 DEC 2016 21:20
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1726,6 +1726,427 @@ Package: multicol 2016/04/07 v1.8p multicolumn formatting (FMi)
 (/usr/local/texlive/2016/texmf-dist/tex/latex/multirow/multirow.sty
 \bigstrutjot=\dimen199
 )
+(/usr/local/texlive/2016/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty
+(/usr/local/texlive/2016/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
+(/usr/local/texlive/2016/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.te
+x
+\pgfutil@everybye=\toks24
+\pgfutil@tempdima=\dimen256
+\pgfutil@tempdimb=\dimen257
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/utilities/pgfutil-common-li
+sts.tex))
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
+\pgfutil@abb=\box82
+(/usr/local/texlive/2016/texmf-dist/tex/latex/ms/everyshi.sty
+Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
+))
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex
+Package: pgfrcs 2015/08/07 v3.0.1a (rcs-revision 1.31)
+))
+Package: pgf 2015/08/07 v3.0.1a (rcs-revision 1.15)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty
+(/usr/local/texlive/2016/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
+Package: pgfsys 2014/07/09 v3.0.1a (rcs-revision 1.48)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
+\pgfkeys@pathtoks=\toks25
+\pgfkeys@temptoks=\toks26
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/utilities/pgfkeysfiltered.c
+ode.tex
+\pgfkeys@tmptoks=\toks27
+))
+\pgf@x=\dimen258
+\pgf@y=\dimen259
+\pgf@xa=\dimen260
+\pgf@ya=\dimen261
+\pgf@xb=\dimen262
+\pgf@yb=\dimen263
+\pgf@xc=\dimen264
+\pgf@yc=\dimen265
+\w@pgf@writea=\write3
+\r@pgf@reada=\read2
+\c@pgf@counta=\count278
+\c@pgf@countb=\count279
+\c@pgf@countc=\count280
+\c@pgf@countd=\count281
+\t@pgf@toka=\toks28
+\t@pgf@tokb=\toks29
+\t@pgf@tokc=\toks30
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
+File: pgf.cfg 2008/05/14  (rcs-revision 1.7)
+)
+Driver file for pgf: pgfsys-xetex.def
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-xetex.de
+f
+File: pgfsys-xetex.def 2014/07/09  (rcs-revision 1.11)
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-dvipdfmx
+.def
+File: pgfsys-dvipdfmx.def 2014/07/09  (rcs-revision 1.14)
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-p
+df.def
+File: pgfsys-common-pdf.def 2013/10/10  (rcs-revision 1.13)
+)
+\pgfsys@objnum=\count282
+)))
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.
+code.tex
+File: pgfsyssoftpath.code.tex 2013/09/09  (rcs-revision 1.9)
+\pgfsyssoftpath@smallbuffer@items=\count283
+\pgfsyssoftpath@bigbuffer@items=\count284
+)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.
+code.tex
+File: pgfsysprotocol.code.tex 2006/10/16  (rcs-revision 1.4)
+)) (/usr/local/texlive/2016/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: xetex.def on input line 225.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
+Package xcolor Info: Model `RGB' extended on input line 1364.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
+)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex
+Package: pgfcore 2010/04/11 v3.0.1a (rcs-revision 1.7)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
+\pgfmath@dimen=\dimen266
+\pgfmath@count=\count285
+\pgfmath@box=\box83
+\pgfmath@toks=\toks31
+\pgfmath@stack@operand=\toks32
+\pgfmath@stack@operation=\toks33
+)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.
+tex
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic
+.code.tex)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigo
+nometric.code.tex)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.rando
+m.code.tex)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.compa
+rison.code.tex)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.
+code.tex)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round
+.code.tex)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.
+code.tex)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integ
+erarithmetics.code.tex)))
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
+\c@pgfmathroundto@lastzeros=\count286
+))
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.co
+de.tex
+File: pgfcorepoints.code.tex 2013/10/07  (rcs-revision 1.27)
+\pgf@picminx=\dimen267
+\pgf@picmaxx=\dimen268
+\pgf@picminy=\dimen269
+\pgf@picmaxy=\dimen270
+\pgf@pathminx=\dimen271
+\pgf@pathmaxx=\dimen272
+\pgf@pathminy=\dimen273
+\pgf@pathmaxy=\dimen274
+\pgf@xx=\dimen275
+\pgf@xy=\dimen276
+\pgf@yx=\dimen277
+\pgf@yy=\dimen278
+\pgf@zx=\dimen279
+\pgf@zy=\dimen280
+)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconst
+ruct.code.tex
+File: pgfcorepathconstruct.code.tex 2013/10/07  (rcs-revision 1.29)
+\pgf@path@lastx=\dimen281
+\pgf@path@lasty=\dimen282
+)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage
+.code.tex
+File: pgfcorepathusage.code.tex 2014/11/02  (rcs-revision 1.24)
+\pgf@shorten@end@additional=\dimen283
+\pgf@shorten@start@additional=\dimen284
+)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.co
+de.tex
+File: pgfcorescopes.code.tex 2015/05/08  (rcs-revision 1.46)
+\pgfpic=\box84
+\pgf@hbox=\box85
+\pgf@layerbox@main=\box86
+\pgf@picture@serial@count=\count287
+)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicst
+ate.code.tex
+File: pgfcoregraphicstate.code.tex 2014/11/02  (rcs-revision 1.12)
+\pgflinewidth=\dimen285
+)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransform
+ations.code.tex
+File: pgfcoretransformations.code.tex 2015/08/07  (rcs-revision 1.20)
+\pgf@pt@x=\dimen286
+\pgf@pt@y=\dimen287
+\pgf@pt@temp=\dimen288
+)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.cod
+e.tex
+File: pgfcorequick.code.tex 2008/10/09  (rcs-revision 1.3)
+)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreobjects.c
+ode.tex
+File: pgfcoreobjects.code.tex 2006/10/11  (rcs-revision 1.2)
+)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathproce
+ssing.code.tex
+File: pgfcorepathprocessing.code.tex 2013/09/09  (rcs-revision 1.9)
+)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.co
+de.tex
+File: pgfcorearrows.code.tex 2015/05/14  (rcs-revision 1.43)
+\pgfarrowsep=\dimen289
+)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.cod
+e.tex
+File: pgfcoreshade.code.tex 2013/07/15  (rcs-revision 1.15)
+\pgf@max=\dimen290
+\pgf@sys@shading@range@num=\count288
+)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.cod
+e.tex
+File: pgfcoreimage.code.tex 2013/07/15  (rcs-revision 1.18)
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.
+code.tex
+File: pgfcoreexternal.code.tex 2014/07/09  (rcs-revision 1.21)
+\pgfexternal@startupbox=\box87
+))
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.co
+de.tex
+File: pgfcorelayers.code.tex 2013/07/18  (rcs-revision 1.7)
+)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretranspare
+ncy.code.tex
+File: pgfcoretransparency.code.tex 2013/09/30  (rcs-revision 1.5)
+)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepatterns.
+code.tex
+File: pgfcorepatterns.code.tex 2013/11/07  (rcs-revision 1.5)
+)))
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.cod
+e.tex
+File: pgfmoduleshapes.code.tex 2014/03/21  (rcs-revision 1.35)
+\pgfnodeparttextbox=\box88
+)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.
+tex
+File: pgfmoduleplot.code.tex 2015/08/03  (rcs-revision 1.13)
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version
+-0-65.sty
+Package: pgfcomp-version-0-65 2007/07/03 v3.0.1a (rcs-revision 1.7)
+\pgf@nodesepstart=\dimen291
+\pgf@nodesepend=\dimen292
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version
+-1-18.sty
+Package: pgfcomp-version-1-18 2007/07/23 v3.0.1a (rcs-revision 1.1)
+))
+(/usr/local/texlive/2016/texmf-dist/tex/latex/pgf/utilities/pgffor.sty
+(/usr/local/texlive/2016/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex)
+) (/usr/local/texlive/2016/texmf-dist/tex/latex/pgf/math/pgfmath.sty
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex))
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
+Package: pgffor 2013/12/13 v3.0.1a (rcs-revision 1.25)
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)
+\pgffor@iter=\dimen293
+\pgffor@skip=\dimen294
+\pgffor@stack=\toks34
+\pgffor@toks=\toks35
+))
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.cod
+e.tex
+Package: tikz 2015/08/07 v3.0.1a (rcs-revision 1.151)
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothan
+dlers.code.tex
+File: pgflibraryplothandlers.code.tex 2013/08/31 v3.0.1a (rcs-revision 1.20)
+\pgf@plot@mark@count=\count289
+\pgfplotmarksize=\dimen295
+)
+\tikz@lastx=\dimen296
+\tikz@lasty=\dimen297
+\tikz@lastxsaved=\dimen298
+\tikz@lastysaved=\dimen299
+\tikzleveldistance=\dimen300
+\tikzsiblingdistance=\dimen301
+\tikz@figbox=\box89
+\tikz@figbox@bg=\box90
+\tikz@tempbox=\box91
+\tikz@tempbox@bg=\box92
+\tikztreelevel=\count290
+\tikznumberofchildren=\count291
+\tikznumberofcurrentchild=\count292
+\tikz@fig@count=\count293
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.cod
+e.tex
+File: pgfmodulematrix.code.tex 2013/09/17  (rcs-revision 1.8)
+\pgfmatrixcurrentrow=\count294
+\pgfmatrixcurrentcolumn=\count295
+\pgf@matrix@numberofcolumns=\count296
+)
+\tikz@expandcount=\count297
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibrarytopaths.code.tex
+File: tikzlibrarytopaths.code.tex 2008/06/17 v3.0.1a (rcs-revision 1.2)
+)))
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/graphs/tikzlibrarygraphs.code.tex
+File: tikzlibrarygraphs.code.tex 2015/06/05 v3.0.1a (rcs-revision 1.44)
+\tikz@lib@auto@number=\count298
+\tikz@qnode@count=\count299
+)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibraryarrows.code.tex
+File: tikzlibraryarrows.code.tex 2008/01/09 v3.0.1a (rcs-revision 1.1)
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/libraries/pgflibraryarrows.
+code.tex
+File: pgflibraryarrows.code.tex 2013/09/23 v3.0.1a (rcs-revision 1.16)
+\arrowsize=\dimen302
+))
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibraryshapes.code.tex
+File: tikzlibraryshapes.code.tex 2008/01/09 v3.0.1a (rcs-revision 1.1)
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibraryshapes.geometric.code.tex
+File: tikzlibraryshapes.geometric.code.tex 2008/01/09 v3.0.1a (rcs-revision 1.1
+)
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibrary
+shapes.geometric.code.tex
+File: pgflibraryshapes.geometric.code.tex 2008/06/26 v3.0.1a (rcs-revision 1.1)
+
+))
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibraryshapes.misc.code.tex
+File: tikzlibraryshapes.misc.code.tex 2008/01/09 v3.0.1a (rcs-revision 1.1)
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibrary
+shapes.misc.code.tex
+File: pgflibraryshapes.misc.code.tex 2013/07/18 v3.0.1a (rcs-revision 1.5)
+))
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibraryshapes.symbols.code.tex
+File: tikzlibraryshapes.symbols.code.tex 2008/01/09 v3.0.1a (rcs-revision 1.1)
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibrary
+shapes.symbols.code.tex
+File: pgflibraryshapes.symbols.code.tex 2013/09/11 v3.0.1a (rcs-revision 1.6)
+))
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibraryshapes.arrows.code.tex
+File: tikzlibraryshapes.arrows.code.tex 2008/01/09 v3.0.1a (rcs-revision 1.1)
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibrary
+shapes.arrows.code.tex
+File: pgflibraryshapes.arrows.code.tex 2008/06/26 v3.0.1a (rcs-revision 1.1)
+))
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibraryshapes.callouts.code.tex
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibrary
+shapes.callouts.code.tex))
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibraryshapes.multipart.code.tex
+File: tikzlibraryshapes.multipart.code.tex 2008/01/09 v3.0.1a (rcs-revision 1.1
+)
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibrary
+shapes.multipart.code.tex
+File: pgflibraryshapes.multipart.code.tex 2010/01/07 v3.0.1a (rcs-revision 1.2)
+
+\pgfnodepartlowerbox=\box93
+\pgfnodeparttwobox=\box94
+\pgfnodepartthreebox=\box95
+\pgfnodepartfourbox=\box96
+\pgfnodeparttwentybox=\box97
+\pgfnodepartnineteenbox=\box98
+\pgfnodeparteighteenbox=\box99
+\pgfnodepartseventeenbox=\box100
+\pgfnodepartsixteenbox=\box101
+\pgfnodepartfifteenbox=\box102
+\pgfnodepartfourteenbox=\box103
+\pgfnodepartthirteenbox=\box104
+\pgfnodeparttwelvebox=\box105
+\pgfnodepartelevenbox=\box106
+\pgfnodeparttenbox=\box107
+\pgfnodepartninebox=\box108
+\pgfnodeparteightbox=\box109
+\pgfnodepartsevenbox=\box110
+\pgfnodepartsixbox=\box111
+\pgfnodepartfivebox=\box112
+)))
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibrarychains.code.tex
+File: tikzlibrarychains.code.tex 2013/07/15 v3.0.1a (rcs-revision 1.6)
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibrarypositioning.code.tex
+File: tikzlibrarypositioning.code.tex 2008/10/06 v3.0.1a (rcs-revision 1.7)
+))
+(/usr/local/texlive/2016/texmf-dist/tex/latex/subfig/subfig.sty
+Package: subfig 2005/06/28 ver: 1.3 subfig package
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2016/02/21 v3.3-144 Customizing captions (AR)
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2016/02/04 v1.7-139 caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 67.
+\captionmargin=\dimen303
+\captionmargin@=\dimen304
+\captionwidth=\dimen305
+\caption@tempdima=\dimen306
+\caption@indent=\dimen307
+\caption@parindent=\dimen308
+\caption@hangindent=\dimen309
+)
+\c@ContinuedFloat=\count300
+)
+\c@KVtest=\count301
+\sf@farskip=\skip78
+\sf@captopadj=\dimen310
+\sf@capskip=\skip79
+\sf@nearskip=\skip80
+\c@subfigure=\count302
+\c@subfigure@save=\count303
+\c@lofdepth=\count304
+\c@subtable=\count305
+\c@subtable@save=\count306
+\c@lotdepth=\count307
+\sf@top=\skip81
+\sf@bottom=\skip82
+)
 (/usr/local/texlive/2016/texmf-dist/tex/latex/geometry/geometry.sty
 Package: geometry 2010/09/12 v5.6 Page Geometry
 
@@ -1736,70 +2157,49 @@ Package: ifpdf 2016/05/14 v3.1 Provides the ifpdf switch
 Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
 Package ifvtex Info: VTeX not detected.
 )
-\Gm@cnth=\count278
-\Gm@cntv=\count279
-\c@Gm@tempcnt=\count280
-\Gm@bindingoffset=\dimen256
-\Gm@wd@mp=\dimen257
-\Gm@odd@mp=\dimen258
-\Gm@even@mp=\dimen259
-\Gm@layoutwidth=\dimen260
-\Gm@layoutheight=\dimen261
-\Gm@layouthoffset=\dimen262
-\Gm@layoutvoffset=\dimen263
-\Gm@dimlist=\toks24
+\Gm@cnth=\count308
+\Gm@cntv=\count309
+\c@Gm@tempcnt=\count310
+\Gm@bindingoffset=\dimen311
+\Gm@wd@mp=\dimen312
+\Gm@odd@mp=\dimen313
+\Gm@even@mp=\dimen314
+\Gm@layoutwidth=\dimen315
+\Gm@layoutheight=\dimen316
+\Gm@layouthoffset=\dimen317
+\Gm@layoutvoffset=\dimen318
+\Gm@dimlist=\toks36
 )
 (/usr/local/texlive/2016/texmf-dist/tex/latex/titlesec/titlesec.sty
 Package: titlesec 2016/03/21 v2.10.2 Sectioning titles
-\ttl@box=\box82
-\beforetitleunit=\skip78
-\aftertitleunit=\skip79
-\ttl@plus=\dimen264
-\ttl@minus=\dimen265
-\ttl@toksa=\toks25
-\titlewidth=\dimen266
-\titlewidthlast=\dimen267
-\titlewidthfirst=\dimen268
+\ttl@box=\box113
+\beforetitleunit=\skip83
+\aftertitleunit=\skip84
+\ttl@plus=\dimen319
+\ttl@minus=\dimen320
+\ttl@toksa=\toks37
+\titlewidth=\dimen321
+\titlewidthlast=\dimen322
+\titlewidthfirst=\dimen323
 )
 (/usr/local/texlive/2016/texmf-dist/tex/latex/titlesec/titletoc.sty
 Package: titletoc 2011/12/15 v1.6 TOC entries
-\ttl@leftsep=\dimen269
-)
-(/usr/local/texlive/2016/texmf-dist/tex/latex/caption/caption.sty
-Package: caption 2016/02/21 v3.3-144 Customizing captions (AR)
-
-(/usr/local/texlive/2016/texmf-dist/tex/latex/caption/caption3.sty
-Package: caption3 2016/02/04 v1.7-139 caption3 kernel (AR)
-Package caption3 Info: TeX engine: e-TeX on input line 67.
-\captionmargin=\dimen270
-\captionmargin@=\dimen271
-\captionwidth=\dimen272
-\caption@tempdima=\dimen273
-\caption@indent=\dimen274
-\caption@parindent=\dimen275
-\caption@hangindent=\dimen276
-)
-\c@ContinuedFloat=\count281
-)
-(/usr/local/texlive/2016/texmf-dist/tex/latex/caption/subcaption.sty
-Package: subcaption 2016/02/20 v1.1-142 Sub-captions (AR)
-\c@subfigure=\count282
-\c@subtable=\count283
+\ttl@leftsep=\dimen324
 )
 (/usr/local/texlive/2016/texmf-dist/tex/latex/enumitem/enumitem.sty
 Package: enumitem 2011/09/28 v3.5.2 Customized lists
-\labelindent=\skip80
-\enit@outerparindent=\dimen277
-\enit@toks=\toks26
-\enit@inbox=\box83
-\enitdp@description=\count284
+\labelindent=\skip85
+\enit@outerparindent=\dimen325
+\enit@toks=\toks38
+\enit@inbox=\box114
+\enitdp@description=\count311
 )
 (/usr/local/texlive/2016/texmf-dist/tex/latex/footmisc/footmisc.sty
 Package: footmisc 2011/06/06 v5.5b a miscellany of footnote facilities
-\FN@temptoken=\toks27
-\footnotemargin=\dimen278
-\c@pp@next@reset=\count285
-\c@@fnserial=\count286
+\FN@temptoken=\toks39
+\footnotemargin=\dimen326
+\c@pp@next@reset=\count312
+\c@@fnserial=\count313
 Package footmisc Info: Declaring symbol style bringhurst on input line 855.
 Package footmisc Info: Declaring symbol style chicago on input line 863.
 Package footmisc Info: Declaring symbol style wiley on input line 872.
@@ -1818,7 +2218,7 @@ LaTeX Info: Redefining \bm on input line 208.
 )
 (/usr/local/texlive/2016/texmf-dist/tex/latex/etoolbox/etoolbox.sty
 Package: etoolbox 2015/08/02 v2.2a e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count287
+\etb@tempcnta=\count314
 )
 Package varint Info: Using fourier-int style on input line 148.
 \symfouri@er=\mathgroup6
@@ -1874,14 +2274,14 @@ Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
 (/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/kvoptions.sty
 Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
 )
-\@linkdim=\dimen279
-\Hy@linkcounter=\count288
-\Hy@pagecounter=\count289
+\@linkdim=\dimen327
+\Hy@linkcounter=\count315
+\Hy@pagecounter=\count316
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/hyperref/pd1enc.def
 File: pd1enc.def 2016/05/05 v6.83n Hyperref: PDFDocEncoding definition (HO)
 )
-\Hy@SavedSpaceFactor=\count290
+\Hy@SavedSpaceFactor=\count317
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/latexconfig/hyperref.cfg
 File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
@@ -1898,17 +2298,17 @@ Package hyperref Info: Plain pages OFF on input line 4461.
 Package hyperref Info: Backreferencing OFF on input line 4466.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4691.
-\c@Hy@tempcnt=\count291
+\c@Hy@tempcnt=\count318
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip19
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
 LaTeX Info: Redefining \url on input line 5044.
-\XeTeXLinkMargin=\dimen280
-\Fld@menulength=\count292
-\Field@Width=\dimen281
-\Fld@charsize=\dimen282
+\XeTeXLinkMargin=\dimen328
+\Fld@menulength=\count319
+\Field@Width=\dimen329
+\Fld@charsize=\dimen330
 Package hyperref Info: Hyper figures OFF on input line 6298.
 Package hyperref Info: Link nesting OFF on input line 6303.
 Package hyperref Info: Hyper index ON on input line 6306.
@@ -1918,9 +2318,9 @@ Package hyperref Info: Link coloring with OCG OFF on input line 6323.
 Package hyperref Info: PDF/A mode OFF on input line 6328.
 LaTeX Info: Redefining \ref on input line 6368.
 LaTeX Info: Redefining \pageref on input line 6372.
-\Hy@abspage=\count293
-\c@Item=\count294
-\c@Hfootnote=\count295
+\Hy@abspage=\count320
+\c@Item=\count321
+\c@Hfootnote=\count322
 )
 
 Package hyperref Message: Driver (autodetected): hxetex.
@@ -1932,11 +2332,11 @@ File: hxetex.def 2016/05/05 v6.83n Hyperref driver for XeTeX
 Package: stringenc 2016/05/16 v1.11 Convert strings between diff. encodings (HO
 )
 )
-\pdfm@box=\box84
-\c@Hy@AnnotLevel=\count296
-\HyField@AnnotCount=\count297
-\Fld@listcount=\count298
-\c@bookmark@seq@number=\count299
+\pdfm@box=\box115
+\c@Hy@AnnotLevel=\count323
+\HyField@AnnotCount=\count324
+\Fld@listcount=\count325
+\c@bookmark@seq@number=\count326
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
 Package: rerunfilecheck 2016/05/16 v1.8 Rerun checks for auxiliary files (HO)
@@ -1947,47 +2347,53 @@ Package rerunfilecheck Info: Feature \pdfmdfivesum is not available
 tly
 (rerunfilecheck)             and the loading of the package is aborted.
 )
-\Hy@SectionHShift=\skip81
+\Hy@SectionHShift=\skip86
 )
 (./main.aux (./Chapter01-绪论.aux) (./Chapter02-激光及激光雷达系统.aux)
-(./Chapter03-机载LiDAR数据获取基本原理.aux))
+(./Chapter03-机载LiDAR数据获取基本原理.aux) (./Chapter04-LiDAR数据获取重要参数.aux)
+(./Chapter05-LiDAR工程数据获取.aux))
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 95.
-LaTeX Font Info:    ... okay on input line 95.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 95.
-LaTeX Font Info:    ... okay on input line 95.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 95.
-LaTeX Font Info:    ... okay on input line 95.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 95.
-LaTeX Font Info:    ... okay on input line 95.
-LaTeX Font Info:    Checking defaults for OMX/fouri@er/m/n on input line 95.
-LaTeX Font Info:    ... okay on input line 95.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 95.
-LaTeX Font Info:    ... okay on input line 95.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 95.
-LaTeX Font Info:    ... okay on input line 95.
-LaTeX Font Info:    Checking defaults for EU1/lmr/m/n on input line 95.
-LaTeX Font Info:    ... okay on input line 95.
-LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 95.
-LaTeX Font Info:    Try loading font information for T3+cmr on input line 95.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 99.
+LaTeX Font Info:    ... okay on input line 99.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 99.
+LaTeX Font Info:    ... okay on input line 99.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 99.
+LaTeX Font Info:    ... okay on input line 99.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 99.
+LaTeX Font Info:    ... okay on input line 99.
+LaTeX Font Info:    Checking defaults for OMX/fouri@er/m/n on input line 99.
+LaTeX Font Info:    ... okay on input line 99.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 99.
+LaTeX Font Info:    ... okay on input line 99.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 99.
+LaTeX Font Info:    ... okay on input line 99.
+LaTeX Font Info:    Checking defaults for EU1/lmr/m/n on input line 99.
+LaTeX Font Info:    ... okay on input line 99.
+LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 99.
+LaTeX Font Info:    Try loading font information for T3+cmr on input line 99.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/tipa/t3cmr.fd
 File: t3cmr.fd 2001/12/31 TIPA font definitions
 )
-LaTeX Font Info:    ... okay on input line 95.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 95.
-LaTeX Font Info:    ... okay on input line 95.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 95.
-LaTeX Font Info:    ... okay on input line 95.
+LaTeX Font Info:    ... okay on input line 99.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 99.
+LaTeX Font Info:    ... okay on input line 99.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 99.
+LaTeX Font Info:    ... okay on input line 99.
 
 ABD: EverySelectfont initializing macros
-LaTeX Info: Redefining \selectfont on input line 95.
+LaTeX Info: Redefining \selectfont on input line 99.
 .................................................
 . chemgreek info: "mapping-activated"
 . 
-. Activating mapping `fontspec' on line 95.
+. Activating mapping `fontspec' on line 99.
 .................................................
+ ABD: EveryShipout initializing macros
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: subfig package v1.3 is loaded.
+Package caption Info: hyperref package is loaded.
+Package caption Info: End \AtBeginDocument code.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: xetex
@@ -2023,74 +2429,71 @@ LaTeX Info: Redefining \selectfont on input line 95.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-Package caption Info: Begin \AtBeginDocument code.
-Package caption Info: hyperref package is loaded.
-Package caption Info: End \AtBeginDocument code.
-\AtBeginShipoutBox=\box85
-Package hyperref Info: Link coloring OFF on input line 95.
+\AtBeginShipoutBox=\box116
+Package hyperref Info: Link coloring OFF on input line 99.
 (/usr/local/texlive/2016/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 
 (/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count300
+\c@section@level=\count327
 )
-LaTeX Info: Redefining \ref on input line 95.
-LaTeX Info: Redefining \pageref on input line 95.
-LaTeX Info: Redefining \nameref on input line 95.
+LaTeX Info: Redefining \ref on input line 99.
+LaTeX Info: Redefining \pageref on input line 99.
+LaTeX Info: Redefining \nameref on input line 99.
 
 (./main.out) (./main.out)
-\@outlinefile=\write3
-\openout3 = `main.out'.
+\@outlinefile=\write4
+\openout4 = `main.out'.
 
 File: figure/透明底篮标.png Graphic file (type QTm)
  <use  "figure/透明底篮标.png" >
 
 LaTeX Font Warning: Font shape `EU1/xits(0)/m/sc' undefined
-(Font)              using `EU1/xits(0)/m/n' instead on input line 102.
+(Font)              using `EU1/xits(0)/m/n' instead on input line 106.
 
 
 LaTeX Font Warning: Font shape `EU1/STSongti-SC-Regular(0)/m/sc' undefined
 (Font)              using `EU1/STSongti-SC-Regular(0)/m/n' instead on input lin
-e 102.
+e 106.
 
 
 LaTeX Font Warning: Font shape `EU1/xits(0)/bx/sc' undefined
-(Font)              using `EU1/xits(0)/bx/n' instead on input line 104.
+(Font)              using `EU1/xits(0)/bx/n' instead on input line 108.
 
 
 LaTeX Font Warning: Font shape `EU1/STSongti-SC-Regular(0)/bx/sc' undefined
 (Font)              using `EU1/STSongti-SC-Regular(0)/bx/n' instead on input li
-ne 104.
+ne 108.
 
 LaTeX Font Info:    Font shape `EU1/xits-math(1)/m/n' will be
-(Font)              scaled to size 12.00018pt on input line 112.
+(Font)              scaled to size 12.00018pt on input line 116.
 LaTeX Font Info:    Font shape `EU1/xits-math(1)/m/n' will be
-(Font)              scaled to size 8.00012pt on input line 112.
+(Font)              scaled to size 8.00012pt on input line 116.
 LaTeX Font Info:    Font shape `EU1/xits-math(1)/m/n' will be
-(Font)              scaled to size 6.00009pt on input line 112.
+(Font)              scaled to size 6.00009pt on input line 116.
 LaTeX Font Info:    Font shape `EU1/xits-math(2)/m/n' will be
-(Font)              scaled to size 11.99982pt on input line 112.
+(Font)              scaled to size 11.99982pt on input line 116.
 LaTeX Font Info:    Font shape `EU1/xits-math(2)/m/n' will be
-(Font)              scaled to size 7.99988pt on input line 112.
+(Font)              scaled to size 7.99988pt on input line 116.
 LaTeX Font Info:    Font shape `EU1/xits-math(2)/m/n' will be
-(Font)              scaled to size 5.99991pt on input line 112.
-LaTeX Font Info:    Try loading font information for U+msa on input line 112.
+(Font)              scaled to size 5.99991pt on input line 116.
+LaTeX Font Info:    Try loading font information for U+msa on input line 116.
 (/usr/local/texlive/2016/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 112.
+LaTeX Font Info:    Try loading font information for U+msb on input line 116.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Font shape `OMX/fouri@er/m/n' will be
-(Font)              scaled to size 11.39996pt on input line 112.
+(Font)              scaled to size 11.39996pt on input line 116.
 LaTeX Font Info:    Font shape `OMX/fouri@er/m/n' will be
-(Font)              scaled to size 7.59998pt on input line 112.
+(Font)              scaled to size 7.59998pt on input line 116.
 LaTeX Font Info:    Font shape `OMX/fouri@er/m/n' will be
-(Font)              scaled to size 5.69998pt on input line 112.
+(Font)              scaled to size 5.69998pt on input line 116.
  [1
 
 
@@ -2103,7 +2506,7 @@ LaTeX Font Info:    Font shape `OMX/fouri@er/m/n' will be
 * 
 * Font 'STHeiti' does not contain script 'CJK'.
 *************************************************
-\g__fontspec_family_STHeiti_int=\count301
+\g__fontspec_family_STHeiti_int=\count328
 .................................................
 . fontspec info: "no-font-shape"
 . 
@@ -2136,7 +2539,7 @@ LaTeX Font Info:    Font shape `OMX/fouri@er/m/n' will be
 * 
 * Font 'STKaiti' does not contain script 'CJK'.
 *************************************************
-\g__fontspec_family_STKaiti_int=\count302
+\g__fontspec_family_STKaiti_int=\count329
 .................................................
 . fontspec info: "no-font-shape"
 . 
@@ -2170,251 +2573,129 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
  [1
 
 ])
-\tf@toc=\write4
-\openout4 = `main.toc'.
+\tf@toc=\write5
+\openout5 = `main.toc'.
 
 LaTeX Font Info:    Font shape `EU1/xits(0)/m/sl' in size <10.95> not available
 
 (Font)              Font shape `EU1/xits(0)/m/it' tried instead on input line 1
-15.
+19.
 LaTeX Font Info:    Font shape `EU1/STSongti-SC-Regular(0)/m/sl' in size <10.95
 > not available
 (Font)              Font shape `EU1/STSongti-SC-Regular(0)/m/it' tried instead 
-on input line 115.
+on input line 119.
 
 [2]
-\openout2 = `Chapter01-绪论.aux'.
+\openout2 = `Chapter05-LiDAR工程数据获取.aux'.
 
- (./Chapter01-绪论.tex
-第1章
-[1
-
-
-
-]
-LaTeX Font Info:    Font shape `EU1/xits-math(1)/m/n' will be
-(Font)              scaled to size 10.95015pt on input line 65.
-LaTeX Font Info:    Font shape `EU1/xits-math(1)/m/n' will be
-(Font)              scaled to size 8.18098pt on input line 65.
-LaTeX Font Info:    Font shape `EU1/xits-math(1)/m/n' will be
-(Font)              scaled to size 6.60219pt on input line 65.
-LaTeX Font Info:    Font shape `EU1/xits-math(2)/m/n' will be
-(Font)              scaled to size 10.94983pt on input line 65.
-LaTeX Font Info:    Font shape `EU1/xits-math(2)/m/n' will be
-(Font)              scaled to size 8.18073pt on input line 65.
-LaTeX Font Info:    Font shape `EU1/xits-math(2)/m/n' will be
-(Font)              scaled to size 6.60199pt on input line 65.
-LaTeX Font Info:    Font shape `OMX/fouri@er/m/n' will be
-(Font)              scaled to size 10.40245pt on input line 65.
-LaTeX Font Info:    Font shape `OMX/fouri@er/m/n' will be
-(Font)              scaled to size 7.77179pt on input line 65.
-LaTeX Font Info:    Font shape `OMX/fouri@er/m/n' will be
-(Font)              scaled to size 6.27196pt on input line 65.
- [2] [3]
-File: figure/Chapter1/激光成像雷达的基本结构.jpg Graphic file (type QTm)
- <use  "figure/Chapter1/激光成像雷达的基本结构.jpg" > [4]
-Underfull \hbox (badness 10000) in paragraph at lines 190--194
-
- []
-
-[5]
-File: figure/Chapter1/力学扫描器结构.jpg Graphic file (type QTm)
- <use  "figure/Chapter1/力学扫描器结构.jpg" >
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [6]
-File: figure/Chapter1/激光遥感集成系统.png Graphic file (type QTm)
-
-<use  "figure/Chapter1/激光遥感集成系统.png" > [7]
-File: figure/Chapter1/摆镜扫描方式.png Graphic file (type QTm)
-
-<use  "figure/Chapter1/摆镜扫描方式.png" >
-File: figure/Chapter1/旋转棱镜扫描方式.png Graphic file (type QTm)
- <use  "figure/Chapter1/旋转棱镜扫描方式.png" >
-File: figure/Chapter1/光纤扫描方式.png Graphic file (type QTm)
-
-<use  "figure/Chapter1/光纤扫描方式.png" >
-File: figure/Chapter1/圆锥镜扫描_原理.png Graphic file (type QTm)
- <use  "figure/Chapter1/圆锥镜扫描_原理.png" >
-File: figure/Chapter1/圆锥镜扫描_脚点.png Graphic file (type QTm)
-
-<use  "figure/Chapter1/圆锥镜扫描_脚点.png" >
-File: figure/Chapter1/机载激光三维测量系统对比.png Graphic file (type QTm)
-
-<use  "figure/Chapter1/机载激光三维测量系统对比.png" >)
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [8]
-[9] [10]
-\openout2 = `Chapter02-激光及激光雷达系统.aux'.
-
- (./Chapter02-激光及激光雷达系统.tex
-第2章
-File: figure/Chapter2/自发辐射跃迁.png Graphic file (type QTm)
-<use  "figure/Chapter2/自发辐射跃迁.png" >
-File: figure/Chapter2/受激吸收跃迁.png Graphic file (type QTm)
- <use  "figure/Chapter2/受激吸收跃迁.png" >
-File: figure/Chapter2/受激辐射跃迁.png Graphic file (type QTm)
-
-<use  "figure/Chapter2/受激辐射跃迁.png" > [11
+ (./Chapter05-LiDAR工程数据获取.tex
+第5章
+File: figure/Chapter5/LiDAR数据获取的三个阶段八个方面.png Graphic file (type QTm)
+<use  "figure/Chapter5/LiDAR数据获取的三个阶段八个方面.png" > [47
 
 
 
-] [12]
-File: figure/Chapter2/激光的产生过程.jpg Graphic file (type QTm)
 
-<use  "figure/Chapter2/激光的产生过程.jpg" >
-File: figure/Chapter2/激光的产生过程2.jpg Graphic file (type QTm)
- <use  "figure/Chapter2/激光的产生过程2.jpg" >
-[13] [14]
-File: figure/Chapter2/CO2分子的震动方式.jpg Graphic file (type QTm)
- <use  "figure/Chapter2/CO2分子的震动方式.jpg" > [15]
-File: figure/Chapter2/激光二极管泵浦YAG激光器1.jpg Graphic file (type QTm)
-
-<use  "figure/Chapter2/激光二极管泵浦YAG激光器1.jpg" >
-File: figure/Chapter2/激光二极管泵浦YAG激光器2.jpg Graphic file (type QTm)
-
-<use  "figure/Chapter2/激光二极管泵浦YAG激光器2.jpg" > [16]
-LaTeX Font Info:    Font shape `EU1/xits-math(1)/m/n' will be
-(Font)              scaled to size 9.00014pt on input line 286.
-LaTeX Font Info:    Font shape `EU1/xits-math(1)/m/n' will be
-(Font)              scaled to size 5.00008pt on input line 286.
-LaTeX Font Info:    Font shape `EU1/xits-math(2)/m/n' will be
-(Font)              scaled to size 8.99986pt on input line 286.
-LaTeX Font Info:    Font shape `EU1/xits-math(2)/m/n' will be
-(Font)              scaled to size 4.99992pt on input line 286.
-LaTeX Font Info:    Font shape `OMX/fouri@er/m/n' will be
-(Font)              scaled to size 8.54997pt on input line 286.
-LaTeX Font Info:    Font shape `OMX/fouri@er/m/n' will be
-(Font)              scaled to size 4.74998pt on input line 286.
-File: figure/Chapter2/本征半导体能带结构.jpg Graphic file (type QTm)
-
-<use  "figure/Chapter2/本征半导体能带结构.jpg" > [17]
-File: figure/Chapter2/P-N结.jpg Graphic file (type QTm)
-
-<use  "figure/Chapter2/P-N结.jpg" >
-File: figure/Chapter2/p-n结产生激光1.jpg Graphic file (type QTm)
- <use  "figure/Chapter2/p-n结产生激光1.jpg" >
-File: figure/Chapter2/p-n结产生激光2.jpg Graphic file (type QTm)
-
-<use  "figure/Chapter2/p-n结产生激光2.jpg" > [18]
-Underfull \vbox (badness 1248) has occurred while \output is active []
-
- [19]
-File: figure/Chapter2/双稳系统的结构框图.png Graphic file (type QTm)
-
-<use  "figure/Chapter2/双稳系统的结构框图.png" >
-File: figure/Chapter2/单稳系统的结构框图.png Graphic file (type QTm)
-
-<use  "figure/Chapter2/单稳系统的结构框图.png" >
-File: figure/Chapter2/光束整形.png Graphic file (type QTm)
- <use  "figure/Chapter2/光束整形.png" >
-Underfull \vbox (badness 4060) has occurred while \output is active []
-
- [20]
-File: figure/Chapter2/衍射光学元件的衍射.jpg Graphic file (type QTm)
-
-<use  "figure/Chapter2/衍射光学元件的衍射.jpg" >
-File: figure/Chapter2/DOE物镜后的区场扫描示意图.jpg Graphic file (type QTm)
-
-<use  "figure/Chapter2/DOE物镜后的区场扫描示意图.jpg" > [21]
-File: figure/Chapter2/外差探测.jpg Graphic file (type QTm)
-
-<use  "figure/Chapter2/外差探测.jpg" >
-File: figure/Chapter2/零拍探测.png Graphic file (type QTm)
- <use  "figure/Chapter2/零拍探测.png" >
-File: figure/Chapter2/三频外差探测系统示意图.png Graphic file (type QTm)
-
-<use  "figure/Chapter2/三频外差探测系统示意图.png" > [22] [23] [24] [25]) [26]
-\openout2 = `Chapter03-机载LiDAR数据获取基本原理.aux'.
-
-
-(./Chapter03-机载LiDAR数据获取基本原理.tex
-第3章
-File: figure/Chapter3/机载LiDAR系统工作原理图.png Graphic file (type QTm)
-<use  "figure/Chapter3/机载LiDAR系统工作原理图.png" > [27
 
 
 
 ]
-File: figure/Chapter3/激光测距基本原理.png Graphic file (type QTm)
+File: figure/Chapter5/申请航飞权与协调航空飞行.png Graphic file (type QTm)
 
-<use  "figure/Chapter3/激光测距基本原理.png" >
-File: figure/Chapter3/脉冲测距原理.jpg Graphic file (type QTm)
- <use  "figure/Chapter3/脉冲测距原理.jpg" >
-[28]
-File: figure/Chapter3/连续波相位差测距原理.jpg Graphic file (type QTm)
- <use  "figure/Chapter3/连续波相位差测距原理.jpg" > [29]
-File: figure/Chapter3/信号参量之间的关系以及对信噪比的影响.png Graphic file (type QTm)
+<use  "figure/Chapter5/申请航飞权与协调航空飞行.png" >
+File: figure/Chapter5/航线设计流程.png Graphic file (type QTm)
 
-<use  "figure/Chapter3/信号参量之间的关系以及对信噪比的影响.png" > [30] [31] [32]
-File: figure/Chapter3/GPS星座.png Graphic file (type QTm)
+<use  "figure/Chapter5/航线设计流程.png" > [48]
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-<use  "figure/Chapter3/GPS星座.png" > [33]
-Underfull \vbox (badness 1043) has occurred while \output is active []
+ [49]
+File: figure/Chapter5/激光检校场布设案例.png Graphic file (type QTm)
 
- [34]
-File: figure/Chapter3/惯性导航系统结构.jpg Graphic file (type QTm)
+<use  "figure/Chapter5/激光检校场布设案例.png" >
+File: figure/Chapter5/相机航线设计方案.jpg Graphic file (type QTm)
+ <use  "figure/Chapter5/相机航线设计方案.jpg" >
+LaTeX Font Info:    Font shape `EU1/xits-math(1)/m/n' will be
+(Font)              scaled to size 10.95015pt on input line 168.
+LaTeX Font Info:    Font shape `EU1/xits-math(1)/m/n' will be
+(Font)              scaled to size 8.18098pt on input line 168.
+LaTeX Font Info:    Font shape `EU1/xits-math(1)/m/n' will be
+(Font)              scaled to size 6.60219pt on input line 168.
+LaTeX Font Info:    Font shape `EU1/xits-math(2)/m/n' will be
+(Font)              scaled to size 10.94983pt on input line 168.
+LaTeX Font Info:    Font shape `EU1/xits-math(2)/m/n' will be
+(Font)              scaled to size 8.18073pt on input line 168.
+LaTeX Font Info:    Font shape `EU1/xits-math(2)/m/n' will be
+(Font)              scaled to size 6.60199pt on input line 168.
+LaTeX Font Info:    Font shape `OMX/fouri@er/m/n' will be
+(Font)              scaled to size 10.40245pt on input line 168.
+LaTeX Font Info:    Font shape `OMX/fouri@er/m/n' will be
+(Font)              scaled to size 7.77179pt on input line 168.
+LaTeX Font Info:    Font shape `OMX/fouri@er/m/n' will be
+(Font)              scaled to size 6.27196pt on input line 168.
 
-<use  "figure/Chapter3/惯性导航系统结构.jpg" >
-Underfull \vbox (badness 3758) has occurred while \output is active []
+Underfull \vbox (badness 2818) has occurred while \output is active []
 
- [35]
-File: figure/Chapter3/摆镜扫描1.jpg Graphic file (type QTm)
+ [50]
+File: figure/Chapter5/GPS偏心分量测量.png Graphic file (type QTm)
 
-<use  "figure/Chapter3/摆镜扫描1.jpg" >
-File: figure/Chapter3/摆镜扫描2.png Graphic file (type QTm)
- <use  "figure/Chapter3/摆镜扫描2.png" >
-File: figure/Chapter3/摆镜扫描_脚点.png Graphic file (type QTm)
+<use  "figure/Chapter5/GPS偏心分量测量.png" >
+LaTeX Font Info:    Font shape `EU1/xits-math(1)/m/n' will be
+(Font)              scaled to size 9.00014pt on input line 197.
+LaTeX Font Info:    Font shape `EU1/xits-math(1)/m/n' will be
+(Font)              scaled to size 5.00008pt on input line 197.
+LaTeX Font Info:    Font shape `EU1/xits-math(2)/m/n' will be
+(Font)              scaled to size 8.99986pt on input line 197.
+LaTeX Font Info:    Font shape `EU1/xits-math(2)/m/n' will be
+(Font)              scaled to size 4.99992pt on input line 197.
+LaTeX Font Info:    Font shape `OMX/fouri@er/m/n' will be
+(Font)              scaled to size 8.54997pt on input line 197.
+LaTeX Font Info:    Font shape `OMX/fouri@er/m/n' will be
+(Font)              scaled to size 4.74998pt on input line 197.
 
-<use  "figure/Chapter3/摆镜扫描_脚点.png" >
-File: figure/Chapter3/旋转棱镜扫描原理.jpg Graphic file (type QTm)
- <use  "figure/Chapter3/旋转棱镜扫描原理.jpg" >
-File: figure/Chapter3/旋转棱镜扫描脚点形状.png Graphic file (type QTm)
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-<use  "figure/Chapter3/旋转棱镜扫描脚点形状.png" >
-File: figure/Chapter3/椭圆扫描1.png Graphic file (type QTm)
- <use  "figure/Chapter3/椭圆扫描1.png" >
-File: figure/Chapter3/椭圆扫描2.jpg Graphic file (type QTm)
+ [51]
+File: figure/Chapter5/飞行质量要求.png Graphic file (type QTm)
 
-<use  "figure/Chapter3/椭圆扫描2.jpg" >
-File: figure/Chapter3/椭圆扫描脚点形状.png Graphic file (type QTm)
- <use  "figure/Chapter3/椭圆扫描脚点形状.png" >
-File: figure/Chapter3/光纤扫描原理.png Graphic file (type QTm)
+<use  "figure/Chapter5/飞行质量要求.png" > [52]
+File: figure/Chapter5/数据预处理流程.png Graphic file (type QTm)
 
-<use  "figure/Chapter3/光纤扫描原理.png" >
-File: figure/Chapter3/光纤扫描脚点.png Graphic file (type QTm)
- <use  "figure/Chapter3/光纤扫描脚点.png" >
-[36] [37]
-File: figure/Chapter3/离线时间同步方案.png Graphic file (type QTm)
- <use  "figure/Chapter3/离线时间同步方案.png" > [38]
-File: figure/Chapter3/数字化全波形技术.png Graphic file (type QTm)
+<use  "figure/Chapter5/数据预处理流程.png" > [53]
+File: figure/Chapter5/位置内插.jpg Graphic file (type QTm)
+ <use  "figure/Chapter5/位置内插.jpg" >
+File: figure/Chapter5/原始点云.jpg Graphic file (type QTm)
 
-<use  "figure/Chapter3/数字化全波形技术.png" >
-File: figure/Chapter3/空中内插多脉冲技术.png Graphic file (type QTm)
- <use  "figure/Chapter3/空中内插多脉冲技术.png" >
-File: figure/Chapter3/双扫描仪组合技术.jpg Graphic file (type QTm)
+<use  "figure/Chapter5/原始点云.jpg" >
+File: figure/Chapter5/调整前点云.jpg Graphic file (type QTm)
+ <use  "figure/Chapter5/调整前点云.jpg" >
+File: figure/Chapter5/调整后点云.jpg Graphic file (type QTm)
 
-<use  "figure/Chapter3/双扫描仪组合技术.jpg" >) [39] [40]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 122.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 122.
- (./main.aux
-(./Chapter01-绪论.aux) (./Chapter02-激光及激光雷达系统.aux)
-(./Chapter03-机载LiDAR数据获取基本原理.aux))
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 122.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 122.
+<use  "figure/Chapter5/调整后点云.jpg" > [54]
+File: figure/Chapter5/点云数据特点_脚点.jpg Graphic file (type QTm)
+
+<use  "figure/Chapter5/点云数据特点_脚点.jpg" >
+File: figure/Chapter5/点云数据特点_点云.jpg Graphic file (type QTm)
+
+<use  "figure/Chapter5/点云数据特点_点云.jpg" >) [55]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 128.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 128.
+ (./main.aux (./Chapter01-绪论.aux)
+(./Chapter02-激光及激光雷达系统.aux) (./Chapter03-机载LiDAR数据获取基本原理.aux)
+(./Chapter04-LiDAR数据获取重要参数.aux) (./Chapter05-LiDAR工程数据获取.aux))
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 128.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 128.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 35741 strings out of 493591
- 685981 string characters out of 6143545
- 787985 words of memory out of 5000000
- 38661 multiletter control sequences out of 15000+600000
- 15227 words of font info for 129 fonts, out of 8000000 for 9000
+ 48763 strings out of 493591
+ 984072 string characters out of 6143545
+ 1079354 words of memory out of 5000000
+ 51462 multiletter control sequences out of 15000+600000
+ 15115 words of font info for 115 fonts, out of 8000000 for 9000
  1347 hyphenation exceptions out of 8191
- 65i,14n,83p,10419b,1443s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 66i,17n,83p,10419b,1178s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on main.pdf (44 pages).
+Output written on main.pdf (13 pages).
