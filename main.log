@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99996 (TeX Live 2016) (preloaded format=xelatex 2016.10.20)  13 DEC 2016 21:20
+This is XeTeX, Version 3.14159265-2.6-0.99996 (TeX Live 2016) (preloaded format=xelatex 2016.10.20)  13 DEC 2016 21:53
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2354,40 +2354,40 @@ tly
 (./Chapter05-LiDAR工程数据获取.aux))
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 99.
-LaTeX Font Info:    ... okay on input line 99.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 99.
-LaTeX Font Info:    ... okay on input line 99.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 99.
-LaTeX Font Info:    ... okay on input line 99.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 99.
-LaTeX Font Info:    ... okay on input line 99.
-LaTeX Font Info:    Checking defaults for OMX/fouri@er/m/n on input line 99.
-LaTeX Font Info:    ... okay on input line 99.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 99.
-LaTeX Font Info:    ... okay on input line 99.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 99.
-LaTeX Font Info:    ... okay on input line 99.
-LaTeX Font Info:    Checking defaults for EU1/lmr/m/n on input line 99.
-LaTeX Font Info:    ... okay on input line 99.
-LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 99.
-LaTeX Font Info:    Try loading font information for T3+cmr on input line 99.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 98.
+LaTeX Font Info:    ... okay on input line 98.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 98.
+LaTeX Font Info:    ... okay on input line 98.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 98.
+LaTeX Font Info:    ... okay on input line 98.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 98.
+LaTeX Font Info:    ... okay on input line 98.
+LaTeX Font Info:    Checking defaults for OMX/fouri@er/m/n on input line 98.
+LaTeX Font Info:    ... okay on input line 98.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 98.
+LaTeX Font Info:    ... okay on input line 98.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 98.
+LaTeX Font Info:    ... okay on input line 98.
+LaTeX Font Info:    Checking defaults for EU1/lmr/m/n on input line 98.
+LaTeX Font Info:    ... okay on input line 98.
+LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 98.
+LaTeX Font Info:    Try loading font information for T3+cmr on input line 98.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/tipa/t3cmr.fd
 File: t3cmr.fd 2001/12/31 TIPA font definitions
 )
-LaTeX Font Info:    ... okay on input line 99.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 99.
-LaTeX Font Info:    ... okay on input line 99.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 99.
-LaTeX Font Info:    ... okay on input line 99.
+LaTeX Font Info:    ... okay on input line 98.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 98.
+LaTeX Font Info:    ... okay on input line 98.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 98.
+LaTeX Font Info:    ... okay on input line 98.
 
 ABD: EverySelectfont initializing macros
-LaTeX Info: Redefining \selectfont on input line 99.
+LaTeX Info: Redefining \selectfont on input line 98.
 .................................................
 . chemgreek info: "mapping-activated"
 . 
-. Activating mapping `fontspec' on line 99.
+. Activating mapping `fontspec' on line 98.
 .................................................
  ABD: EveryShipout initializing macros
 Package caption Info: Begin \AtBeginDocument code.
@@ -2430,7 +2430,7 @@ Package caption Info: End \AtBeginDocument code.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 \AtBeginShipoutBox=\box116
-Package hyperref Info: Link coloring OFF on input line 99.
+Package hyperref Info: Link coloring OFF on input line 98.
 (/usr/local/texlive/2016/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 
@@ -2439,9 +2439,9 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count327
 )
-LaTeX Info: Redefining \ref on input line 99.
-LaTeX Info: Redefining \pageref on input line 99.
-LaTeX Info: Redefining \nameref on input line 99.
+LaTeX Info: Redefining \ref on input line 98.
+LaTeX Info: Redefining \pageref on input line 98.
+LaTeX Info: Redefining \nameref on input line 98.
 
 (./main.out) (./main.out)
 \@outlinefile=\write4
@@ -2451,49 +2451,49 @@ File: figure/透明底篮标.png Graphic file (type QTm)
  <use  "figure/透明底篮标.png" >
 
 LaTeX Font Warning: Font shape `EU1/xits(0)/m/sc' undefined
-(Font)              using `EU1/xits(0)/m/n' instead on input line 106.
+(Font)              using `EU1/xits(0)/m/n' instead on input line 105.
 
 
 LaTeX Font Warning: Font shape `EU1/STSongti-SC-Regular(0)/m/sc' undefined
 (Font)              using `EU1/STSongti-SC-Regular(0)/m/n' instead on input lin
-e 106.
+e 105.
 
 
 LaTeX Font Warning: Font shape `EU1/xits(0)/bx/sc' undefined
-(Font)              using `EU1/xits(0)/bx/n' instead on input line 108.
+(Font)              using `EU1/xits(0)/bx/n' instead on input line 107.
 
 
 LaTeX Font Warning: Font shape `EU1/STSongti-SC-Regular(0)/bx/sc' undefined
 (Font)              using `EU1/STSongti-SC-Regular(0)/bx/n' instead on input li
-ne 108.
+ne 107.
 
 LaTeX Font Info:    Font shape `EU1/xits-math(1)/m/n' will be
-(Font)              scaled to size 12.00018pt on input line 116.
+(Font)              scaled to size 12.00018pt on input line 115.
 LaTeX Font Info:    Font shape `EU1/xits-math(1)/m/n' will be
-(Font)              scaled to size 8.00012pt on input line 116.
+(Font)              scaled to size 8.00012pt on input line 115.
 LaTeX Font Info:    Font shape `EU1/xits-math(1)/m/n' will be
-(Font)              scaled to size 6.00009pt on input line 116.
+(Font)              scaled to size 6.00009pt on input line 115.
 LaTeX Font Info:    Font shape `EU1/xits-math(2)/m/n' will be
-(Font)              scaled to size 11.99982pt on input line 116.
+(Font)              scaled to size 11.99982pt on input line 115.
 LaTeX Font Info:    Font shape `EU1/xits-math(2)/m/n' will be
-(Font)              scaled to size 7.99988pt on input line 116.
+(Font)              scaled to size 7.99988pt on input line 115.
 LaTeX Font Info:    Font shape `EU1/xits-math(2)/m/n' will be
-(Font)              scaled to size 5.99991pt on input line 116.
-LaTeX Font Info:    Try loading font information for U+msa on input line 116.
+(Font)              scaled to size 5.99991pt on input line 115.
+LaTeX Font Info:    Try loading font information for U+msa on input line 115.
 (/usr/local/texlive/2016/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 116.
+LaTeX Font Info:    Try loading font information for U+msb on input line 115.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Font shape `OMX/fouri@er/m/n' will be
-(Font)              scaled to size 11.39996pt on input line 116.
+(Font)              scaled to size 11.39996pt on input line 115.
 LaTeX Font Info:    Font shape `OMX/fouri@er/m/n' will be
-(Font)              scaled to size 7.59998pt on input line 116.
+(Font)              scaled to size 7.59998pt on input line 115.
 LaTeX Font Info:    Font shape `OMX/fouri@er/m/n' will be
-(Font)              scaled to size 5.69998pt on input line 116.
+(Font)              scaled to size 5.69998pt on input line 115.
  [1
 
 
@@ -2579,23 +2579,254 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 LaTeX Font Info:    Font shape `EU1/xits(0)/m/sl' in size <10.95> not available
 
 (Font)              Font shape `EU1/xits(0)/m/it' tried instead on input line 1
-19.
+18.
 LaTeX Font Info:    Font shape `EU1/STSongti-SC-Regular(0)/m/sl' in size <10.95
 > not available
 (Font)              Font shape `EU1/STSongti-SC-Regular(0)/m/it' tried instead 
-on input line 119.
+on input line 118.
 
 [2]
+\openout2 = `Chapter01-绪论.aux'.
+
+ (./Chapter01-绪论.tex
+第1章
+[1
+
+
+
+]
+LaTeX Font Info:    Font shape `EU1/xits-math(1)/m/n' will be
+(Font)              scaled to size 10.95015pt on input line 65.
+LaTeX Font Info:    Font shape `EU1/xits-math(1)/m/n' will be
+(Font)              scaled to size 8.18098pt on input line 65.
+LaTeX Font Info:    Font shape `EU1/xits-math(1)/m/n' will be
+(Font)              scaled to size 6.60219pt on input line 65.
+LaTeX Font Info:    Font shape `EU1/xits-math(2)/m/n' will be
+(Font)              scaled to size 10.94983pt on input line 65.
+LaTeX Font Info:    Font shape `EU1/xits-math(2)/m/n' will be
+(Font)              scaled to size 8.18073pt on input line 65.
+LaTeX Font Info:    Font shape `EU1/xits-math(2)/m/n' will be
+(Font)              scaled to size 6.60199pt on input line 65.
+LaTeX Font Info:    Font shape `OMX/fouri@er/m/n' will be
+(Font)              scaled to size 10.40245pt on input line 65.
+LaTeX Font Info:    Font shape `OMX/fouri@er/m/n' will be
+(Font)              scaled to size 7.77179pt on input line 65.
+LaTeX Font Info:    Font shape `OMX/fouri@er/m/n' will be
+(Font)              scaled to size 6.27196pt on input line 65.
+ [2] [3]
+File: figure/Chapter1/激光成像雷达的基本结构.jpg Graphic file (type QTm)
+ <use  "figure/Chapter1/激光成像雷达的基本结构.jpg" > [4]
+Underfull \hbox (badness 10000) in paragraph at lines 190--194
+
+ []
+
+[5]
+File: figure/Chapter1/力学扫描器结构.jpg Graphic file (type QTm)
+ <use  "figure/Chapter1/力学扫描器结构.jpg" >
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [6]
+File: figure/Chapter1/激光遥感集成系统.png Graphic file (type QTm)
+
+<use  "figure/Chapter1/激光遥感集成系统.png" > [7]
+File: figure/Chapter1/摆镜扫描方式.png Graphic file (type QTm)
+
+<use  "figure/Chapter1/摆镜扫描方式.png" >
+File: figure/Chapter1/旋转棱镜扫描方式.png Graphic file (type QTm)
+ <use  "figure/Chapter1/旋转棱镜扫描方式.png" >
+File: figure/Chapter1/光纤扫描方式.png Graphic file (type QTm)
+
+<use  "figure/Chapter1/光纤扫描方式.png" >
+File: figure/Chapter1/圆锥镜扫描_原理.png Graphic file (type QTm)
+ <use  "figure/Chapter1/圆锥镜扫描_原理.png" >
+File: figure/Chapter1/圆锥镜扫描_脚点.png Graphic file (type QTm)
+
+<use  "figure/Chapter1/圆锥镜扫描_脚点.png" >
+File: figure/Chapter1/机载激光三维测量系统对比.png Graphic file (type QTm)
+
+<use  "figure/Chapter1/机载激光三维测量系统对比.png" >)
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [8]
+[9] [10]
+\openout2 = `Chapter02-激光及激光雷达系统.aux'.
+
+ (./Chapter02-激光及激光雷达系统.tex
+第2章
+File: figure/Chapter2/自发辐射跃迁.png Graphic file (type QTm)
+<use  "figure/Chapter2/自发辐射跃迁.png" >
+File: figure/Chapter2/受激吸收跃迁.png Graphic file (type QTm)
+ <use  "figure/Chapter2/受激吸收跃迁.png" >
+File: figure/Chapter2/受激辐射跃迁.png Graphic file (type QTm)
+
+<use  "figure/Chapter2/受激辐射跃迁.png" > [11
+
+
+
+] [12]
+File: figure/Chapter2/激光的产生过程.png Graphic file (type QTm)
+
+<use  "figure/Chapter2/激光的产生过程.png" > [13] [14]
+File: figure/Chapter2/CO2分子的震动方式.jpg Graphic file (type QTm)
+
+<use  "figure/Chapter2/CO2分子的震动方式.jpg" >
+Underfull \vbox (badness 1281) has occurred while \output is active []
+
+ [15]
+File: figure/Chapter2/激光二极管泵浦YAG激光器.png Graphic file (type QTm)
+
+<use  "figure/Chapter2/激光二极管泵浦YAG激光器.png" > [16]
+LaTeX Font Info:    Font shape `EU1/xits-math(1)/m/n' will be
+(Font)              scaled to size 9.00014pt on input line 274.
+LaTeX Font Info:    Font shape `EU1/xits-math(1)/m/n' will be
+(Font)              scaled to size 5.00008pt on input line 274.
+LaTeX Font Info:    Font shape `EU1/xits-math(2)/m/n' will be
+(Font)              scaled to size 8.99986pt on input line 274.
+LaTeX Font Info:    Font shape `EU1/xits-math(2)/m/n' will be
+(Font)              scaled to size 4.99992pt on input line 274.
+LaTeX Font Info:    Font shape `OMX/fouri@er/m/n' will be
+(Font)              scaled to size 8.54997pt on input line 274.
+LaTeX Font Info:    Font shape `OMX/fouri@er/m/n' will be
+(Font)              scaled to size 4.74998pt on input line 274.
+File: figure/Chapter2/本征半导体能带结构.jpg Graphic file (type QTm)
+
+<use  "figure/Chapter2/本征半导体能带结构.jpg" >
+File: figure/Chapter2/P-N结.jpg Graphic file (type QTm)
+ <use  "figure/Chapter2/P-N结.jpg" >
+File: figure/Chapter2/p-n结产生激光.png Graphic file (type QTm)
+
+<use  "figure/Chapter2/p-n结产生激光.png" > [17] [18]
+Underfull \vbox (badness 2057) has occurred while \output is active []
+
+ [19]
+File: figure/Chapter2/双稳系统的结构框图.png Graphic file (type QTm)
+
+<use  "figure/Chapter2/双稳系统的结构框图.png" >
+File: figure/Chapter2/单稳系统的结构框图.png Graphic file (type QTm)
+
+<use  "figure/Chapter2/单稳系统的结构框图.png" >
+File: figure/Chapter2/光束整形.png Graphic file (type QTm)
+ <use  "figure/Chapter2/光束整形.png" >
+[20]
+File: figure/Chapter2/衍射光学元件的衍射.jpg Graphic file (type QTm)
+ <use  "figure/Chapter2/衍射光学元件的衍射.jpg" >
+File: figure/Chapter2/DOE物镜后的区场扫描示意图.jpg Graphic file (type QTm)
+
+<use  "figure/Chapter2/DOE物镜后的区场扫描示意图.jpg" > [21]
+File: figure/Chapter2/外差探测.jpg Graphic file (type QTm)
+
+<use  "figure/Chapter2/外差探测.jpg" >
+File: figure/Chapter2/零拍探测.png Graphic file (type QTm)
+ <use  "figure/Chapter2/零拍探测.png" >
+File: figure/Chapter2/三频外差探测系统示意图.png Graphic file (type QTm)
+
+<use  "figure/Chapter2/三频外差探测系统示意图.png" > [22] [23] [24] [25]) [26]
+\openout2 = `Chapter03-机载LiDAR数据获取基本原理.aux'.
+
+
+(./Chapter03-机载LiDAR数据获取基本原理.tex
+第3章
+File: figure/Chapter3/机载LiDAR系统工作原理图.png Graphic file (type QTm)
+<use  "figure/Chapter3/机载LiDAR系统工作原理图.png" > [27
+
+
+
+]
+File: figure/Chapter3/激光测距基本原理.png Graphic file (type QTm)
+
+<use  "figure/Chapter3/激光测距基本原理.png" >
+File: figure/Chapter3/脉冲测距原理.jpg Graphic file (type QTm)
+ <use  "figure/Chapter3/脉冲测距原理.jpg" >
+[28]
+File: figure/Chapter3/连续波相位差测距原理.jpg Graphic file (type QTm)
+ <use  "figure/Chapter3/连续波相位差测距原理.jpg" > [29]
+File: figure/Chapter3/信号参量之间的关系以及对信噪比的影响.png Graphic file (type QTm)
+
+<use  "figure/Chapter3/信号参量之间的关系以及对信噪比的影响.png" > [30] [31] [32]
+File: figure/Chapter3/GPS星座.png Graphic file (type QTm)
+
+<use  "figure/Chapter3/GPS星座.png" > [33]
+Underfull \vbox (badness 1043) has occurred while \output is active []
+
+ [34]
+File: figure/Chapter3/惯性导航系统结构.jpg Graphic file (type QTm)
+
+<use  "figure/Chapter3/惯性导航系统结构.jpg" >
+Underfull \vbox (badness 3758) has occurred while \output is active []
+
+ [35]
+File: figure/Chapter3/摆镜扫描1.jpg Graphic file (type QTm)
+
+<use  "figure/Chapter3/摆镜扫描1.jpg" >
+File: figure/Chapter3/摆镜扫描2.png Graphic file (type QTm)
+ <use  "figure/Chapter3/摆镜扫描2.png" >
+File: figure/Chapter3/摆镜扫描_脚点.png Graphic file (type QTm)
+
+<use  "figure/Chapter3/摆镜扫描_脚点.png" >
+File: figure/Chapter3/旋转棱镜扫描原理.jpg Graphic file (type QTm)
+ <use  "figure/Chapter3/旋转棱镜扫描原理.jpg" >
+File: figure/Chapter3/旋转棱镜扫描脚点形状.png Graphic file (type QTm)
+
+<use  "figure/Chapter3/旋转棱镜扫描脚点形状.png" >
+File: figure/Chapter3/椭圆扫描1.png Graphic file (type QTm)
+ <use  "figure/Chapter3/椭圆扫描1.png" >
+File: figure/Chapter3/椭圆扫描2.jpg Graphic file (type QTm)
+
+<use  "figure/Chapter3/椭圆扫描2.jpg" >
+File: figure/Chapter3/椭圆扫描脚点形状.png Graphic file (type QTm)
+ <use  "figure/Chapter3/椭圆扫描脚点形状.png" >
+File: figure/Chapter3/光纤扫描原理.png Graphic file (type QTm)
+
+<use  "figure/Chapter3/光纤扫描原理.png" >
+File: figure/Chapter3/光纤扫描脚点.png Graphic file (type QTm)
+ <use  "figure/Chapter3/光纤扫描脚点.png" >
+[36] [37]
+File: figure/Chapter3/离线时间同步方案.png Graphic file (type QTm)
+ <use  "figure/Chapter3/离线时间同步方案.png" > [38]
+File: figure/Chapter3/数字化全波形技术.png Graphic file (type QTm)
+
+<use  "figure/Chapter3/数字化全波形技术.png" >
+File: figure/Chapter3/空中内插多脉冲技术.png Graphic file (type QTm)
+ <use  "figure/Chapter3/空中内插多脉冲技术.png" >
+File: figure/Chapter3/双扫描仪组合技术.jpg Graphic file (type QTm)
+
+<use  "figure/Chapter3/双扫描仪组合技术.jpg" >) [39] [40]
+\openout2 = `Chapter04-LiDAR数据获取重要参数.aux'.
+
+
+(./Chapter04-LiDAR数据获取重要参数.tex
+第4章
+File: figure/Chapter4/激光脚点直径.jpg Graphic file (type QTm)
+<use  "figure/Chapter4/激光脚点直径.jpg" > [41
+
+
+
+]
+File: figure/Chapter4/回波多值性.png Graphic file (type QTm)
+ <use  "figure/Chapter4/回波多值性.png" >
+Overfull \hbox (8.81929pt too wide) in paragraph at lines 108--115
+[]\EU1/STSongti-SC-Regular(0)/bx/n/10.95 影 响 因 素\EU1/STSongti-SC-Regular(0)/m/n
+/10.95 ：| []\EU1/xits(0)/m/sc/10.95 •[]  \EU1/STSongti-SC-Regular(0)/m/n/10.95 
+激 光 波 束 发 散 角  []\EU1/xits(0)/m/sc/10.95 •[]  \EU1/STSongti-SC-Regular(0)/m/n/1
+0.95 接 收 瞬 时 视 场 角  []\EU1/xits(0)/m/sc/10.95 •[]  \EU1/STSongti-SC-Regular(0)/
+m/n/10.95 传 感 器 平 台 高 度  []\EU1/xits(0)/m/sc/10.95 •[]  \EU1/STSongti-SC-Regula
+r(0)/m/n/10.95 扫 描 镜 速 度  []\EU1/xits(0)/m/sc/10.95 •[]  \EU1/STSongti-SC-Regul
+ar(0)/m/n/10.95 波
+ []
+
+[42]
+File: figure/Chapter4/激光脚点间距.png Graphic file (type QTm)
+ <use  "figure/Chapter4/激光脚点间距.png" >
+File: figure/Chapter4/Z形扫描的激光脚点间距.jpg Graphic file (type QTm)
+
+<use  "figure/Chapter4/Z形扫描的激光脚点间距.jpg" > [43] [44] [45]) [46]
 \openout2 = `Chapter05-LiDAR工程数据获取.aux'.
 
- (./Chapter05-LiDAR工程数据获取.tex
+
+(./Chapter05-LiDAR工程数据获取.tex
 第5章
 File: figure/Chapter5/LiDAR数据获取的三个阶段八个方面.png Graphic file (type QTm)
 <use  "figure/Chapter5/LiDAR数据获取的三个阶段八个方面.png" > [47
-
-
-
-
 
 
 
@@ -2614,44 +2845,12 @@ File: figure/Chapter5/激光检校场布设案例.png Graphic file (type QTm)
 <use  "figure/Chapter5/激光检校场布设案例.png" >
 File: figure/Chapter5/相机航线设计方案.jpg Graphic file (type QTm)
  <use  "figure/Chapter5/相机航线设计方案.jpg" >
-LaTeX Font Info:    Font shape `EU1/xits-math(1)/m/n' will be
-(Font)              scaled to size 10.95015pt on input line 168.
-LaTeX Font Info:    Font shape `EU1/xits-math(1)/m/n' will be
-(Font)              scaled to size 8.18098pt on input line 168.
-LaTeX Font Info:    Font shape `EU1/xits-math(1)/m/n' will be
-(Font)              scaled to size 6.60219pt on input line 168.
-LaTeX Font Info:    Font shape `EU1/xits-math(2)/m/n' will be
-(Font)              scaled to size 10.94983pt on input line 168.
-LaTeX Font Info:    Font shape `EU1/xits-math(2)/m/n' will be
-(Font)              scaled to size 8.18073pt on input line 168.
-LaTeX Font Info:    Font shape `EU1/xits-math(2)/m/n' will be
-(Font)              scaled to size 6.60199pt on input line 168.
-LaTeX Font Info:    Font shape `OMX/fouri@er/m/n' will be
-(Font)              scaled to size 10.40245pt on input line 168.
-LaTeX Font Info:    Font shape `OMX/fouri@er/m/n' will be
-(Font)              scaled to size 7.77179pt on input line 168.
-LaTeX Font Info:    Font shape `OMX/fouri@er/m/n' will be
-(Font)              scaled to size 6.27196pt on input line 168.
-
 Underfull \vbox (badness 2818) has occurred while \output is active []
 
  [50]
 File: figure/Chapter5/GPS偏心分量测量.png Graphic file (type QTm)
 
 <use  "figure/Chapter5/GPS偏心分量测量.png" >
-LaTeX Font Info:    Font shape `EU1/xits-math(1)/m/n' will be
-(Font)              scaled to size 9.00014pt on input line 197.
-LaTeX Font Info:    Font shape `EU1/xits-math(1)/m/n' will be
-(Font)              scaled to size 5.00008pt on input line 197.
-LaTeX Font Info:    Font shape `EU1/xits-math(2)/m/n' will be
-(Font)              scaled to size 8.99986pt on input line 197.
-LaTeX Font Info:    Font shape `EU1/xits-math(2)/m/n' will be
-(Font)              scaled to size 4.99992pt on input line 197.
-LaTeX Font Info:    Font shape `OMX/fouri@er/m/n' will be
-(Font)              scaled to size 8.54997pt on input line 197.
-LaTeX Font Info:    Font shape `OMX/fouri@er/m/n' will be
-(Font)              scaled to size 4.74998pt on input line 197.
-
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [51]
@@ -2677,25 +2876,25 @@ File: figure/Chapter5/点云数据特点_脚点.jpg Graphic file (type QTm)
 File: figure/Chapter5/点云数据特点_点云.jpg Graphic file (type QTm)
 
 <use  "figure/Chapter5/点云数据特点_点云.jpg" >) [55]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 128.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 128.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 127.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 127.
  (./main.aux (./Chapter01-绪论.aux)
 (./Chapter02-激光及激光雷达系统.aux) (./Chapter03-机载LiDAR数据获取基本原理.aux)
 (./Chapter04-LiDAR数据获取重要参数.aux) (./Chapter05-LiDAR工程数据获取.aux))
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 128.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 128.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 127.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 127.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 48763 strings out of 493591
- 984072 string characters out of 6143545
- 1079354 words of memory out of 5000000
- 51462 multiletter control sequences out of 15000+600000
- 15115 words of font info for 115 fonts, out of 8000000 for 9000
+ 49088 strings out of 493591
+ 999177 string characters out of 6143545
+ 1098687 words of memory out of 5000000
+ 51706 multiletter control sequences out of 15000+600000
+ 15243 words of font info for 131 fonts, out of 8000000 for 9000
  1347 hyphenation exceptions out of 8191
- 66i,17n,83p,10419b,1178s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 66i,17n,83p,10419b,1449s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on main.pdf (13 pages).
+Output written on main.pdf (59 pages).
