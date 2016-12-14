@@ -1,0 +1,49 @@
+% !TeX root = ../main.tex
+
+\begin{longtable}[htbp]{|>{\bfseries}m{0.2\textwidth}|m{0.35\textwidth}|m{0.35\textwidth}|}
+	% 表格题注
+	\caption{LiDAR与INSAR的比较}
+	\label{tab:LiDAR与INSAR的比较}
+	% 第一页开头
+	\\\hline
+	\thead{比较内容}  & \thead{LiDAR} & \thead{INSAR} \\\hline
+	\endfirsthead
+	% 后续页开头
+	\multicolumn{3}{r}{\kaishu（续表）} \\
+	\hline
+	\thead{比较内容}  & \thead{LiDAR} & \thead{INSAR} \\\hline
+	\endhead
+	% 结尾
+	%\hline
+	\endfoot
+	% 最后页结尾
+	%\hline
+	\endlastfoot
+	
+	相同点
+	& \multicolumn{2}{l|}{\makecell[{{p{0.7\textwidth}}}]{LiDAR技术与机载INSAR技术都是由星际探索中孕育发展而来的新技术，它们都是主要用于获得高精度的DEM数据。}} \\\hline
+	
+	投影原理
+	& 机载LiDAR可以进行倾斜测量和垂直的摄影
+	& 机载INSAR只能进行侧视成像 \\\hline
+	
+	距离计算
+	& 机载LiDAR是通过计算从发射激光到接收到目标反 射的激光的时间间隔来计算距离，确定目标位置
+	& 机载INSAR则是通过解算两束雷达波的相位差来得到目标位置 \\\hline
+	
+	天气影响
+	& 相比机载INSAR而言，机载LiDAR的测量效果会受到天气状况和目标反射率的影响，例如，雨、雾以及地面的霜、冰等都会对机载激光雷达的测量效果产生影响
+	& 机载INSAR则不存在这种问题，它对大气的状况不敏感 \\\hline
+	
+	测量效率 & 测量效率较低，数据发布速度较慢 & 数据采集速度快，数据发布速度快 \\\hline
+	电磁信号 & 红外激光脉冲 & 两束垂直的雷达波束 \\\hline
+	测量方式 & 计算激光束飞行时间 & 解算雷达波相位差 \\\hline
+	波长           & µm          & cm               \\ \hline
+	受地形地物影响      & 较少          & 很大               \\ \hline
+	探测距离         & 与大气状况密切相关   & 与大气状况无关          \\ \hline
+	高程精度         & dm          & m                \\ \hline
+	像素分辨率        & dm$\sim$m   & dm$\sim$m        \\ \hline
+	测区范围         & 小区域或走廊型区域   & 大范围或首次作业区域       \\ \hline
+	对植被覆盖地区的敏感程度 & 适宜在植被覆盖地区采集 & 效果差，不能得到真实地面数据信息 \\ \hline
+	作业成本         & 高           & 低                \\ \hline
+\end{longtable}

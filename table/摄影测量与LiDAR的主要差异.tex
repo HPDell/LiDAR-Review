@@ -1,0 +1,108 @@
+% !TeX root = ../main.tex
+
+\begin{longtable}{|m{0.1\textwidth}|m{0.1\textwidth}|l|l|}
+	% 表格题注
+	\caption{摄影测量与LiDAR的主要差异}
+	\label{tab:摄影测量与LiDAR的主要差异}
+	% 第一页开头
+	\\\hline
+	\multicolumn{2}{|c|}{\thead{主要差异}}  & \thead{摄影测量} & \thead{激光遥感} \\\hline
+	\endfirsthead
+	% 后续页开头
+	\multicolumn{4}{r}{\kaishu（续表）} \\
+	\hline
+	\multicolumn{2}{|c|}{\thead{主要差异}}  & \thead{摄影测量} & \thead{激光遥感} \\\hline
+	\endhead
+	% 结尾
+	\endfoot
+	% 最后页结尾
+	\endlastfoot
+	
+	\multirowcell{3}[-3cm][c]{传感器}	
+	& 种类 	
+	& \makecell[{{p{0.35\textwidth}}}]{摄影测量所用的传感器种类多种多样\begin{itemize}
+			\item \textbf{几何形态}：二维、线阵、多线阵、逐点探测
+			\item \textbf{分辨率}：几何、辐射分辨率和光谱分辨率
+			\item \textbf{存储介质}：模拟、数字
+			\item \textbf{其他}：几何精度、重量、功耗、成本等
+		\end{itemize}}						
+	& \makecell[{{p{0.35\textwidth}}}]{LiDAR系统的传感器种类很少：\\ 激光器基本为光学泵浦固体激光器，可用波段较少。} \\\cline{2-4}
+	& 寿命	
+	& \makecell[{{p{0.35\textwidth}}}]{简单，容易操作；\\可靠性强，价格相对低廉；\\ 使用寿命可达数十年；} 
+	& \makecell[{{p{0.35\textwidth}}}]{能量要求高，能耗转换为高温，必须冷凝过程，结构复杂；\\
+	 	激光器使用寿命较短，温度控制较好的激光器使用寿命也仅有10000小时;} \\\cline{2-4}
+	& 光谱信息 
+	& \makecell[{{p{0.35\textwidth}}}]{全色、多光谱、高光谱}
+	& \makecell[{{p{0.35\textwidth}}}]{激光器本身可用谱段范围比可见光和红外传感器宽得多，
+		从50 nm到30000 nm）；但用于机载LiDAR系统的激光器仅限于近红外波段。} \\\hline
+	
+	\multicolumn{2}{|c|}{飞行平台}		 
+	& \makecell[{{p{0.35\textwidth}}}]{\begin{itemize}
+		\item 面阵：无需GPS/INS系统；线阵：必需GPS/INS系统；
+		\item 传感器几乎可以装载到所有可能的飞行平台上，包括气球到空间站；但是线阵CCD对飞行高度和飞 行速度有较严格的要求 。
+	  \end{itemize}}
+	& \makecell[{{p{0.35\textwidth}}}]{\begin{itemize}
+  		\item 必需GPS/INS系统；
+  		\item 可以装载到直升机和其它飞机上，飞行高度一般在1000m左右。
+	  \end{itemize}影响因素有：激光器功率、探测器灵敏度、最高脉冲发射率、扫描频率} \\\hline
+	
+	\multicolumn{2}{|c|}{飞行计划}
+	& \makecell[{{p{0.35\textwidth}}}]{飞行计划比较简单，易于制订，主要是天气;} 
+	& \makecell[{{p{0.35\textwidth}}}]{飞行计划复杂，参数多：扫描带走向，飞行高度，航带重 叠度，速度，卫星分布等；\\机载LiDAR系统要求飞行高度和飞行速度都低于摄影测量系统。\\视场一般都比较小。在相同时间内机载LiDAR系统探测成像范围较小。} \\\hline
+	
+	\multicolumn{2}{|c|}{地物反射与成像方面} 
+	& \makecell[{{p{0.35\textwidth}}}]{\begin{itemize}
+		\item 摄影测量系统一般工作波长可覆盖整个可见光谱段，即全色波段或者有几个波段，每个波段宽度都是较宽的，成像质量较好。
+		\item 摄影测量系统动态范围相对较小，一般不存在饱和问题。\end{itemize}}
+	& \makecell[{{p{0.35\textwidth}}}]{\begin{itemize}
+		\item 激光是单色光，而且谱段宽度很窄；
+		\item 激光扫描系统动态范围（记录的反射率数值范围）比摄影测量系统大得多，对于探测器来说，常常导致饱和（溢出）。
+		\item 激光成像的影像质量低于摄影测量影像，在高航高低反射率区域，越明显。
+	  \end{itemize}} \\\hline
+	
+	\multicolumn{2}{|c|}{自动化程度}	
+	& \makecell[{{p{0.35\textwidth}}}]{在地物目标三维信息提取方面，摄影测量处理过程需要更多的人工编辑，
+		特别是胶片处理以及传感器的定向很难自动化。}
+	& \makecell[{{p{0.35\textwidth}}}]{在理想的条件下，机载LiDAR系统可以全自动地提供地物目标的三维坐标原始信息，达到很高的自动化程度。原因在于其原始数据已经隐含了大量摄影测量需完成的任务。\\
+		实际上，机载LiDAR点云数据在应用时也需要加入人工编辑操作，如 \begin{itemize}
+		\item 航带偏斜，进行相对校正时，航带连接点（同名点）的寻找。
+		\item 点云滤波或分类存在错误时，点类别的人工编辑等。\end{itemize}} \\\hline
+	
+	\multicolumn{2}{|c|}{技术成熟性和有效性} 
+	& \makecell[{{p{0.35\textwidth}}}]{摄影测量系统建立在成熟的、复杂的技术和算法基础上，已经历数十年的发展，已有数种商业化系统}
+	& \makecell[{{p{0.35\textwidth}}}]{机载LiDAR数据成果仍然需要提供商业服务。\begin{itemize}
+		\item 软件的缺乏
+		\item 标准的缺乏\end{itemize}} \\\hline
+	
+	\multirowcell{2}[-0.4cm][c]{\makecell[{{p{0.1\textwidth}}}]{DTM和DSM}} 
+	& 均可生成 
+	& \makecell[{{p{0.35\textwidth}}}]{在模拟或数字影像上进行人工量测可以得到DTM和DSM，
+		利用数字影像匹配方法所得到的只是DSM，需要进一步处理得到DTM。} 
+	& \makecell[{{p{0.35\textwidth}}}]{对三维点云进行简单处理即可得到DSM，通过滤波处理可以得到DTM。} \\\cline{2-4}
+	& 量测点的密度和分布 
+	& \makecell[{{p{0.35\textwidth}}}]{摄影测量与机载LiDAR得到的三维点密度相当，
+		但通过摄影测量密集匹配方法，得到的邻点存在的高度相关性。}
+	&  \\\hline
+	& 量测方式和机动性
+	& \makecell[{{p{0.35\textwidth}}}]{采用自动匹配，因匹配过程盲目搜索，产生大量冗余计算，存在误匹配；
+		若采用人工方法，量测方式灵活，可得到高质量的DTM。}
+	& \makecell[{{p{0.35\textwidth}}}]{由于数据采集的盲目性，即使在密度很高的情况下也只能部分地采集到DSM/DTM特征点。} \\\cline{2-4}
+	& 量测精度
+	& \makecell[{{p{0.35\textwidth}}}]{摄影测量人工量测方式在影像质量水平和纹理丰富程度中等的情况下，DSM/DTM量测精度主要取决于飞行高度和传感器定向精度。\\平面精度和高程精度分析可以分开进行，因为两者的关系是彼此独立的，在整个像幅内，精度也是基本一致的。}
+	& \makecell[{{p{0.35\textwidth}}}]{精度影响因素甚多，其理论精度模型的推导，误差传播和可达精度的预测都十分复杂 。\\若存在姿态误差，则导致高程精度随扫描角 度的增加，特别是飞行高度的增加而很快递减。} \\\cline{2-4}
+	& 航高对精度的影响
+	& \makecell[{{p{0.35\textwidth}}}]{飞行高度在400-1000m时，摄影测量系统的平均精 度比机载激光系统稍好，只是在条件较好情况下，机载LiDAR系统才更精确。}
+	& \makecell[{{p{0.35\textwidth}}}]{当飞行高度超过1000m，姿态量测足够精确，接 收到的地物目标反射信号很好，则LiDAR系统的精度会超过摄影测量。} \\\cline{2-4}
+	& 平面精度与高程精度 
+	& \makecell[{{p{0.35\textwidth}}}]{摄影测量平面精度比高程精度要高出1/3}
+	& \makecell[{{p{0.35\textwidth}}}]{机载LiDAR系统则恰恰相反，平面精度比高程精度要低2-6倍，而在地形起伏较大的情况下，平面误差会严重影响高程精度。} \\\cline{2-4}
+	& 细小目标
+	& 
+	& \makecell[{{p{0.35\textwidth}}}]{机载LiDAR系统——可以检测到面积比激光束照射 面更小的目标，如电力线；但在某些情况下又成了系统的缺点，那些面积很小的地物被检测出来，并精确地建立其数学模型，而在它周围的其它地物却被忽略，其模型的精度很差。} \\\cline{2-4}
+	& 地质地貌恢复
+	& 
+	& \makecell[{{p{0.35\textwidth}}}]{机载LiDAR获取DTM所需时间比摄影测量系统要短得多。 摄影测量系统，若可以利用已有影像数据、资料，这样，DTM生产可以进行得更快，成本也较低些。} \\\hline
+	& 生产成本
+	&
+	& \makecell[{{p{0.35\textwidth}}}]{仅就获取DEM和三维模型而言，机载LiDAR的成本远低于航空摄影。但是考虑到LiDAR的带宽比较窄，一般比航空摄小60\%$ \sim $70\%，在需要减少航摄架次、提高外业速度时，往往都不是用户的首选。} \\\hline
+\end{longtable}

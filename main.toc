@@ -164,16 +164,16 @@
 \contentsline {paragraph}{\kaishu {扫描带宽SW}}{43}{paragraph*.156}
 \contentsline {paragraph}{\kaishu {扫描行的点数$ N $}}{43}{paragraph*.157}
 \contentsline {paragraph}{\kaishu {激光脚点间距(Point Space)}}{43}{paragraph*.158}
-\contentsline {paragraph}{\kaishu {最少航带数}}{45}{paragraph*.161}
+\contentsline {paragraph}{\kaishu {最少航带数}}{44}{paragraph*.161}
 \contentsline {paragraph}{\kaishu {实际量测面积}}{45}{paragraph*.162}
 \contentsline {paragraph}{\kaishu {量测点密度}}{45}{paragraph*.163}
 \contentsline {paragraph}{\kaishu {量测点数据量}}{45}{paragraph*.164}
 \contentsline {paragraph}{\kaishu {发射及接收激光束间隔内的飞行距离}}{45}{paragraph*.165}
-\contentsline {paragraph}{\kaishu {过采样和欠采样}}{46}{paragraph*.166}
-\contentsline {section}{\numberline {4.2}常用商业LiDAR系统}{46}{section.4.2}
-\contentsline {paragraph}{Leica公司LiDAR设备}{46}{paragraph*.167}
-\contentsline {paragraph}{Optech公司LiDAR设备}{46}{paragraph*.168}
-\contentsline {paragraph}{Riegl公司LiDAR设备}{46}{paragraph*.169}
+\contentsline {paragraph}{\kaishu {过采样和欠采样}}{45}{paragraph*.166}
+\contentsline {section}{\numberline {4.2}常用商业LiDAR系统}{45}{section.4.2}
+\contentsline {paragraph}{Leica公司LiDAR设备}{45}{paragraph*.167}
+\contentsline {paragraph}{Optech公司LiDAR设备}{45}{paragraph*.168}
+\contentsline {paragraph}{Riegl公司LiDAR设备}{45}{paragraph*.169}
 \contentsline {chapter}{\numberline {第5章\hspace {0.3em}}LiDAR工程数据获取}{47}{chapter.5}
 \contentsline {paragraph}{LiDAR工程步骤}{47}{paragraph*.170}
 \contentsline {paragraph}{LiDAR数据获取综述}{47}{paragraph*.172}
@@ -195,4 +195,58 @@
 \contentsline {paragraph}{文件生成}{54}{paragraph*.194}
 \contentsline {paragraph}{点云数据特点}{55}{paragraph*.195}
 \contentsline {section}{\numberline {5.2}LiDAR技术与同类技术对比}{55}{section.5.2}
+\contentsline {subsection}{\numberline {5.2.1}摄影测量与LiDAR的主要差异}{55}{subsection.5.2.1}
+\contentsline {subsection}{\numberline {5.2.2}LiDAR技术的优势}{59}{subsection.5.2.2}
+\contentsline {subsection}{\numberline {5.2.3}LiDAR与INSAR的比较}{59}{subsection.5.2.3}
+\contentsline {chapter}{\numberline {第6章\hspace {0.3em}}LiDAR数据处理}{61}{chapter.6}
+\contentsline {section}{\numberline {6.1}点云滤波}{61}{section.6.1}
+\contentsline {subsection}{\numberline {6.1.1}点云滤波概述}{61}{subsection.6.1.1}
+\contentsline {paragraph}{点云滤波的目的}{61}{paragraph*.197}
+\contentsline {paragraph}{基于LiDAR数据生成DEM的工作}{61}{paragraph*.198}
+\contentsline {paragraph}{点云(距离数据)空间分布特征}{61}{paragraph*.199}
+\contentsline {paragraph}{基于高程突变的的滤波方法基本前提}{61}{paragraph*.200}
+\contentsline {paragraph}{自动滤波算法的难点}{61}{paragraph*.201}
+\contentsline {paragraph}{滤波精度分析方法}{62}{paragraph*.203}
+\contentsline {paragraph}{LiDAR点云滤波研究现状}{62}{paragraph*.204}
+\contentsline {paragraph}{滤波算法研究趋势}{62}{paragraph*.206}
+\contentsline {subsection}{\numberline {6.1.2}典型滤波方法}{62}{subsection.6.1.2}
+\contentsline {paragraph}{\kaishu {一维双向扫描标记法}}{62}{paragraph*.207}
+\contentsline {paragraph}{\kaishu {TopScan算法}}{63}{paragraph*.209}
+\contentsline {paragraph}{\kaishu {基于多分辨率方向预测的点云滤波算法}}{64}{paragraph*.210}
+\contentsline {paragraph}{\kaishu {移动曲面滤波方法}}{64}{paragraph*.212}
+\contentsline {paragraph}{\kaishu {基于TIN加密的点云滤波方法}}{65}{paragraph*.214}
+\contentsline {paragraph}{其他滤波算法}{65}{paragraph*.215}
+\contentsline {subsection}{\numberline {6.1.3}DEM生成}{65}{subsection.6.1.3}
+\contentsline {paragraph}{DEM内插}{65}{paragraph*.216}
+\contentsline {paragraph}{DEM模型}{66}{paragraph*.217}
+\contentsline {subsection}{\numberline {6.1.4}精度分析}{66}{subsection.6.1.4}
+\contentsline {paragraph}{叠加对比分析}{66}{paragraph*.218}
+\contentsline {paragraph}{抽样统计分析}{66}{paragraph*.220}
+\contentsline {paragraph}{LiDAR的优势}{66}{paragraph*.222}
+\contentsline {paragraph}{建议}{67}{paragraph*.223}
+\contentsline {section}{\numberline {6.2}强度数据处理}{67}{section.6.2}
+\contentsline {subsection}{\numberline {6.2.1}强度数据特点}{67}{subsection.6.2.1}
+\contentsline {subsection}{\numberline {6.2.2}强度数据校正}{68}{subsection.6.2.2}
+\contentsline {subsection}{\numberline {6.2.3}强度图像生成处理}{68}{subsection.6.2.3}
+\contentsline {subsection}{\numberline {6.2.4}应用案例}{68}{subsection.6.2.4}
+\contentsline {section}{\numberline {6.3}基于LiDAR数据的建筑物提取}{68}{section.6.3}
+\contentsline {paragraph}{建筑物提取的方法}{68}{paragraph*.224}
+\contentsline {paragraph}{两种提取方法的不同}{69}{paragraph*.225}
+\contentsline {subsection}{\numberline {6.3.1}建筑物检测（分割）}{69}{subsection.6.3.1}
+\contentsline {paragraph}{\kaishu {分割}}{69}{paragraph*.226}
+\contentsline {paragraph}{一般步骤}{69}{paragraph*.227}
+\contentsline {paragraph}{现有分割方法}{69}{paragraph*.228}
+\contentsline {paragraph}{涉及的处理方法}{70}{paragraph*.229}
+\contentsline {subsection}{\numberline {6.3.2}建筑物模型的生成（重建）}{70}{subsection.6.3.2}
+\contentsline {paragraph}{任务}{70}{paragraph*.230}
+\contentsline {paragraph}{现状}{70}{paragraph*.231}
+\contentsline {paragraph}{建筑物提取的典型方法}{70}{paragraph*.232}
+\contentsline {paragraph}{\kaishu {基于三角网的房屋模型重建方法}}{70}{paragraph*.233}
+\contentsline {paragraph}{\kaishu {利用不变矩提取房屋模型}}{71}{paragraph*.234}
+\contentsline {paragraph}{\kaishu {自适应迭代的DSM影像分割方法}}{72}{paragraph*.235}
+\contentsline {paragraph}{\kaishu {基于边界表达的建筑物模型重建方法}}{72}{paragraph*.236}
+\contentsline {subsection}{\numberline {6.3.3}三维重建质量检查}{74}{subsection.6.3.3}
+\contentsline {paragraph}{城市三维重建误差来源}{74}{paragraph*.239}
+\contentsline {paragraph}{三维重建质量检查}{74}{paragraph*.241}
+\contentsline {paragraph}{质量控制策略}{74}{paragraph*.242}
 \contentsfinish 
