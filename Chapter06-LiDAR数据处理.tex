@@ -636,3 +636,362 @@ P_r = \dfrac{P_t D_r^2 \rho}{4R^2} \cos \theta_i \eta_{\text{sys}} \eta _{\text{
 			\item \textit{人机交互补偿}：对不能用数据方法模拟的随机误差，利用误差检测算法检测超限模型采用人机交互进行补偿的方法。
 		\end{itemize}
 \end{enumerate}
+
+\section{基于LiDAR的道路提取*}
+
+\section{分类、变化检测及波形处理}
+
+\subsection{LiDAR点云分类}
+
+\paragraph{地物目标分类}基于不同地物目标在遥感数据中表现不
+同的特性，采取合适的判别方法（函数），将
+其划分为不同的类别，制作成专题图，供用户
+使用。
+
+\textbf{分类算法的通用性}：设计分类算法时，首先要确
+定各种对象的定义，这些定义要尽可能地一般化
+（通用）——能较好地适应大多数的地貌。
+
+\paragraph{目标对象的定义}如图\ref{fig:LiDAR数据中的对象}所示。
+\begin{itemize}
+	\item \textit{地貌}：裸露地面及地面上对象构成的场景
+	\item \textit{裸露地面}：分段连续、光滑的曲面
+	\item \textit{地面上对象}：自然对象、人造对象
+	\item \textit{分离对象}
+	\item \textit{附着对象}：桥梁等
+	\item \textit{局外对象}：系统误差、远离地貌的对象
+\end{itemize}
+
+\begin{figure}[htbp]
+	\centering
+	\subfloat[地貌]{\includegraphics[height=2cm]{figure/Chapter6/地貌}} \hspace{4em}
+	\subfloat[裸露地面]{\includegraphics[height=2cm]{figure/Chapter6/裸露地面}} \\
+	\subfloat[地物对象]{\includegraphics[height=2cm]{figure/Chapter6/地物对象}} \hfill
+	\subfloat[附着对象]{\includegraphics[height=2cm]{figure/Chapter6/附着对象}} \\
+	\subfloat[分离对象]{\includegraphics[height=2cm]{figure/Chapter6/分离对象}} \hspace{4em}
+	\subfloat[局外对象]{\includegraphics[height=2cm]{figure/Chapter6/局外对象}}
+	\caption{LiDAR数据中的对象}
+	\label{fig:LiDAR数据中的对象}
+\end{figure}
+
+\paragraph{地物点数据的几何特点}
+\begin{enumerate}
+	\item \textbf{建筑物的几何特点}：沿一条扫描线分析
+		\begin{itemize}
+			\item 建筑物顶面多是平面，在一条扫描线中表现为一条直线，数据的二阶导数应当为零。
+			\item 屋脊线或屋顶面交线处，二阶导数不为零。
+		\end{itemize}
+		对于一般建筑物，沿扫描线的几何模型可以表示为：若某点处$ \dfrac{∂^2 Z}{∂x^2} = 0 $，则该点为线段中点；若$ \dfrac{∂^2 Z}{∂x^2} ≠ 0 $，则该点为直线间断点。其中，$ x $是沿扫描线方向的坐标，$ Z $表示高程。
+	\item \textbf{植被数据的几何模型}：$ \dfrac{∂^2 Z}{∂x^2} ≠ 0 $且二阶导数值连续随机分布。
+	\item \textbf{电力线}：电力线和植被都具有多重回波特点，因此在分析时还需借助回波强度信息，因为它们的回波强度不同。
+	
+		此外，要保证分析结果的正确性，得到初步结果后，还需要根据电力线彼此平行，及每一根电力线上各点形成线性结构的特点，采取Hough变换分析方法，以准确地提取电力线。
+\end{enumerate}
+
+\paragraph{LiDAR数据分类依据}
+\textbf{LiDAR的数据源有}：高程数据、强度数据、同步采集的数码影像。利用这些信号针对不同地物制定约束规则，逐步将地物区分开来。
+\begin{itemize}
+	\item 高程突变信息；
+	\item 地物几何特征；
+	\item 强度信息；
+	\item 多次回波信息(波形信息)；
+	\item 影像光谱信息。
+\end{itemize}
+
+\paragraph{LiDAR分类规则}
+\begin{enumerate}
+	\item \textbf{局外对象}：明显高于或低于周围的环境
+	\item \textbf{裸露地面}：
+		\begin{enumerate}
+			\item 基于连续、光滑的裸露地面的定义假设：
+				\begin{itemize}
+					\item 在水平邻域内，裸露地面点的高度限定在一定的范围内
+					\item 裸露地面点的梯度、曲率限定在一定的范围内
+					\item 裸露地面在局部和全局上都是相对平坦的
+				\end{itemize}
+			\item 基于分段连续、光滑的裸露地面定义的假设：裸露地面点及其k近邻所表达的局部曲面片是相对平坦的。
+		\end{enumerate}
+	\item \textbf{植被}：
+		\begin{itemize}
+			\item 表面较粗糙；
+			\item 多次回波间存在高度差，在同 平面位置$ (X,Y) $处由多重回波得到几个高度值。
+		\end{itemize}
+	\item \textbf{建筑物}：
+		\begin{itemize}
+			\item 垂直突出于裸露地面之上
+			\item 占据一片连续的区域
+			\item 除了部分建筑物边缘，其它部分均不反射多重回波。根据这个特性有可能区分植被和建筑物。
+		\end{itemize}
+	\item \textbf{电力线}：电力线一般有两次回波
+		\begin{itemize}
+			\item 激光照射电力线后，被电力线反射形成回波。
+			\item 一部分激光绕过电力线照射到地面，形成二次回波。
+		\end{itemize}
+\end{enumerate}
+
+\paragraph{地物的强度信息}虽然激光脉冲的
+反射强度受不同
+因素的影响，包
+括回波总数，目
+标的材质以及脉
+冲的入射角等。
+但有研究表明强
+度数据可以辅助
+地表目标的分类。
+
+\paragraph{影像特征辅助点云分类}
+\begin{itemize}
+	\item 尽管LiDAR数据能够直接获得目标的空间三维点云，对于区分垂直方向特征明显的地物（例如房屋、高大植被）具有极大的优势，但是却难以区分物体表面的材质和结构差异。
+	\item 光学遥感影像提供了丰富的、水平连续的光谱信息，但获取的主要是地物表面的信息，有些地物（如建筑物
+	和水泥地）的异物同谱和同物异谱现象突出，仅靠光学影像信息分类，困难较大。
+	\item 针对不同传感器的优点和局限性，将多源数据融
+	合以弥补单个数据源的局限性是一个非常重要的研究
+	方向。
+\end{itemize}
+
+\subsection{变化检测}
+
+\kaiparagraph{变化检测}
+\begin{itemize}
+	\item \textit{广义变化检测}：根据不同时间的多次观测来确
+		定某个物体的状态变化或确定某现象的变化发展过程。
+	\item \textit{遥感影像变化检测}：利用多时相获取的覆盖同
+		一地表区域的遥感影像及其它辅助数据来确定和分析地表变化。
+\end{itemize}
+
+\paragraph{地物几何变化的表现形式}如图\ref{fig:地物几何变化的表现形式}所示。
+\begin{itemize}
+	\item 出现或消失
+	\item 大小或形状发生变化
+	\item 空间位置发生变化
+	\item 多种变化形式的组合
+\end{itemize}
+
+\begin{figure}
+	\centering
+	\includegraphics[width=0.7\linewidth]{figure/Chapter6/地物几何变化的表现形式}
+	\caption{地物几何变化的表现形式}
+	\label{fig:地物几何变化的表现形式}
+\end{figure}
+
+\paragraph{变化监测的主要内容}
+\begin{itemize}
+	\item 检测和判断是否发生了变化；
+	\item 标定变化发生的区域；
+	\item 确定变化的性质（对于多时相数据，也称变化的轨迹）；
+	\item 评定变化检测结果的精度；
+	\item 评估变化的时间和空间分布模式。
+\end{itemize}
+
+\paragraph{变化监测方法分类}
+\begin{enumerate}
+	\item \textbf{基于影像的变化检测}：根据遥感信息灰度值的变化而进行检测。
+		\begin{itemize}
+			\item \textit{分类后比较}：先对不同时相的原始影像分别进行分类解译，然后比较
+				各时相分类结果图来发现变化，同时确定变化类型。其过程如图\ref{fig:分类后比较}所示。
+				\begin{figure}[htbp]
+					\centering
+					\includegraphics[width=0.5\linewidth]{figure/Chapter6/分类后比较}
+					\caption{分类后比较}
+					\label{fig:分类后比较}
+				\end{figure}
+			\item \textit{直接比较}：直接比较同一位置上不同时相的像元特征值来检测变化，
+				通常是先采用数学变换的方式生成不同时相间的差异影像，
+				再对差异影像进行阈值化处理，从中提取变化区域。其过程如所示。
+				\begin{figure}[htbp]
+					\centering
+					\includegraphics[width=0.5\linewidth]{figure/Chapter6/直接比较}
+					\caption{直接比较}
+					\label{fig:直接比较}
+				\end{figure}
+		\end{itemize}
+	\item \textbf{基于高程的变化检测}：宫鹏曾使用数字摄影测量工作站和加利福尼亚州丘陵区及佛罗里达州滩涂区的多时相航空摄影立体像对， 构建数字表面模型，用以测量河沟侵蚀、河道窄化和 深切以及海岸带滩涂地带盐沙地的移动，精度达到1 m以内。
+		这种方法的自动化程度很低，主要是人工对于正射影像和数字高程模型产品的研究和比较。
+		\begin{figure}[htbp]
+			\centering
+			\includegraphics[width=0.5\linewidth]{figure/Chapter6/基于高程的建筑物变化检测流程}
+			\caption{基于高程的建筑物变化检测流程}
+			\label{fig:基于高程的建筑物变化检测流程}
+		\end{figure}
+\end{enumerate}
+
+\paragraph{基于变化检测实现城市空间信息数据库的更新}
+\begin{itemize}
+	\item 采用人工判读航片方式，精度高，但周期长、代价大。
+	\item 基于影像灰度的变化检测方法，结果可靠性有待提高，且难以检测高程方面的变化；
+	\item 基于立体像对进行高程变化检测的方法：虽然技术上已十分成熟，但对于城市地区，房屋密度比较大，影像匹配常常失败。
+	\item 适宜采用LiDAR数据的变化监测
+\end{itemize}
+
+\subsection{数码影像处理}
+
+\paragraph{LiDAR系统的数码影像}主要目的是为LiDAR点云数据提供辅助的光谱影像信息，帮助获得纹理和分类的信息；存在着光谱影像与激光点云的配准问题；LiDAR系统中的数码相片经过解算后，得到与点云 数据一致的坐标。一般将影像结合点云(DSM)数据，制作\textit{真正射影像}(True Ortho Image)。
+
+\kaiparagraph{真正射影像}：真正射影像和正射影像的差别，体现在建筑物的纠正
+上，由于DEM没有建筑物的高度信息，在纠正时只能按照地面的高度进行纠正，造成了一定的偏差，采用
+具有建筑物信息的DSM就不存在这个问题，能够得到正确的投影位置。
+
+\paragraph{真正射影像纠正原理}如图\ref{fig:真正射影像纠正原理}所示。
+
+\begin{figure}[htbp]
+	\centering
+	\subfloat[透视投影问题]{\includegraphics[height=3cm]{figure/Chapter6/透视投影问题}}
+	\subfloat[使用DEM纠正的正射影像]{\includegraphics[height=3cm]{figure/Chapter6/使用DEM纠正的正射影像}}
+	\subfloat[使用DSM纠正的真正射影像]{\includegraphics[height=3cm]{figure/Chapter6/使用DSM纠正的真正射影像}}	
+	\caption{真正射影像纠正原理}
+	\label{fig:真正射影像纠正原理}
+\end{figure}
+
+\paragraph{数字正射纠正的两种方式}如图\ref{fig:数字正射纠正的两种方式}所示。
+\begin{itemize}
+	\item 反解法（间接法）：从纠正后影像的像点出发，反求其在原始影像上像点坐标的方法。
+	\item 正解法（直接法）：从纠正前原始影像的像点出发，计算纠正后该像点的坐标的方法。
+\end{itemize}
+
+\begin{figure}[htbp]
+	\centering
+	\includegraphics[width=0.7\linewidth]{figure/Chapter6/数字正射纠正的两种方式}
+	\caption{数字正射纠正的两种方式}
+	\label{fig:数字正射纠正的两种方式}
+\end{figure}
+
+\paragraph{存在的问题}
+\begin{itemize}
+	\item DSM精度不高，导致影像质量下降。
+	\item 有的地区缺少纹理。
+	\item LiDAR点云有空缺。
+	\item 点云与影像配准的问题。
+\end{itemize}
+
+\paragraph{解决方案}
+\begin{enumerate}
+	\item \textbf{房屋边缘的问题}：建筑物边缘不清晰。
+	
+		\textbf{原因}：点云密度不足。
+		
+		\textbf{解决方法}：DEM+DBM+影像。地形起伏纠正采用DEM，建筑物纠正采用DBM。以LiDAR原始点云滤波过后得到的DEM和数字建
+			筑物模型DBM为基础，建立TIN结构的DSM
+	\item \textbf{纹理缺失}
+		\begin{itemize}
+			\item 遮蔽检测
+			\item 纹理选择
+			\item 纹理修复
+		\end{itemize}
+\end{enumerate}
+
+\section{波形处理技术}
+
+\paragraph{激光信号的特点}
+\begin{itemize}
+	\item 激光束及其回波信号的能量都是连续的。
+	\item 多次回波，是将回波能量进行探测和量化之后得到的。 
+	\item 探测和量化方法不当会引起误差。
+\end{itemize}
+
+\paragraph{激光回波数据处理}如图\ref{fig:激光回波数据处理方法}所示。
+\begin{itemize}
+	\item 多次回波数据处理
+	\item 全波形数据处理
+\end{itemize}
+
+\begin{figure}[htbp]
+	\centering
+	\includegraphics[width=0.5\linewidth]{figure/Chapter6/激光回波数据处理方法}
+	\caption{激光回波数据处理方法}
+	\label{fig:激光回波数据处理方法}
+\end{figure}
+
+\paragraph{多次回波数据处理}
+通常将首次和末次回波进行相减，这样可以得
+到具有多次回波信息的地物的信息。
+
+\paragraph{全波形数据处理}
+对于激光信号还有一种不同的量化方法，即将发
+射信号和回波信号均以很小的采样间隔进行采样并加以记录，而不是仅仅提供若干次离散的回波信号，
+这就是所谓的\textit{波形数据}(full-waveform)。
+\begin{enumerate}
+	\item \textbf{特点}：激光回波信号是由发射脉冲和激光光斑内的地物、
+		地面共同决定的。地形的起伏以及地表的粗糙度
+		对波形都有一定的展宽效应。如图\ref{fig:展宽效应}所示。
+		\begin{figure}[htbp]
+			\centering
+			\includegraphics[width=0.5\linewidth]{figure/Chapter6/展宽效应}
+			\caption{展宽效应}
+			\label{fig:展宽效应}
+		\end{figure}
+	\item \textbf{分类}
+		\begin{itemize}
+			\item \textit{星载大脚印全波形数据}
+			\item \textit{机载小脚印全波形数据}
+				\begin{itemize}
+					\item 可以得到更多数量的激光脚点。
+					\item 可以得到更多次的回波数据。
+					\item 用户更了解数据采集的实际情况，可以采取更合 适的方法进行解算，得到更高精度的点位坐标。
+					\item 如果使用波形分解方法，能够得到每次地面目标 反射的波形，进而得到振幅（强度信息）、回波宽度、回波位置和反射系数等参数。
+				\end{itemize}
+		\end{itemize}
+\end{enumerate}
+
+\paragraph{波形数据分解}
+全波形数据需要进行分解，以确定反射点（激光脚点）的位置。
+\begin{enumerate}
+	\item {\bfseries\kaishu 脉冲探测方法}：将波形按时间进行分析和判别，直接探测回波数据的极大值点作为目标的位置。
+		\begin{enumerate}
+			\item \textit{阈值探测法}：将整个波形数据看作整体，采用一定的阈值（时间、面积的百分比、上升沿等）进行判断，
+				得到不同时刻的点坐标，作为不同目标地物的位置。
+			\item \textit{均方差判别法}(ASDF)：认为LiDAR的反射波是一个混合波，该混合波由一系列的单个波组成的。
+				这些单个波是发射波（参考波）经过时间延迟的变化得到的，这些变化包括振幅、宽度等参数。
+				ASDF方法使用某种标准，采用局部最优的判断方法，得到极大值点位信息
+				\begin{equation}
+				R_{\text{ASDF}}(\tau) = \dfrac{1}{N} = \sum_{k=1}^{n} \left( x_1 (kT) + x_2 (kT + \tau) \right)^2
+				\end{equation}
+		\end{enumerate}
+	\item {\bfseries\kaishu 波形分解方法}：通过波形分解的方法能够得到振幅(强度信息)、
+		回波宽度、回波位置和反射系数等参数，波形数据的应用研究大多是基于这些参数的进行的。
+		
+		小光斑波形数据的分解大多基于\textit{高斯分解原理}的方法。这种方法认为，LiDAR的回波波形是由若干个单 一高斯函数的线性叠加而成的，这些高斯函数的振幅、峰值位置、波形宽度、峰值与峰值之间的间距等都是后续波形分析中的重要参数。
+			\begin{enumerate}
+				\item {\kaishu EM算法}：将LiDAR的全波形数据视为一个高斯混合模型，
+					其主要目的是找出一组高斯参数使其符合原波形的期望值，
+					并以最大似然法(Maximum Likelihood)来计算这些期望值的估值。
+					\begin{itemize}
+						\item \textbf{原理}：
+							假设波形是由一系列简单的高斯分布组成，则混合分布的数学表示式为
+							\begin{equation}
+							f(x) = \sum_{j=1}^{k}p_j \times f_j(x),\quad f_j(x) \in N(\mu_j,\sigma_j^2)
+							\end{equation}
+							式中，$ k $是高斯函数的数量（波峰数量）；$ f_j(x) $是每个单一高斯分布的概率密度函数；$ p_j $是权，表示该分布在混合分布中占的比重，满足$ 0 < p_j < 1 $且$ \displaystyle{\sum_{j=1}^{k}p_j = 1} $；$ \mu_j $是均值，$ \sigma_j $是标准差。
+							
+							EM算法计算高斯混合模型的参数最大似然估计值为
+							\begin{align}
+							Q_{ij} & = \dfrac{p_j f_j(x)_i}{\displaystyle{\sum_{j=1}^{k} p_j f_j(x_i)}} \\
+							   p_j & = \dfrac{\displaystyle{\sum_{i=1}^{s} N_i Q_{ij}}}{\displaystyle{\sum_{i=1}^{s} N_i}} \\
+							   \mu_j & = \ddfrac{\sum_{i=1}^{s} N_i Q_{ij} i}{p_j \sum_{i=1}^{s} N_i} \\
+							 \sigma_i & = \sqrt{\ddfrac{\sum_{i=1}^{s} N_i Q_{ij} (i - \mu_j)^2}{p_j \sum_{i=1}^{s} N_i}}
+							\end{align}
+							$ s $是整个波形采样的个数，$ N_i $是每个采用$ i $的强度值，$ p_j $是权值。
+						\item \textbf{步骤}：在进行EM算法之前必须先估计高斯混合模型内的高斯函数的个数以及各函数的高斯参数的初值。
+							\begin{itemize}
+								\item 确定参数初值$ P_j $、$ \mu_j $、$ \sigma_j $、$ k $代入上述各式重新计算参数。
+								\item 重复上述步骤，知道满足迭代终止条件。
+							\end{itemize}
+					\end{itemize}
+				\item {\kaishu LM分解方法}：最小二乘法同样假设全波形是由多个单一波线性
+					组合而成，且每个单一波满足高斯分布函数。必
+					须事先给出单一波的个数，一般先统计波形信息，
+					以波峰的个数决定单一波的个数。
+					
+					建立高斯形态的非线性数学公式
+					\begin{equation}
+					w(t) = \sum_{j=1}^{k} A_j \exp \left[ - \dfrac{(t-\mu_j)^2}{2\sigma_j^2} \right]
+					\end{equation}
+					式中，$ k $为波峰数，$ A_j $为振幅，$ t $为时间，$ \mu_j $与$ \sigma_j $为高斯函数的平均值与标准差。
+					
+					对上式组成观测方程组，待求参数为$ A_j $、$ \mu_j $、$ \sigma_j $。假设假设各单一波为等权且不相关，以最小二乘法求解，其参数解如下式
+					\begin{equation}
+					x = (B^{\symrm{T}}PB)^{-1}B^{\symrm{T}Pl}
+					\end{equation}
+					$ x $为改正数，$ B $为系数矩阵，$ P $为权矩阵，$ L $为观测向量。
+			\end{enumerate}
+\end{enumerate}
+

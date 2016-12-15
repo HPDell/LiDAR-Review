@@ -66,8 +66,12 @@ BoldItalicFont = *-bolditalic,
 \usetikzlibrary{graphs,arrows,shapes,chains}
 %% 子图宏包
 \usepackage{subfig}
+%% 定义全显示模式分数
+\newcommand{\ddfrac}[2]{\dfrac{\displaystyle{{#1}}}{\displaystyle{{#2}}}}
 
 %%%%<!-------------------- 格式设置 -------------------->
+%% subsubsection编号
+\setcounter{secnumdepth}{3}
 %% 调整段落和页面格式
 \usepackage[left=1.91cm, right=1.91cm, top=2.54cm, bottom=2.54cm]{geometry}
 \setlength{\parskip}{0pt}
@@ -93,7 +97,7 @@ BoldItalicFont = *-bolditalic,
 
 %%%%<!-------------------- 文档设置 -------------------->
 %% 包含文件
-%\includeonly{Chapter06-LiDAR数据处理}
+\includeonly{Chapter07-地面及星载激光遥感技术}
 
 %% 文档属性
 \title{\heiti{\Huge{激光遥感复习整理}}}
@@ -121,7 +125,7 @@ BoldItalicFont = *-bolditalic,
 	{\large \LaTeX \par}
 \end{titlepage}
 
-\doctableofcontents %% 目录
+%\doctableofcontents %% 目录
 %% 正文开始
 \include{Chapter01-绪论}
 \include{Chapter02-激光及激光雷达系统}
@@ -129,5 +133,6 @@ BoldItalicFont = *-bolditalic,
 \include{Chapter04-LiDAR数据获取重要参数}
 \include{Chapter05-LiDAR工程数据获取}
 \include{Chapter06-LiDAR数据处理}
+\include{Chapter07-地面及星载激光遥感技术}
 
 \end{document}

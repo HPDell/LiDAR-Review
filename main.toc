@@ -201,52 +201,81 @@
 \contentsline {chapter}{\numberline {第6章\hspace {0.3em}}LiDAR数据处理}{61}{chapter.6}
 \contentsline {section}{\numberline {6.1}点云滤波}{61}{section.6.1}
 \contentsline {subsection}{\numberline {6.1.1}点云滤波概述}{61}{subsection.6.1.1}
-\contentsline {paragraph}{点云滤波的目的}{61}{paragraph*.197}
-\contentsline {paragraph}{基于LiDAR数据生成DEM的工作}{61}{paragraph*.198}
-\contentsline {paragraph}{点云(距离数据)空间分布特征}{61}{paragraph*.199}
-\contentsline {paragraph}{基于高程突变的的滤波方法基本前提}{61}{paragraph*.200}
-\contentsline {paragraph}{自动滤波算法的难点}{61}{paragraph*.201}
-\contentsline {paragraph}{滤波精度分析方法}{62}{paragraph*.203}
-\contentsline {paragraph}{LiDAR点云滤波研究现状}{62}{paragraph*.204}
-\contentsline {paragraph}{滤波算法研究趋势}{62}{paragraph*.206}
+\contentsline {paragraph}{点云滤波的目的}{61}{paragraph*.2}
+\contentsline {paragraph}{基于LiDAR数据生成DEM的工作}{61}{paragraph*.3}
+\contentsline {paragraph}{点云(距离数据)空间分布特征}{61}{paragraph*.4}
+\contentsline {paragraph}{基于高程突变的的滤波方法基本前提}{61}{paragraph*.5}
+\contentsline {paragraph}{自动滤波算法的难点}{61}{paragraph*.6}
+\contentsline {paragraph}{滤波精度分析方法}{62}{paragraph*.8}
+\contentsline {paragraph}{LiDAR点云滤波研究现状}{62}{paragraph*.9}
+\contentsline {paragraph}{滤波算法研究趋势}{62}{paragraph*.11}
 \contentsline {subsection}{\numberline {6.1.2}典型滤波方法}{62}{subsection.6.1.2}
-\contentsline {paragraph}{\kaishu {一维双向扫描标记法}}{62}{paragraph*.207}
-\contentsline {paragraph}{\kaishu {TopScan算法}}{63}{paragraph*.209}
-\contentsline {paragraph}{\kaishu {基于多分辨率方向预测的点云滤波算法}}{64}{paragraph*.210}
-\contentsline {paragraph}{\kaishu {移动曲面滤波方法}}{64}{paragraph*.212}
-\contentsline {paragraph}{\kaishu {基于TIN加密的点云滤波方法}}{65}{paragraph*.214}
-\contentsline {paragraph}{其他滤波算法}{65}{paragraph*.215}
+\contentsline {paragraph}{\kaishu {一维双向扫描标记法}}{62}{paragraph*.12}
+\contentsline {paragraph}{\kaishu {TopScan算法}}{63}{paragraph*.14}
+\contentsline {paragraph}{\kaishu {基于多分辨率方向预测的点云滤波算法}}{64}{paragraph*.15}
+\contentsline {paragraph}{\kaishu {移动曲面滤波方法}}{64}{paragraph*.17}
+\contentsline {paragraph}{\kaishu {基于TIN加密的点云滤波方法}}{65}{paragraph*.19}
+\contentsline {paragraph}{其他滤波算法}{65}{paragraph*.20}
 \contentsline {subsection}{\numberline {6.1.3}DEM生成}{65}{subsection.6.1.3}
-\contentsline {paragraph}{DEM内插}{65}{paragraph*.216}
-\contentsline {paragraph}{DEM模型}{66}{paragraph*.217}
+\contentsline {paragraph}{DEM内插}{65}{paragraph*.21}
+\contentsline {paragraph}{DEM模型}{66}{paragraph*.22}
 \contentsline {subsection}{\numberline {6.1.4}精度分析}{66}{subsection.6.1.4}
-\contentsline {paragraph}{叠加对比分析}{66}{paragraph*.218}
-\contentsline {paragraph}{抽样统计分析}{66}{paragraph*.220}
-\contentsline {paragraph}{LiDAR的优势}{66}{paragraph*.222}
-\contentsline {paragraph}{建议}{67}{paragraph*.223}
+\contentsline {paragraph}{叠加对比分析}{66}{paragraph*.23}
+\contentsline {paragraph}{抽样统计分析}{66}{paragraph*.25}
+\contentsline {paragraph}{LiDAR的优势}{66}{paragraph*.27}
+\contentsline {paragraph}{建议}{67}{paragraph*.28}
 \contentsline {section}{\numberline {6.2}强度数据处理}{67}{section.6.2}
 \contentsline {subsection}{\numberline {6.2.1}强度数据特点}{67}{subsection.6.2.1}
 \contentsline {subsection}{\numberline {6.2.2}强度数据校正}{68}{subsection.6.2.2}
 \contentsline {subsection}{\numberline {6.2.3}强度图像生成处理}{68}{subsection.6.2.3}
 \contentsline {subsection}{\numberline {6.2.4}应用案例}{68}{subsection.6.2.4}
 \contentsline {section}{\numberline {6.3}基于LiDAR数据的建筑物提取}{68}{section.6.3}
-\contentsline {paragraph}{建筑物提取的方法}{68}{paragraph*.224}
-\contentsline {paragraph}{两种提取方法的不同}{69}{paragraph*.225}
+\contentsline {paragraph}{建筑物提取的方法}{68}{paragraph*.29}
+\contentsline {paragraph}{两种提取方法的不同}{69}{paragraph*.30}
 \contentsline {subsection}{\numberline {6.3.1}建筑物检测（分割）}{69}{subsection.6.3.1}
-\contentsline {paragraph}{\kaishu {分割}}{69}{paragraph*.226}
-\contentsline {paragraph}{一般步骤}{69}{paragraph*.227}
-\contentsline {paragraph}{现有分割方法}{69}{paragraph*.228}
-\contentsline {paragraph}{涉及的处理方法}{70}{paragraph*.229}
+\contentsline {paragraph}{\kaishu {分割}}{69}{paragraph*.31}
+\contentsline {paragraph}{一般步骤}{69}{paragraph*.32}
+\contentsline {paragraph}{现有分割方法}{69}{paragraph*.33}
+\contentsline {paragraph}{涉及的处理方法}{70}{paragraph*.34}
 \contentsline {subsection}{\numberline {6.3.2}建筑物模型的生成（重建）}{70}{subsection.6.3.2}
-\contentsline {paragraph}{任务}{70}{paragraph*.230}
-\contentsline {paragraph}{现状}{70}{paragraph*.231}
-\contentsline {paragraph}{建筑物提取的典型方法}{70}{paragraph*.232}
-\contentsline {paragraph}{\kaishu {基于三角网的房屋模型重建方法}}{70}{paragraph*.233}
-\contentsline {paragraph}{\kaishu {利用不变矩提取房屋模型}}{71}{paragraph*.234}
-\contentsline {paragraph}{\kaishu {自适应迭代的DSM影像分割方法}}{72}{paragraph*.235}
-\contentsline {paragraph}{\kaishu {基于边界表达的建筑物模型重建方法}}{72}{paragraph*.236}
+\contentsline {paragraph}{任务}{70}{paragraph*.35}
+\contentsline {paragraph}{现状}{70}{paragraph*.36}
+\contentsline {paragraph}{建筑物提取的典型方法}{70}{paragraph*.37}
+\contentsline {paragraph}{\kaishu {基于三角网的房屋模型重建方法}}{70}{paragraph*.38}
+\contentsline {paragraph}{\kaishu {利用不变矩提取房屋模型}}{71}{paragraph*.39}
+\contentsline {paragraph}{\kaishu {自适应迭代的DSM影像分割方法}}{72}{paragraph*.40}
+\contentsline {paragraph}{\kaishu {基于边界表达的建筑物模型重建方法}}{72}{paragraph*.41}
 \contentsline {subsection}{\numberline {6.3.3}三维重建质量检查}{74}{subsection.6.3.3}
-\contentsline {paragraph}{城市三维重建误差来源}{74}{paragraph*.239}
-\contentsline {paragraph}{三维重建质量检查}{74}{paragraph*.241}
-\contentsline {paragraph}{质量控制策略}{74}{paragraph*.242}
+\contentsline {paragraph}{城市三维重建误差来源}{74}{paragraph*.44}
+\contentsline {paragraph}{三维重建质量检查}{74}{paragraph*.46}
+\contentsline {paragraph}{质量控制策略}{74}{paragraph*.47}
+\contentsline {section}{\numberline {6.4}基于LiDAR的道路提取*}{75}{section.6.4}
+\contentsline {section}{\numberline {6.5}分类、变化检测及波形处理}{75}{section.6.5}
+\contentsline {subsection}{\numberline {6.5.1}LiDAR点云分类}{75}{subsection.6.5.1}
+\contentsline {paragraph}{地物目标分类}{75}{paragraph*.48}
+\contentsline {paragraph}{目标对象的定义}{75}{paragraph*.49}
+\contentsline {paragraph}{地物点数据的几何特点}{75}{paragraph*.51}
+\contentsline {paragraph}{LiDAR数据分类依据}{76}{paragraph*.52}
+\contentsline {paragraph}{LiDAR分类规则}{76}{paragraph*.53}
+\contentsline {paragraph}{地物的强度信息}{76}{paragraph*.54}
+\contentsline {paragraph}{影像特征辅助点云分类}{76}{paragraph*.55}
+\contentsline {subsection}{\numberline {6.5.2}变化检测}{77}{subsection.6.5.2}
+\contentsline {paragraph}{\kaishu {变化检测}}{77}{paragraph*.56}
+\contentsline {paragraph}{地物几何变化的表现形式}{77}{paragraph*.57}
+\contentsline {paragraph}{变化监测的主要内容}{77}{paragraph*.59}
+\contentsline {paragraph}{变化监测方法分类}{77}{paragraph*.60}
+\contentsline {paragraph}{基于变化检测实现城市空间信息数据库的更新}{78}{paragraph*.64}
+\contentsline {subsection}{\numberline {6.5.3}数码影像处理}{78}{subsection.6.5.3}
+\contentsline {paragraph}{LiDAR系统的数码影像}{78}{paragraph*.65}
+\contentsline {paragraph}{\kaishu {真正射影像}}{78}{paragraph*.66}
+\contentsline {paragraph}{真正射影像纠正原理}{79}{paragraph*.67}
+\contentsline {paragraph}{数字正射纠正的两种方式}{79}{paragraph*.69}
+\contentsline {paragraph}{存在的问题}{79}{paragraph*.71}
+\contentsline {paragraph}{解决方案}{79}{paragraph*.72}
+\contentsline {section}{\numberline {6.6}波形处理技术}{80}{section.6.6}
+\contentsline {paragraph}{激光信号的特点}{80}{paragraph*.73}
+\contentsline {paragraph}{激光回波数据处理}{80}{paragraph*.74}
+\contentsline {paragraph}{多次回波数据处理}{80}{paragraph*.76}
+\contentsline {paragraph}{全波形数据处理}{81}{paragraph*.77}
+\contentsline {paragraph}{波形数据分解}{81}{paragraph*.79}
 \contentsfinish 
