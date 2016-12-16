@@ -285,30 +285,45 @@
 \paragraph{摆镜扫描}Leica、Optech采用的扫描方式。如图\ref{fig:摆镜扫描方式}所示。
 \begin{figure}[htbp]
 	\centering
-	\includegraphics[width=0.7\linewidth]{figure/Chapter1/摆镜扫描方式}
+	\includegraphics[width=0.5\linewidth]{figure/Chapter1/摆镜扫描方式}
 	\caption{摆镜扫描方式图示}
 	\label{fig:摆镜扫描方式}
 \end{figure}
 \paragraph{旋转棱镜扫描}Toposys Harrier、Riegl、IGS采用。如图\ref{fig:旋转棱镜扫描方式}所示。
 \begin{figure}[htbp]
 	\centering
-	\includegraphics[width=0.7\linewidth]{figure/Chapter1/旋转棱镜扫描方式}
+	\includegraphics[width=0.5\linewidth]{figure/Chapter1/旋转棱镜扫描方式}
 	\caption{旋转棱镜扫描方式}
 	\label{fig:旋转棱镜扫描方式}
 \end{figure}
 \paragraph{光线扫描方式}Toposys Falcon系列。如图\ref{fig:光纤扫描方式}所示。
 \begin{figure}[htbp]
 	\centering
-	\includegraphics[width=0.7\linewidth]{figure/Chapter1/光纤扫描方式}
+	\includegraphics[width=0.5\linewidth]{figure/Chapter1/光纤扫描方式}
 	\caption{光纤扫描方式}
 	\label{fig:光纤扫描方式}
 \end{figure}
 \paragraph{圆锥镜扫描方式}opEye MK 系列、国产三维激光成像仪采用。如图\ref{fig:圆锥镜扫描方式}所示。
+%\begin{figure}[htbp]
+%	\centering
+%	\subfloat[圆锥镜扫描原理]{\includegraphics[height=4cm]{figure/Chapter1/圆锥镜扫描_原理}}\hspace{3em}
+%	\subfloat[圆锥镜扫描脚点形状]{\vspace{0.75cm}\includegraphics[height=2.5cm]{figure/Chapter1/圆锥镜扫描_脚点}\vspace{0.75cm}}
+%	\caption{圆锥镜扫描方式}。
+%	\label{fig:圆锥镜扫描方式}
+%\end{figure}
+\newsavebox{\tempbox}
 \begin{figure}[htbp]
 	\centering
-	\subfloat[圆锥镜扫描原理]{\includegraphics[height=4cm]{figure/Chapter1/圆锥镜扫描_原理}}
-	\subfloat[圆锥镜扫描脚点形状]{\includegraphics[height=4cm]{figure/Chapter1/圆锥镜扫描_脚点}}
-	\caption{圆锥镜扫描方式}。
+	\sbox{\tempbox}{\includegraphics[height=4cm]{figure/Chapter1/圆锥镜扫描_原理}}
+	\subfloat[圆锥镜扫描原理]{\usebox{\tempbox}}
+	\subfloat[圆锥镜扫描脚点]{
+		\vbox to \ht\tempbox{
+			\vfil
+			\includegraphics[height=2.5cm]{figure/Chapter1/圆锥镜扫描_脚点}
+			\vfil
+		}
+	}
+	\caption{圆锥镜扫描方式}
 	\label{fig:圆锥镜扫描方式}
 \end{figure}
 \section{机载激光三维测量系统对比}

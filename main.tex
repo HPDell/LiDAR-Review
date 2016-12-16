@@ -16,7 +16,7 @@
 	}
 }
 %% hyperref设置
-\hypersetup{pdfborder=0 0 0}
+\hypersetup{colorlinks=true,bookmarksnumbered=true}
 
 %%%%<!-------------------- 增加功能 -------------------->
 %% ams宏包
@@ -36,6 +36,8 @@ BoldItalicFont = *-bolditalic,
       BoldFont = *bold,
       bold-style = ISO
 ]{xits-math}
+%% 定义粗楷体
+\newcommand{\cukai}{\bfseries\kaishu} % 粗楷体
 %% 图片宏包
 \usepackage{graphicx}
 %% 化学式宏包
@@ -70,6 +72,8 @@ BoldItalicFont = *-bolditalic,
 \newcommand{\ddfrac}[2]{\dfrac{\displaystyle{{#1}}}{\displaystyle{{#2}}}}
 
 %%%%<!-------------------- 格式设置 -------------------->
+%% 允许公式跨页
+\allowdisplaybreaks
 %% subsubsection编号
 \setcounter{secnumdepth}{3}
 %% 调整段落和页面格式
@@ -97,7 +101,7 @@ BoldItalicFont = *-bolditalic,
 
 %%%%<!-------------------- 文档设置 -------------------->
 %% 包含文件
-\includeonly{Chapter07-地面及星载激光遥感技术}
+%\includeonly{Chapter06-LiDAR数据处理}
 
 %% 文档属性
 \title{\heiti{\Huge{激光遥感复习整理}}}
@@ -125,7 +129,7 @@ BoldItalicFont = *-bolditalic,
 	{\large \LaTeX \par}
 \end{titlepage}
 
-%\doctableofcontents %% 目录
+\doctableofcontents %% 目录
 %% 正文开始
 \include{Chapter01-绪论}
 \include{Chapter02-激光及激光雷达系统}
@@ -134,5 +138,6 @@ BoldItalicFont = *-bolditalic,
 \include{Chapter05-LiDAR工程数据获取}
 \include{Chapter06-LiDAR数据处理}
 \include{Chapter07-地面及星载激光遥感技术}
-
+\include{Chapter08-LiDAR数据误差分析及处理}
+%\include{test}
 \end{document}

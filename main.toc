@@ -59,141 +59,141 @@
 \contentsline {paragraph}{固体可调谐激光器}{16}{paragraph*.55}
 \contentsline {subsection}{\numberline {2.2.3}半导体二极管激光器}{17}{subsection.2.2.3}
 \contentsline {paragraph}{半导体二极管激光器的特点}{17}{paragraph*.56}
-\contentsline {paragraph}{半导体二极管激光器的工作原理}{17}{paragraph*.58}
+\contentsline {paragraph}{半导体二极管激光器的工作原理}{17}{paragraph*.57}
 \contentsline {section}{\numberline {2.3}激光雷达系统}{18}{section.2.3}
 \contentsline {subsection}{\numberline {2.3.1}激光雷达系统概述}{18}{subsection.2.3.1}
-\contentsline {paragraph}{激光雷达的产生}{18}{paragraph*.61}
-\contentsline {paragraph}{激光雷达的特点}{18}{paragraph*.62}
-\contentsline {paragraph}{激光雷达的要求}{18}{paragraph*.63}
-\contentsline {paragraph}{激光雷达系统的分类}{18}{paragraph*.64}
-\contentsline {paragraph}{双视场米氏散射激光雷达}{20}{paragraph*.65}
-\contentsline {paragraph}{激光雷达系统的结构}{20}{paragraph*.66}
-\contentsline {subsection}{\numberline {2.3.2}光束整形}{20}{subsection.2.3.2}
-\contentsline {paragraph}{光束整形}{20}{paragraph*.69}
-\contentsline {paragraph}{光束整形的方法}{20}{paragraph*.71}
-\contentsline {subsection}{\numberline {2.3.3}激光扫描}{21}{subsection.2.3.3}
-\contentsline {paragraph}{激光扫描}{21}{paragraph*.72}
-\contentsline {paragraph}{激光扫描技术的分类}{21}{paragraph*.73}
-\contentsline {paragraph}{衍射光学元件(DOE)}{21}{paragraph*.74}
+\contentsline {paragraph}{激光雷达的产生}{18}{paragraph*.59}
+\contentsline {paragraph}{激光雷达的特点}{18}{paragraph*.60}
+\contentsline {paragraph}{激光雷达的要求}{18}{paragraph*.61}
+\contentsline {paragraph}{激光雷达系统的分类}{18}{paragraph*.62}
+\contentsline {paragraph}{双视场米氏散射激光雷达}{19}{paragraph*.63}
+\contentsline {paragraph}{激光雷达系统的结构}{19}{paragraph*.64}
+\contentsline {subsection}{\numberline {2.3.2}光束整形}{19}{subsection.2.3.2}
+\contentsline {paragraph}{光束整形}{19}{paragraph*.67}
+\contentsline {paragraph}{光束整形的方法}{20}{paragraph*.69}
+\contentsline {subsection}{\numberline {2.3.3}激光扫描}{20}{subsection.2.3.3}
+\contentsline {paragraph}{激光扫描}{20}{paragraph*.70}
+\contentsline {paragraph}{激光扫描技术的分类}{20}{paragraph*.71}
+\contentsline {paragraph}{衍射光学元件(DOE)}{21}{paragraph*.72}
 \contentsline {subsection}{\numberline {2.3.4}信号接收的探测技术}{21}{subsection.2.3.4}
-\contentsline {paragraph}{直接探测}{21}{paragraph*.76}
-\contentsline {paragraph}{相干探测}{22}{paragraph*.77}
-\contentsline {paragraph}{接收孔直径}{23}{paragraph*.81}
+\contentsline {paragraph}{直接探测}{21}{paragraph*.74}
+\contentsline {paragraph}{相干探测}{21}{paragraph*.75}
+\contentsline {paragraph}{接收孔直径}{22}{paragraph*.79}
 \contentsline {section}{\numberline {2.4}激光信号的大气衰减}{23}{section.2.4}
-\contentsline {paragraph}{激光的大气干扰}{23}{paragraph*.82}
-\contentsline {paragraph}{激光大气干扰的表现}{23}{paragraph*.83}
-\contentsline {paragraph}{激光雷达的性能}{23}{paragraph*.84}
-\contentsline {subsection}{\numberline {2.4.1}大气衰减效应}{24}{subsection.2.4.1}
-\contentsline {paragraph}{布格埃—朗伯特定律}{24}{paragraph*.85}
-\contentsline {paragraph}{大气透过率}{24}{paragraph*.86}
-\contentsline {paragraph}{总的衰减系数}{24}{paragraph*.87}
-\contentsline {subsection}{\numberline {2.4.2}大气折射效应}{25}{subsection.2.4.2}
-\contentsline {paragraph}{大气折射效应}{25}{paragraph*.88}
-\contentsline {paragraph}{折射率}{25}{paragraph*.89}
+\contentsline {paragraph}{激光的大气干扰}{23}{paragraph*.80}
+\contentsline {paragraph}{激光大气干扰的表现}{23}{paragraph*.81}
+\contentsline {paragraph}{激光雷达的性能}{23}{paragraph*.82}
+\contentsline {subsection}{\numberline {2.4.1}大气衰减效应}{23}{subsection.2.4.1}
+\contentsline {paragraph}{布格埃—朗伯特定律}{23}{paragraph*.83}
+\contentsline {paragraph}{大气透过率}{23}{paragraph*.84}
+\contentsline {paragraph}{总的衰减系数}{23}{paragraph*.85}
+\contentsline {subsection}{\numberline {2.4.2}大气折射效应}{24}{subsection.2.4.2}
+\contentsline {paragraph}{大气折射效应}{24}{paragraph*.86}
+\contentsline {paragraph}{折射率}{25}{paragraph*.87}
 \contentsline {section}{\numberline {2.5}激光雷达系统能量方程}{25}{section.2.5}
-\contentsline {paragraph}{激光雷达方程}{25}{paragraph*.90}
-\contentsline {paragraph}{激光雷达方程的一般形式}{26}{paragraph*.91}
-\contentsline {paragraph}{单脉冲稳频激光雷达}{26}{paragraph*.92}
+\contentsline {paragraph}{激光雷达方程}{25}{paragraph*.88}
+\contentsline {paragraph}{激光雷达方程的一般形式}{25}{paragraph*.89}
+\contentsline {paragraph}{单脉冲稳频激光雷达}{25}{paragraph*.90}
 \contentsline {chapter}{\numberline {第3章\hspace {0.3em}}机载LiDAR数据获取基本原理}{27}{chapter.3}
-\contentsline {paragraph}{机载LiDAR系统工作原理}{27}{paragraph*.93}
-\contentsline {paragraph}{关键技术}{27}{paragraph*.95}
+\contentsline {paragraph}{机载LiDAR系统工作原理}{27}{paragraph*.91}
+\contentsline {paragraph}{关键技术}{27}{paragraph*.93}
 \contentsline {section}{\numberline {3.1}激光测距}{28}{section.3.1}
-\contentsline {paragraph}{机载LiDAR系统对测距仪的要求}{28}{paragraph*.96}
-\contentsline {paragraph}{激光测距基本原理}{28}{paragraph*.97}
+\contentsline {paragraph}{机载LiDAR系统对测距仪的要求}{28}{paragraph*.94}
+\contentsline {paragraph}{激光测距基本原理}{28}{paragraph*.95}
 \contentsline {subsection}{\numberline {3.1.1}测距方式}{28}{subsection.3.1.1}
-\contentsline {paragraph}{脉冲测距}{28}{paragraph*.99}
-\contentsline {paragraph}{连续波相位差测距}{29}{paragraph*.101}
-\contentsline {paragraph}{结论}{30}{paragraph*.103}
+\contentsline {paragraph}{脉冲测距}{28}{paragraph*.97}
+\contentsline {paragraph}{连续波相位差测距}{29}{paragraph*.99}
+\contentsline {paragraph}{结论}{30}{paragraph*.101}
 \contentsline {subsection}{\numberline {3.1.2}测距精度和信噪比}{30}{subsection.3.1.2}
-\contentsline {paragraph}{测距精度和信噪比的关系}{30}{paragraph*.104}
-\contentsline {paragraph}{信噪比}{30}{paragraph*.105}
-\contentsline {paragraph}{两种测距方式的精度}{31}{paragraph*.107}
-\contentsline {paragraph}{现状}{31}{paragraph*.108}
-\contentsline {paragraph}{测距误差}{31}{paragraph*.109}
+\contentsline {paragraph}{测距精度和信噪比的关系}{30}{paragraph*.102}
+\contentsline {paragraph}{信噪比}{30}{paragraph*.103}
+\contentsline {paragraph}{两种测距方式的精度}{31}{paragraph*.105}
+\contentsline {paragraph}{现状}{31}{paragraph*.106}
+\contentsline {paragraph}{测距误差}{31}{paragraph*.107}
 \contentsline {subsection}{\numberline {3.1.3}功率}{32}{subsection.3.1.3}
-\contentsline {paragraph}{峰值功率与平均功率}{32}{paragraph*.110}
-\contentsline {paragraph}{发射功率与接受功率}{32}{paragraph*.111}
+\contentsline {paragraph}{峰值功率与平均功率}{32}{paragraph*.108}
+\contentsline {paragraph}{发射功率与接受功率}{32}{paragraph*.109}
 \contentsline {subsection}{\numberline {3.1.4}体积}{33}{subsection.3.1.4}
 \contentsline {subsection}{\numberline {3.1.5}波长}{33}{subsection.3.1.5}
-\contentsline {paragraph}{选择波长的依据}{33}{paragraph*.112}
-\contentsline {paragraph}{常见LiDAR系统的激光波长}{33}{paragraph*.113}
+\contentsline {paragraph}{选择波长的依据}{33}{paragraph*.110}
+\contentsline {paragraph}{常见LiDAR系统的激光波长}{33}{paragraph*.111}
 \contentsline {section}{\numberline {3.2}全球定位系统技术}{33}{section.3.2}
-\contentsline {paragraph}{全球定位系统}{33}{paragraph*.115}
-\contentsline {paragraph}{GPS定位原理}{33}{paragraph*.116}
-\contentsline {paragraph}{GPS的组成}{33}{paragraph*.117}
-\contentsline {paragraph}{GPS的优点}{34}{paragraph*.119}
-\contentsline {paragraph}{GPS定位分类}{34}{paragraph*.120}
-\contentsline {paragraph}{GPS精度影响因素}{34}{paragraph*.121}
-\contentsline {paragraph}{LiDAR系统的GPS技术}{35}{paragraph*.122}
-\contentsline {paragraph}{LiDAR系统中GPS的作用}{35}{paragraph*.123}
+\contentsline {paragraph}{全球定位系统}{33}{paragraph*.113}
+\contentsline {paragraph}{GPS定位原理}{33}{paragraph*.114}
+\contentsline {paragraph}{GPS的组成}{33}{paragraph*.115}
+\contentsline {paragraph}{GPS的优点}{34}{paragraph*.117}
+\contentsline {paragraph}{GPS定位分类}{34}{paragraph*.118}
+\contentsline {paragraph}{GPS精度影响因素}{34}{paragraph*.119}
+\contentsline {paragraph}{LiDAR系统的GPS技术}{35}{paragraph*.120}
+\contentsline {paragraph}{LiDAR系统中GPS的作用}{35}{paragraph*.121}
 \contentsline {section}{\numberline {3.3}惯性测量系统技术}{35}{section.3.3}
 \contentsline {subsection}{\numberline {3.3.1}惯性导航系统}{35}{subsection.3.3.1}
-\contentsline {paragraph}{基本原理}{35}{paragraph*.124}
-\contentsline {paragraph}{作用}{35}{paragraph*.126}
-\contentsline {paragraph}{惯性测量单元}{35}{paragraph*.127}
+\contentsline {paragraph}{基本原理}{35}{paragraph*.122}
+\contentsline {paragraph}{作用}{35}{paragraph*.124}
+\contentsline {paragraph}{惯性测量单元}{35}{paragraph*.125}
 \contentsline {subsection}{\numberline {3.3.2}IMU与DGPS组合定位技术}{36}{subsection.3.3.2}
-\contentsline {paragraph}{DGPS技术的特点}{36}{paragraph*.128}
-\contentsline {paragraph}{IMU技术的特点}{36}{paragraph*.129}
-\contentsline {paragraph}{POS系统}{36}{paragraph*.130}
+\contentsline {paragraph}{DGPS技术的特点}{36}{paragraph*.126}
+\contentsline {paragraph}{IMU技术的特点}{36}{paragraph*.127}
+\contentsline {paragraph}{POS系统}{36}{paragraph*.128}
 \contentsline {section}{\numberline {3.4}高性能二维扫描技术}{36}{section.3.4}
 \contentsline {subsection}{\numberline {3.4.1}机载LiDAR系统四种典型的扫描方式}{36}{subsection.3.4.1}
 \contentsline {subsection}{\numberline {3.4.2}扫描线形状}{36}{subsection.3.4.2}
-\contentsline {paragraph}{分类}{38}{paragraph*.135}
+\contentsline {paragraph}{分类}{38}{paragraph*.133}
 \contentsline {section}{\numberline {3.5}LiDAR数据获取处理}{38}{section.3.5}
-\contentsline {paragraph}{机载LiDAR获取的数据}{38}{paragraph*.136}
+\contentsline {paragraph}{机载LiDAR获取的数据}{38}{paragraph*.134}
 \contentsline {subsection}{\numberline {3.5.1}离线时间同步方案}{38}{subsection.3.5.1}
 \contentsline {subsection}{\numberline {3.5.2}机载LiDAR系统对地定位方程}{39}{subsection.3.5.2}
-\contentsline {paragraph}{摆镜扫描对地定位方程}{39}{paragraph*.138}
-\contentsline {paragraph}{椭圆扫描定位方程}{39}{paragraph*.139}
+\contentsline {paragraph}{摆镜扫描对地定位方程}{39}{paragraph*.136}
+\contentsline {paragraph}{椭圆扫描定位方程}{39}{paragraph*.137}
 \contentsline {section}{\numberline {3.6}机载LiDAR数据获取新技术}{39}{section.3.6}
-\contentsline {paragraph}{数字化全波形技术}{39}{paragraph*.140}
-\contentsline {paragraph}{空中内插多脉冲技术}{39}{paragraph*.142}
-\contentsline {paragraph}{双扫描仪组合技术}{39}{paragraph*.144}
+\contentsline {paragraph}{数字化全波形技术}{39}{paragraph*.138}
+\contentsline {paragraph}{空中内插多脉冲技术}{39}{paragraph*.140}
+\contentsline {paragraph}{双扫描仪组合技术}{39}{paragraph*.142}
 \contentsline {chapter}{\numberline {第4章\hspace {0.3em}}机载LiDAR数据获取基本原理}{41}{chapter.4}
 \contentsline {section}{\numberline {4.1}数据获取重要参数}{41}{section.4.1}
 \contentsline {subsection}{\numberline {4.1.1}LiDAR数据获取重要参数的作用}{41}{subsection.4.1.1}
 \contentsline {subsection}{\numberline {4.1.2}参数类型}{41}{subsection.4.1.2}
-\contentsline {paragraph}{\kaishu {瞬时视场角(instantaneous field of view, IFOV)}}{41}{paragraph*.146}
-\contentsline {paragraph}{\kaishu {视场角(Field Of View, FOV)}}{41}{paragraph*.147}
-\contentsline {paragraph}{\kaishu {脉冲频率}}{41}{paragraph*.148}
-\contentsline {paragraph}{\kaishu {扫描频率}}{41}{paragraph*.149}
-\contentsline {paragraph}{\kaishu {垂直分辨率}}{41}{paragraph*.150}
-\contentsline {paragraph}{\kaishu {最大飞行高度（最大量测距离）}}{41}{paragraph*.151}
-\contentsline {paragraph}{\kaishu {最小飞行高度}}{41}{paragraph*.152}
-\contentsline {paragraph}{\kaishu {激光脚点光斑特性}}{41}{paragraph*.153}
-\contentsline {paragraph}{\kaishu {扫描带宽SW}}{43}{paragraph*.156}
-\contentsline {paragraph}{\kaishu {扫描行的点数$ N $}}{43}{paragraph*.157}
-\contentsline {paragraph}{\kaishu {激光脚点间距(Point Space)}}{43}{paragraph*.158}
-\contentsline {paragraph}{\kaishu {最少航带数}}{44}{paragraph*.161}
-\contentsline {paragraph}{\kaishu {实际量测面积}}{45}{paragraph*.162}
-\contentsline {paragraph}{\kaishu {量测点密度}}{45}{paragraph*.163}
-\contentsline {paragraph}{\kaishu {量测点数据量}}{45}{paragraph*.164}
-\contentsline {paragraph}{\kaishu {发射及接收激光束间隔内的飞行距离}}{45}{paragraph*.165}
-\contentsline {paragraph}{\kaishu {过采样和欠采样}}{45}{paragraph*.166}
+\contentsline {paragraph}{\kaishu {瞬时视场角(instantaneous field of view, IFOV)}}{41}{paragraph*.144}
+\contentsline {paragraph}{\kaishu {视场角(Field Of View, FOV)}}{41}{paragraph*.145}
+\contentsline {paragraph}{\kaishu {脉冲频率}}{41}{paragraph*.146}
+\contentsline {paragraph}{\kaishu {扫描频率}}{41}{paragraph*.147}
+\contentsline {paragraph}{\kaishu {垂直分辨率}}{41}{paragraph*.148}
+\contentsline {paragraph}{\kaishu {最大飞行高度（最大量测距离）}}{41}{paragraph*.149}
+\contentsline {paragraph}{\kaishu {最小飞行高度}}{41}{paragraph*.150}
+\contentsline {paragraph}{\kaishu {激光脚点光斑特性}}{41}{paragraph*.151}
+\contentsline {paragraph}{\kaishu {扫描带宽SW}}{43}{paragraph*.154}
+\contentsline {paragraph}{\kaishu {扫描行的点数$ N $}}{43}{paragraph*.155}
+\contentsline {paragraph}{\kaishu {激光脚点间距(Point Space)}}{43}{paragraph*.156}
+\contentsline {paragraph}{\kaishu {最少航带数}}{44}{paragraph*.159}
+\contentsline {paragraph}{\kaishu {实际量测面积}}{45}{paragraph*.160}
+\contentsline {paragraph}{\kaishu {量测点密度}}{45}{paragraph*.161}
+\contentsline {paragraph}{\kaishu {量测点数据量}}{45}{paragraph*.162}
+\contentsline {paragraph}{\kaishu {发射及接收激光束间隔内的飞行距离}}{45}{paragraph*.163}
+\contentsline {paragraph}{\kaishu {过采样和欠采样}}{45}{paragraph*.164}
 \contentsline {section}{\numberline {4.2}常用商业LiDAR系统}{45}{section.4.2}
-\contentsline {paragraph}{Leica公司LiDAR设备}{45}{paragraph*.167}
-\contentsline {paragraph}{Optech公司LiDAR设备}{45}{paragraph*.168}
-\contentsline {paragraph}{Riegl公司LiDAR设备}{45}{paragraph*.169}
+\contentsline {paragraph}{Leica公司LiDAR设备}{45}{paragraph*.165}
+\contentsline {paragraph}{Optech公司LiDAR设备}{45}{paragraph*.166}
+\contentsline {paragraph}{Riegl公司LiDAR设备}{45}{paragraph*.167}
 \contentsline {chapter}{\numberline {第5章\hspace {0.3em}}LiDAR工程数据获取}{47}{chapter.5}
-\contentsline {paragraph}{LiDAR工程步骤}{47}{paragraph*.170}
-\contentsline {paragraph}{LiDAR数据获取综述}{47}{paragraph*.172}
-\contentsline {paragraph}{三个阶段八个方面}{47}{paragraph*.173}
+\contentsline {paragraph}{LiDAR工程步骤}{47}{paragraph*.168}
+\contentsline {paragraph}{LiDAR数据获取综述}{47}{paragraph*.170}
+\contentsline {paragraph}{三个阶段八个方面}{47}{paragraph*.171}
 \contentsline {section}{\numberline {5.1}LiDAR数据获取流程}{47}{section.5.1}
 \contentsline {subsection}{\numberline {5.1.1}计划准备阶段}{47}{subsection.5.1.1}
-\contentsline {paragraph}{飞行准备}{47}{paragraph*.175}
-\contentsline {paragraph}{航线设计}{48}{paragraph*.177}
-\contentsline {paragraph}{检校场的布设、量测}{49}{paragraph*.179}
-\contentsline {paragraph}{设备安装与测试}{50}{paragraph*.182}
+\contentsline {paragraph}{飞行准备}{47}{paragraph*.173}
+\contentsline {paragraph}{航线设计}{48}{paragraph*.175}
+\contentsline {paragraph}{检校场的布设、量测}{49}{paragraph*.177}
+\contentsline {paragraph}{设备安装与测试}{50}{paragraph*.180}
 \contentsline {subsection}{\numberline {5.1.2}航飞实施阶段}{52}{subsection.5.1.2}
-\contentsline {paragraph}{基站架设与地面配合}{52}{paragraph*.184}
-\contentsline {paragraph}{飞行操作与数据采集}{52}{paragraph*.185}
+\contentsline {paragraph}{基站架设与地面配合}{52}{paragraph*.182}
+\contentsline {paragraph}{飞行操作与数据采集}{52}{paragraph*.183}
 \contentsline {subsection}{\numberline {5.1.3}数据整理阶段}{52}{subsection.5.1.3}
-\contentsline {paragraph}{数据检查与质量控制}{52}{paragraph*.187}
-\contentsline {paragraph}{数据预处理}{53}{paragraph*.188}
-\contentsline {paragraph}{调整航带间点云不一致}{54}{paragraph*.191}
-\contentsline {paragraph}{坐标变换}{54}{paragraph*.193}
-\contentsline {paragraph}{文件生成}{54}{paragraph*.194}
-\contentsline {paragraph}{点云数据特点}{55}{paragraph*.195}
+\contentsline {paragraph}{数据检查与质量控制}{52}{paragraph*.185}
+\contentsline {paragraph}{数据预处理}{53}{paragraph*.186}
+\contentsline {paragraph}{调整航带间点云不一致}{54}{paragraph*.189}
+\contentsline {paragraph}{坐标变换}{54}{paragraph*.191}
+\contentsline {paragraph}{文件生成}{54}{paragraph*.192}
+\contentsline {paragraph}{点云数据特点}{55}{paragraph*.193}
 \contentsline {section}{\numberline {5.2}LiDAR技术与同类技术对比}{55}{section.5.2}
 \contentsline {subsection}{\numberline {5.2.1}摄影测量与LiDAR的主要差异}{55}{subsection.5.2.1}
 \contentsline {subsection}{\numberline {5.2.2}LiDAR技术的优势}{59}{subsection.5.2.2}
@@ -201,81 +201,148 @@
 \contentsline {chapter}{\numberline {第6章\hspace {0.3em}}LiDAR数据处理}{61}{chapter.6}
 \contentsline {section}{\numberline {6.1}点云滤波}{61}{section.6.1}
 \contentsline {subsection}{\numberline {6.1.1}点云滤波概述}{61}{subsection.6.1.1}
-\contentsline {paragraph}{点云滤波的目的}{61}{paragraph*.2}
-\contentsline {paragraph}{基于LiDAR数据生成DEM的工作}{61}{paragraph*.3}
-\contentsline {paragraph}{点云(距离数据)空间分布特征}{61}{paragraph*.4}
-\contentsline {paragraph}{基于高程突变的的滤波方法基本前提}{61}{paragraph*.5}
-\contentsline {paragraph}{自动滤波算法的难点}{61}{paragraph*.6}
-\contentsline {paragraph}{滤波精度分析方法}{62}{paragraph*.8}
-\contentsline {paragraph}{LiDAR点云滤波研究现状}{62}{paragraph*.9}
-\contentsline {paragraph}{滤波算法研究趋势}{62}{paragraph*.11}
+\contentsline {paragraph}{点云滤波的目的}{61}{paragraph*.195}
+\contentsline {paragraph}{基于LiDAR数据生成DEM的工作}{61}{paragraph*.196}
+\contentsline {paragraph}{点云(距离数据)空间分布特征}{61}{paragraph*.197}
+\contentsline {paragraph}{基于高程突变的的滤波方法基本前提}{61}{paragraph*.198}
+\contentsline {paragraph}{自动滤波算法的难点}{61}{paragraph*.199}
+\contentsline {paragraph}{滤波精度分析方法}{62}{paragraph*.201}
+\contentsline {paragraph}{LiDAR点云滤波研究现状}{62}{paragraph*.202}
+\contentsline {paragraph}{滤波算法研究趋势}{62}{paragraph*.204}
 \contentsline {subsection}{\numberline {6.1.2}典型滤波方法}{62}{subsection.6.1.2}
-\contentsline {paragraph}{\kaishu {一维双向扫描标记法}}{62}{paragraph*.12}
-\contentsline {paragraph}{\kaishu {TopScan算法}}{63}{paragraph*.14}
-\contentsline {paragraph}{\kaishu {基于多分辨率方向预测的点云滤波算法}}{64}{paragraph*.15}
-\contentsline {paragraph}{\kaishu {移动曲面滤波方法}}{64}{paragraph*.17}
-\contentsline {paragraph}{\kaishu {基于TIN加密的点云滤波方法}}{65}{paragraph*.19}
-\contentsline {paragraph}{其他滤波算法}{65}{paragraph*.20}
+\contentsline {paragraph}{\kaishu {一维双向扫描标记法}}{62}{paragraph*.205}
+\contentsline {paragraph}{\kaishu {TopScan算法}}{63}{paragraph*.207}
+\contentsline {paragraph}{\kaishu {基于多分辨率方向预测的点云滤波算法}}{64}{paragraph*.208}
+\contentsline {paragraph}{\kaishu {移动曲面滤波方法}}{64}{paragraph*.210}
+\contentsline {paragraph}{\kaishu {基于TIN加密的点云滤波方法}}{65}{paragraph*.212}
+\contentsline {paragraph}{其他滤波算法}{65}{paragraph*.213}
 \contentsline {subsection}{\numberline {6.1.3}DEM生成}{65}{subsection.6.1.3}
-\contentsline {paragraph}{DEM内插}{65}{paragraph*.21}
-\contentsline {paragraph}{DEM模型}{66}{paragraph*.22}
+\contentsline {paragraph}{DEM内插}{65}{paragraph*.214}
+\contentsline {paragraph}{DEM模型}{66}{paragraph*.215}
 \contentsline {subsection}{\numberline {6.1.4}精度分析}{66}{subsection.6.1.4}
-\contentsline {paragraph}{叠加对比分析}{66}{paragraph*.23}
-\contentsline {paragraph}{抽样统计分析}{66}{paragraph*.25}
-\contentsline {paragraph}{LiDAR的优势}{66}{paragraph*.27}
-\contentsline {paragraph}{建议}{67}{paragraph*.28}
+\contentsline {paragraph}{叠加对比分析}{66}{paragraph*.216}
+\contentsline {paragraph}{抽样统计分析}{66}{paragraph*.218}
+\contentsline {paragraph}{LiDAR的优势}{66}{paragraph*.220}
+\contentsline {paragraph}{建议}{67}{paragraph*.221}
 \contentsline {section}{\numberline {6.2}强度数据处理}{67}{section.6.2}
 \contentsline {subsection}{\numberline {6.2.1}强度数据特点}{67}{subsection.6.2.1}
 \contentsline {subsection}{\numberline {6.2.2}强度数据校正}{68}{subsection.6.2.2}
 \contentsline {subsection}{\numberline {6.2.3}强度图像生成处理}{68}{subsection.6.2.3}
 \contentsline {subsection}{\numberline {6.2.4}应用案例}{68}{subsection.6.2.4}
 \contentsline {section}{\numberline {6.3}基于LiDAR数据的建筑物提取}{68}{section.6.3}
-\contentsline {paragraph}{建筑物提取的方法}{68}{paragraph*.29}
-\contentsline {paragraph}{两种提取方法的不同}{69}{paragraph*.30}
+\contentsline {paragraph}{建筑物提取的方法}{68}{paragraph*.222}
+\contentsline {paragraph}{两种提取方法的不同}{69}{paragraph*.223}
 \contentsline {subsection}{\numberline {6.3.1}建筑物检测（分割）}{69}{subsection.6.3.1}
-\contentsline {paragraph}{\kaishu {分割}}{69}{paragraph*.31}
-\contentsline {paragraph}{一般步骤}{69}{paragraph*.32}
-\contentsline {paragraph}{现有分割方法}{69}{paragraph*.33}
-\contentsline {paragraph}{涉及的处理方法}{70}{paragraph*.34}
+\contentsline {paragraph}{\kaishu {分割}}{69}{paragraph*.224}
+\contentsline {paragraph}{一般步骤}{69}{paragraph*.225}
+\contentsline {paragraph}{现有分割方法}{69}{paragraph*.226}
+\contentsline {paragraph}{涉及的处理方法}{70}{paragraph*.227}
 \contentsline {subsection}{\numberline {6.3.2}建筑物模型的生成（重建）}{70}{subsection.6.3.2}
-\contentsline {paragraph}{任务}{70}{paragraph*.35}
-\contentsline {paragraph}{现状}{70}{paragraph*.36}
-\contentsline {paragraph}{建筑物提取的典型方法}{70}{paragraph*.37}
-\contentsline {paragraph}{\kaishu {基于三角网的房屋模型重建方法}}{70}{paragraph*.38}
-\contentsline {paragraph}{\kaishu {利用不变矩提取房屋模型}}{71}{paragraph*.39}
-\contentsline {paragraph}{\kaishu {自适应迭代的DSM影像分割方法}}{72}{paragraph*.40}
-\contentsline {paragraph}{\kaishu {基于边界表达的建筑物模型重建方法}}{72}{paragraph*.41}
+\contentsline {paragraph}{任务}{70}{paragraph*.228}
+\contentsline {paragraph}{现状}{70}{paragraph*.229}
+\contentsline {paragraph}{建筑物提取的典型方法}{70}{paragraph*.230}
+\contentsline {paragraph}{\kaishu {基于三角网的房屋模型重建方法}}{70}{paragraph*.231}
+\contentsline {paragraph}{\kaishu {利用不变矩提取房屋模型}}{71}{paragraph*.232}
+\contentsline {paragraph}{\kaishu {自适应迭代的DSM影像分割方法}}{72}{paragraph*.233}
+\contentsline {paragraph}{\kaishu {基于边界表达的建筑物模型重建方法}}{72}{paragraph*.234}
 \contentsline {subsection}{\numberline {6.3.3}三维重建质量检查}{74}{subsection.6.3.3}
-\contentsline {paragraph}{城市三维重建误差来源}{74}{paragraph*.44}
-\contentsline {paragraph}{三维重建质量检查}{74}{paragraph*.46}
-\contentsline {paragraph}{质量控制策略}{74}{paragraph*.47}
-\contentsline {section}{\numberline {6.4}基于LiDAR的道路提取*}{75}{section.6.4}
-\contentsline {section}{\numberline {6.5}分类、变化检测及波形处理}{75}{section.6.5}
-\contentsline {subsection}{\numberline {6.5.1}LiDAR点云分类}{75}{subsection.6.5.1}
-\contentsline {paragraph}{地物目标分类}{75}{paragraph*.48}
-\contentsline {paragraph}{目标对象的定义}{75}{paragraph*.49}
-\contentsline {paragraph}{地物点数据的几何特点}{75}{paragraph*.51}
-\contentsline {paragraph}{LiDAR数据分类依据}{76}{paragraph*.52}
-\contentsline {paragraph}{LiDAR分类规则}{76}{paragraph*.53}
-\contentsline {paragraph}{地物的强度信息}{76}{paragraph*.54}
-\contentsline {paragraph}{影像特征辅助点云分类}{76}{paragraph*.55}
-\contentsline {subsection}{\numberline {6.5.2}变化检测}{77}{subsection.6.5.2}
-\contentsline {paragraph}{\kaishu {变化检测}}{77}{paragraph*.56}
-\contentsline {paragraph}{地物几何变化的表现形式}{77}{paragraph*.57}
-\contentsline {paragraph}{变化监测的主要内容}{77}{paragraph*.59}
-\contentsline {paragraph}{变化监测方法分类}{77}{paragraph*.60}
-\contentsline {paragraph}{基于变化检测实现城市空间信息数据库的更新}{78}{paragraph*.64}
-\contentsline {subsection}{\numberline {6.5.3}数码影像处理}{78}{subsection.6.5.3}
-\contentsline {paragraph}{LiDAR系统的数码影像}{78}{paragraph*.65}
-\contentsline {paragraph}{\kaishu {真正射影像}}{78}{paragraph*.66}
-\contentsline {paragraph}{真正射影像纠正原理}{79}{paragraph*.67}
-\contentsline {paragraph}{数字正射纠正的两种方式}{79}{paragraph*.69}
-\contentsline {paragraph}{存在的问题}{79}{paragraph*.71}
-\contentsline {paragraph}{解决方案}{79}{paragraph*.72}
-\contentsline {section}{\numberline {6.6}波形处理技术}{80}{section.6.6}
-\contentsline {paragraph}{激光信号的特点}{80}{paragraph*.73}
-\contentsline {paragraph}{激光回波数据处理}{80}{paragraph*.74}
-\contentsline {paragraph}{多次回波数据处理}{80}{paragraph*.76}
-\contentsline {paragraph}{全波形数据处理}{81}{paragraph*.77}
-\contentsline {paragraph}{波形数据分解}{81}{paragraph*.79}
+\contentsline {paragraph}{城市三维重建误差来源}{74}{paragraph*.237}
+\contentsline {paragraph}{三维重建质量检查}{74}{paragraph*.239}
+\contentsline {paragraph}{质量控制策略}{74}{paragraph*.240}
+\contentsline {section}{\numberline {6.4}基于LiDAR的道路提取}{75}{section.6.4}
+\contentsline {subsection}{\numberline {6.4.1}道路特征及道路提取}{75}{subsection.6.4.1}
+\contentsline {paragraph}{城市道路的主要特征}{75}{paragraph*.241}
+\contentsline {paragraph}{道路提取方法}{75}{paragraph*.242}
+\contentsline {paragraph}{道路特征提取}{75}{paragraph*.243}
+\contentsline {paragraph}{道路提取评价指标}{75}{paragraph*.244}
+\contentsline {subsection}{\numberline {6.4.2}基于LiDAR点云的道路特征提取}{76}{subsection.6.4.2}
+\contentsline {subsubsection}{\numberline {6.4.2.1}基于点云高程与强度约束的多尺度道路提取}{76}{subsubsection.6.4.2.1}
+\contentsline {paragraph}{提取流程图}{76}{paragraph*.245}
+\contentsline {paragraph}{高程约束}{76}{paragraph*.247}
+\contentsline {paragraph}{强度约束}{76}{paragraph*.248}
+\contentsline {paragraph}{道路条带优化处理}{76}{paragraph*.249}
+\contentsline {paragraph}{道路曲线简化处理}{77}{paragraph*.251}
+\contentsline {paragraph}{道路轮廓线的自适应提取}{77}{paragraph*.253}
+\contentsline {subsubsection}{\numberline {6.4.2.2}基于相位编码圆盘的道路提取方法}{77}{subsubsection.6.4.2.2}
+\contentsline {paragraph}{基本步骤}{77}{paragraph*.254}
+\contentsline {paragraph}{提取道路特征矢量线}{78}{paragraph*.256}
+\contentsline {paragraph}{提取效果}{78}{paragraph*.258}
+\contentsline {section}{\numberline {6.5}分类、变化检测及波形处理}{79}{section.6.5}
+\contentsline {subsection}{\numberline {6.5.1}LiDAR点云分类}{79}{subsection.6.5.1}
+\contentsline {paragraph}{地物目标分类}{79}{paragraph*.260}
+\contentsline {paragraph}{目标对象的定义}{79}{paragraph*.261}
+\contentsline {paragraph}{地物点数据的几何特点}{79}{paragraph*.263}
+\contentsline {paragraph}{LiDAR数据分类依据}{80}{paragraph*.264}
+\contentsline {paragraph}{LiDAR分类规则}{80}{paragraph*.265}
+\contentsline {paragraph}{地物的强度信息}{81}{paragraph*.266}
+\contentsline {paragraph}{影像特征辅助点云分类}{81}{paragraph*.267}
+\contentsline {subsection}{\numberline {6.5.2}变化检测}{81}{subsection.6.5.2}
+\contentsline {paragraph}{\kaishu {变化检测}}{81}{paragraph*.268}
+\contentsline {paragraph}{地物几何变化的表现形式}{81}{paragraph*.269}
+\contentsline {paragraph}{变化监测的主要内容}{81}{paragraph*.271}
+\contentsline {paragraph}{变化监测方法分类}{81}{paragraph*.272}
+\contentsline {paragraph}{基于变化检测实现城市空间信息数据库的更新}{83}{paragraph*.276}
+\contentsline {subsection}{\numberline {6.5.3}数码影像处理}{83}{subsection.6.5.3}
+\contentsline {paragraph}{LiDAR系统的数码影像}{83}{paragraph*.277}
+\contentsline {paragraph}{\kaishu {真正射影像}}{83}{paragraph*.278}
+\contentsline {paragraph}{真正射影像纠正原理}{83}{paragraph*.279}
+\contentsline {paragraph}{数字正射纠正的两种方式}{83}{paragraph*.281}
+\contentsline {paragraph}{存在的问题}{83}{paragraph*.283}
+\contentsline {paragraph}{解决方案}{84}{paragraph*.284}
+\contentsline {section}{\numberline {6.6}波形处理技术}{84}{section.6.6}
+\contentsline {paragraph}{激光信号的特点}{84}{paragraph*.285}
+\contentsline {paragraph}{激光回波数据处理}{84}{paragraph*.286}
+\contentsline {paragraph}{多次回波数据处理}{84}{paragraph*.288}
+\contentsline {paragraph}{全波形数据处理}{85}{paragraph*.289}
+\contentsline {paragraph}{波形数据分解}{86}{paragraph*.291}
+\contentsline {chapter}{\numberline {第7章\hspace {0.3em}}地面及星载激光遥感技术}{89}{chapter.7}
+\contentsline {section}{\numberline {7.1}地面激光扫描系统(TLS)}{89}{section.7.1}
+\contentsline {subsection}{\numberline {7.1.1}地面激光扫描系统的工作原理}{89}{subsection.7.1.1}
+\contentsline {subsection}{\numberline {7.1.2}地面激光扫描系统分类}{89}{subsection.7.1.2}
+\contentsline {subsection}{\numberline {7.1.3}地面激光扫描系统的应用}{90}{subsection.7.1.3}
+\contentsline {subsection}{\numberline {7.1.4}案例：基于TLS技术的古建筑三维重建}{91}{subsection.7.1.4}
+\contentsline {paragraph}{重建的必要性}{91}{paragraph*.292}
+\contentsline {paragraph}{TLS技术的优势}{91}{paragraph*.293}
+\contentsline {paragraph}{步骤}{91}{paragraph*.294}
+\contentsline {section}{\numberline {7.2}星载LiDAR系统}{91}{section.7.2}
+\contentsline {paragraph}{星载激光遥感系统主要应用}{91}{paragraph*.296}
+\contentsline {paragraph}{国内外典型星载激光遥感系统}{92}{paragraph*.297}
+\contentsline {paragraph}{星载LiDAR数据处理及林业应用}{92}{paragraph*.298}
+\contentsline {chapter}{\numberline {第8章\hspace {0.3em}}LiDAR数据误差分析及处理}{93}{chapter.8}
+\contentsline {section}{\numberline {8.1}LiDAR数据误差源}{93}{section.8.1}
+\contentsline {subsection}{\numberline {8.1.1}量测误差}{93}{subsection.8.1.1}
+\contentsline {subsection}{\numberline {8.1.2}集成误差}{94}{subsection.8.1.2}
+\contentsline {section}{\numberline {8.2}误差的分析}{96}{section.8.2}
+\contentsline {subsection}{\numberline {8.2.1}误差的定性定量分析}{96}{subsection.8.2.1}
+\contentsline {paragraph}{测距误差}{96}{paragraph*.303}
+\contentsline {paragraph}{扫描角误差}{97}{paragraph*.304}
+\contentsline {paragraph}{系统安置误差}{97}{paragraph*.305}
+\contentsline {paragraph}{姿态测定误差}{97}{paragraph*.306}
+\contentsline {paragraph}{GPS定位误差}{97}{paragraph*.307}
+\contentsline {paragraph}{时间偏差}{97}{paragraph*.308}
+\contentsline {subsection}{\numberline {8.2.2}误差整体分析}{98}{subsection.8.2.2}
+\contentsline {paragraph}{LiDAR点云定位方程}{98}{paragraph*.309}
+\contentsline {paragraph}{通用构像方程}{98}{paragraph*.310}
+\contentsline {paragraph}{线扫描误差的影响}{98}{paragraph*.311}
+\contentsline {paragraph}{总结}{98}{paragraph*.312}
+\contentsline {section}{\numberline {8.3}误差处理}{98}{section.8.3}
+\contentsline {subsection}{\numberline {8.3.1}LiDAR误差检测及消除}{98}{subsection.8.3.1}
+\contentsline {subsubsection}{\numberline {8.3.1.1}建立误差改正模型}{99}{subsubsection.8.3.1.1}
+\contentsline {subsubsection}{\numberline {8.3.1.2}检校}{99}{subsubsection.8.3.1.2}
+\contentsline {paragraph}{检校的原则}{99}{paragraph*.313}
+\contentsline {paragraph}{检校的两种状态}{99}{paragraph*.314}
+\contentsline {paragraph}{视准轴误差的检校}{99}{paragraph*.315}
+\contentsline {subsubsection}{\numberline {8.3.1.3}条带平差改正}{102}{subsubsection.8.3.1.3}
+\contentsline {paragraph}{原理}{102}{paragraph*.321}
+\contentsline {paragraph}{方法}{102}{paragraph*.323}
+\contentsline {paragraph}{难点}{102}{paragraph*.324}
+\contentsline {paragraph}{效果}{102}{paragraph*.325}
+\contentsline {subsection}{\numberline {8.3.2}LiDAR工程实践中的误差分析及处理}{102}{subsection.8.3.2}
+\contentsline {subsubsection}{\numberline {8.3.2.1}误差分析}{102}{subsubsection.8.3.2.1}
+\contentsline {subsubsection}{\numberline {8.3.2.2}误差评估}{103}{subsubsection.8.3.2.2}
+\contentsline {paragraph}{误差评估的方法}{103}{paragraph*.327}
+\contentsline {paragraph}{可视化检查}{103}{paragraph*.328}
+\contentsline {paragraph}{航带叠加分析}{104}{paragraph*.330}
+\contentsline {paragraph}{参照现有高程数据}{105}{paragraph*.334}
+\contentsline {paragraph}{参照已有的地形图}{105}{paragraph*.336}
 \contentsfinish 

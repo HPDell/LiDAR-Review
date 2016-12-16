@@ -637,7 +637,200 @@ P_r = \dfrac{P_t D_r^2 \rho}{4R^2} \cos \theta_i \eta_{\text{sys}} \eta _{\text{
 		\end{itemize}
 \end{enumerate}
 
-\section{基于LiDAR的道路提取*}
+\section{基于LiDAR的道路提取}
+\subsection{道路特征及道路提取}
+\paragraph{城市道路的主要特征}
+\begin{itemize}
+	\item 几何(Geometric)特征
+	\item 灰度/辐射(Photometric)特征
+	\item 拓扑(Topologic)特征
+	\item 功能(Functional)特征
+	\item 上下文/关联(Contextual)特征
+\end{itemize}
+
+\paragraph{道路提取方法}
+\begin{itemize}
+	\item 基于影像的道路提取方法
+	\begin{itemize}
+		\item 低分辨率道路检测
+		\item 高分辨率道路检测
+		\item 多尺度道路检测
+	\end{itemize}
+	\item 基于LiDAR数据的道路提取方法
+	\begin{itemize}
+		\item 直接基于LiDAR数据
+		\item 结合辅助数据
+		\item 结合GIS数据库信息
+		\item 结合高分辨率影像
+	\end{itemize}
+\end{itemize}
+
+\paragraph{道路特征提取}包括道路中心线、道路轮廓线以及道路宽度的提取等。
+\begin{itemize}
+	\item \textbf{预处理}：形态学闭操作。
+	\item \textbf{道路中点的检测}：细化处理。
+	\item \textbf{道路中线提取}：基于多尺度的道路中线追踪。
+\end{itemize}
+
+\paragraph{道路提取评价指标}
+\begin{enumerate}
+	\item 完整度指标(Completeness)
+		\begin{equation}
+		R_{\text{Completeness}} = \dfrac{TP}{TP + FN}
+		\end{equation}
+	\item 正确度指标(Correctness)
+		\begin{equation}
+		R_{\text{Correctness}} = \dfrac{TP}{TP + FP}
+		\end{equation}
+	\item 遗漏度指标(Miss)
+		\begin{equation}
+		R_{\text{Miss}} = \dfrac{FN}{TP + FP}
+		\end{equation}
+	\item 冗余度指标(Redundance)
+		\begin{equation}
+		R_{\text{Redundance}} = \dfrac{FP}{TP + FP}
+		\end{equation}
+	\item 总质量指标(Quality)
+		\begin{equation}
+		R_{\text{Quality}} = \dfrac{TP}{TP + FP + FN}
+		\end{equation}
+\end{enumerate}
+
+\subsection{基于LiDAR点云的道路特征提取}
+\subsubsection{基于点云高程与强度约束的多尺度道路提取}
+\paragraph{提取流程图}如图所示。
+\begin{figure}[htbp]
+	\centering
+	\includegraphics[width=0.3\linewidth]{figure/Chapter6/基于点云高程与强度约束的多尺度提取流程}
+	\caption{基于点云高程与强度约束的多尺度提取流程}
+	\label{fig:基于点云高程与强度约束的多尺度提取流程}
+\end{figure}
+
+\paragraph{高程约束}
+\begin{equation}
+S_1 = \left\lbrace Z_k \in S \left| ∀Z_k : Z_{\min} < Z_k < Z_{\max} \right. \right\rbrace 
+\end{equation}
+提取结果如图\ref{fig:高程约束提取道路点}所示。
+
+\paragraph{强度约束}
+\begin{enumerate}
+	\item \textbf{预处理}：
+		\begin{itemize}
+			\item 粗差剔除
+			\item 平滑处理
+		\end{itemize}
+	\item \textbf{强度约束公式}
+		\begin{equation}
+		S_2 = \left\lbrace I_k \in S_1 \left| ∀I_k : I_{\min} < I_k < I_{\max}  \right. \right\rbrace 
+		\end{equation}
+\end{enumerate}
+处理结果如图\ref{fig:强度约束提取道路点}
+
+\paragraph{道路条带优化处理}
+\begin{itemize}
+	\item {\cukai 基于密度的孤立噪声点剔除}
+		\begin{equation}
+		S_3 = \left\lbrace D_k \in S_2 \left| ∀D_k : D_{\text{th}} < D_{(k,r)}  \right. \right\rbrace 
+		\end{equation}
+	\item {\cukai 基于面积的孤立区域剔除}
+		\begin{itemize}
+			\item 点云拓扑关系构建
+			\item 区域连通性分析
+			\item 面积阈值分割
+		\end{itemize}
+\end{itemize}
+处理结果如图\ref{fig:条带优化处理}
+\begin{figure}[htbp]
+	\centering
+	\subfloat[原始点云渲染图]{\includegraphics[height=3cm]{figure/Chapter8/基于点云高程与强度约束的多尺度提取原始点云}\label{fig:原始点云渲染图}} \hfill
+	\subfloat[高程约束提取道路点]{\includegraphics[height=3cm]{figure/Chapter6/高程约束提取道路点}\label{fig:高程约束提取道路点}} \hfill
+	\subfloat[强度约束提取道路点]{\includegraphics[height=3cm]{figure/Chapter6/强度约束提取道路点}\label{fig:强度约束提取道路点}} \hfill
+	\subfloat[条带优化处理]{\includegraphics[height=3cm]{figure/Chapter6/条带优化处理}\label{fig:条带优化处理}} \hfill
+	\subfloat[道路轮廓线自适应提取]{\includegraphics[height=3cm]{figure/Chapter6/道路轮廓线自适应提取}\label{fig:道路轮廓线自适应提取}}
+	\caption{基于点云高程与强度约束的多尺度提取}
+	\label{fig:基于点云高程与强度约束的多尺度提取}
+\end{figure}
+
+\paragraph{道路曲线简化处理}Douglas-Peucker算法
+\begin{enumerate}
+	\item 第1步到第2步的结果，$ C $为最远点（图\ref{fig:DP-a}）。
+	\item 第3步到第2步的结果，上一步的$ C $现为$ B $（图\ref{fig:DP-b}）。
+	\item 为简化的结果，其中，$ d $为距离阈值（图\ref{fig:DP-c}）。
+\end{enumerate}
+\begin{figure}[htbp]
+	\centering
+	\subfloat[]{\includegraphics[width=0.5\linewidth]{figure/Chapter6/Douglas-Peucker算法a}\label{fig:DP-a}}\\
+	\subfloat[]{\includegraphics[width=0.5\linewidth]{figure/Chapter6/Douglas-Peucker算法b}\label{fig:DP-b}}\\
+	\subfloat[]{\includegraphics[width=0.5\linewidth]{figure/Chapter6/Douglas-Peucker算法c}\label{fig:DP-c}}\\
+	\caption{Douglas-Peuckera算法}
+	\label{fig:douglas-peuckera}
+\end{figure}
+
+\paragraph{道路轮廓线的自适应提取}
+
+\subsubsection{基于相位编码圆盘的道路提取方法}
+\paragraph{基本步骤}
+\begin{itemize}
+	\item 基于高程的道路点约束提取（常采用滤波处理）
+	\item 基于强度的道路点约束提取
+	\item 基于数学形态学、相位编码圆盘的道路特征提取
+\end{itemize}
+\begin{figure}[htbp]
+	\centering
+	\includegraphics[width=0.3\linewidth,angle=90]{figure/Chapter6/相位编码圆盘步骤1}
+	\includegraphics[width=0.3\linewidth,angle=90]{figure/Chapter6/相位编码圆盘步骤2}
+	\caption{基于相位编码圆盘的道路提取方法步骤}
+	\label{fig:基于相位编码圆盘的道路提取方法步骤}
+\end{figure}
+
+\paragraph{提取道路特征矢量线}
+\begin{enumerate}
+	\item 利用相位编码圆盘（图\ref{fig:相位编码圆盘}）与之卷积
+		\begin{equation}
+		Q(x,y) = f(x,y) ⊗ O_{ \text{PCD}}(x,y)
+		\end{equation}
+		其中，$ O_{\text{PCD}}(x,y) = e^{\symrm{j}γ(x,y)} $，$ γ(x,y) = 2 \tan^{-1} (y,x) $。
+	\item 经过卷积可以得到幅度图像（\ref{fig:路段幅度图}）和相位图像，进一步可以得到道路的特征矢量线
+		\begin{itemize}
+			\item 幅度图像的计算
+				\begin{equation}
+				M = \left| f(x,y) ⊗  O_{ \text{PCD}}(x,y) \right|
+				\end{equation}
+			\item 相位图像的计算
+				\begin{equation}
+				\varphi = \dfrac{1}{2} \arg (f(x,y) ⊗  O_{ \text{PCD}}(x,y))
+				\end{equation}
+		\end{itemize}
+	\item 道路特征矢量线的生成
+		\begin{itemize}
+			\item {\cukai 道路中心线}：连接道路中心线段，形成道路网（图\ref{fig:道路中心线段}）。
+			\item {\cukai 道路双边线}：以中心线为标准，半路宽为距离作平行线（路宽可由卷积算法自动导出）。
+		\end{itemize}
+\end{enumerate}
+\begin{figure}
+	\centering
+	\subfloat[相位编码圆盘]{\includegraphics[height=3cm]{figure/Chapter6/相位编码圆盘}\label{fig:相位编码圆盘}} \hfill
+	\subfloat[路段灰度图]{\includegraphics[height=3cm]{figure/Chapter6/路段灰度图}\label{fig:路段灰度图}} \hfill
+	\subfloat[路段幅度图]{\includegraphics[height=3cm]{figure/Chapter6/路段幅度图}\label{fig:路段幅度图}} \hfill
+	\subfloat[道路中心线段]{\includegraphics[height=3cm]{figure/Chapter6/道路中心线段}\label{fig:道路中心线段}} \hfill
+	\caption{利用相位编码圆盘提取道路特征矢量线}
+	\label{fig:利用相位编码圆盘提取道路特征矢量线}
+\end{figure}
+
+\paragraph{提取效果}如图\ref{fig:基于相位编码圆盘的道路提取方法效果}所示。
+\begin{figure}
+	\centering
+	\subfloat[测区路段灰度图]{\includegraphics[height=4.5cm]{figure/Chapter6/测区路段灰度图}} \hfill
+	\subfloat[卷积处理得到的道路中心线]{\includegraphics[height=4.5cm]{figure/Chapter6/卷及处理得到的道路中心线}} \hfill
+	\subfloat[卷积处理得到的道路轮廓线]{\includegraphics[height=4.5cm]{figure/Chapter6/卷积处理得到的道路轮廓线}}
+	\\
+	\subfloat[道路中心线与影像的叠加效果]{\includegraphics[height=4.3cm]{figure/Chapter6/道路中心线与影像的叠加效果}} \hfill
+	\subfloat[道路轮廓线与影像的叠加效果]{\includegraphics[height=4.3cm]{figure/Chapter6/道路轮廓线与影像的叠加效果}} \hfill
+	\subfloat[提取道路不连续]{\includegraphics[height=4.3cm]{figure/Chapter6/提取道路不连续}}
+	\caption{基于相位编码圆盘的道路提取方法效果}
+	\label{fig:基于相位编码圆盘的道路提取方法效果}
+\end{figure}
+
 
 \section{分类、变化检测及波形处理}
 
@@ -769,7 +962,7 @@ P_r = \dfrac{P_t D_r^2 \rho}{4R^2} \cos \theta_i \eta_{\text{sys}} \eta _{\text{
 
 \begin{figure}
 	\centering
-	\includegraphics[width=0.7\linewidth]{figure/Chapter6/地物几何变化的表现形式}
+	\includegraphics[width=0.5\linewidth]{figure/Chapter6/地物几何变化的表现形式}
 	\caption{地物几何变化的表现形式}
 	\label{fig:地物几何变化的表现形式}
 \end{figure}

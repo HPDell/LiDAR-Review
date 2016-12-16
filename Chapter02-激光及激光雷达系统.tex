@@ -272,12 +272,6 @@
 	\item 完全不同的物理机制。
 	\item 半导体材料中的电子智能存在于两个能带之一，每个能带所包含的能级数等于晶体中的原子数。根据Pauli不相容原理，每个能级上只能有一个电子。
 	\item 半导体材料多是晶体结构。当大量原子规则而紧密地结合成晶体时，晶体中那些价电子都处在晶体能带\footnote{价电子所处的能带称\textit{价带}（对应较低能量）。与价带最近的高能带称\textit{导带}，能带之间的空域称为\textit{禁带}}上。本征半导体的能带结构如图\ref{fig:本征半导体能带结构}所示。
-		\begin{figure}[htbp]
-			\centering
-			\includegraphics[width=0.3\linewidth]{figure/Chapter2/本征半导体能带结构}
-			\caption{本征半导体能带结构}
-			\label{fig:本征半导体能带结构}
-		\end{figure}
 	\item 电子不能再两个能带之间（禁带）驻留。
 	\item 没有杂质的纯净半导体，称为本征半导体。
 \end{itemize}
@@ -287,20 +281,22 @@
 	\item 如果在本征半导体中掺入杂质原子，则在导带之下和价带之上形成了杂质能级，分别称为施主能级和受主能级。
 		有施主能级的半导体称为\textit{n-型半导体}；有受主能级的半导体称为\textit{p-型半导体}。
 	\item 由于p-半导体与n-半导体所处能级不一致，高低能级的载流子作扩散运动，最终形成\textit{p-n结}，此时处于热平衡状态，具有统一的Fermi能级。该过程如图\ref{fig:p-n结}所示。
-		\begin{figure}[htbp]
-			\centering
-			\includegraphics[width=0.5\linewidth]{figure/Chapter2/P-N结}
-			\caption{p-n结}
-			\label{fig:p-n结}
-		\end{figure}
 	\item 若加偏压,在结区形成窄区域，导带（高能级）底部能级被电子占据, 价带（低能级）顶部被空穴占据；当导带电子回到价带, 与空穴发生受激复合时就产生了激光。该过程如图\ref{fig:p-n结产生激光}所示。
-		\begin{figure}[htbp]
-			\centering
-			\includegraphics[width=0.5\linewidth]{figure/Chapter2/p-n结产生激光}
-			\caption{p-n结产生激光}
-			\label{fig:p-n结产生激光}
-		\end{figure}
+%		\begin{figure}[htbp]
+%			\centering
+%			\includegraphics[width=0.5\linewidth]{figure/Chapter2/p-n结产生激光}
+%			\caption{p-n结产生激光}
+%			\label{fig:p-n结产生激光}
+%		\end{figure}
 \end{enumerate}
+\begin{figure}[htbp]
+	\centering
+	\subfloat[本征半导体能带结构]{\includegraphics[height=3.7cm]{figure/Chapter2/本征半导体能带结构}\label{fig:本征半导体能带结构}}
+	\hfill
+	\subfloat[P-N结]{\includegraphics[height=3.7cm]{figure/Chapter2/P-N结}\label{fig:p-n结}}
+	\hfill
+	\subfloat[p-n结产生激光]{\includegraphics[height=3.7cm]{figure/Chapter2/p-n结产生激光}\label{fig:p-n结产生激光}}
+\end{figure}
 
 \section{激光雷达系统} % Section 3	激光雷达系统
 \subsection{激光雷达系统概述} % SubSection 3.1	激光雷达系统概述
@@ -364,21 +360,21 @@
 
 \paragraph{激光雷达系统的结构} 
 \begin{itemize}
-	\item \textit{双稳系统}：发射部分和接收部分分开放置，目的是为了提高空间分辨率。由于目前脉宽为ns级的激光已达到很高空间分辨率，因此该系统已经很少被采用。双稳系统结构框图如图所示。
-		\begin{figure}[htbp]
-			\centering
-			\includegraphics[width=0.7\linewidth]{figure/Chapter2/双稳系统的结构框图}
-			\caption{双稳系统的结构框图}
-			\label{fig:双稳系统的结构框图}
-		\end{figure}
-	\item \textit{单稳系统}：发射与接收信号共用一光学子系统，由发送/接收(T/R)开关隔开。单稳系统结构框图如图所示。
-		\begin{figure}[htbp]
-			\centering
-			\includegraphics[width=0.7\linewidth]{figure/Chapter2/单稳系统的结构框图}
-			\caption{单稳系统的结构框图}
-			\label{fig:单稳系统的结构框图}
-		\end{figure}
+	\item \textit{双稳系统}：发射部分和接收部分分开放置，目的是为了提高空间分辨率。由于目前脉宽为ns级的激光已达到很高空间分辨率，因此该系统已经很少被采用。双稳系统结构框图如图\ref{fig:双稳系统的结构框图}所示。
+	\item \textit{单稳系统}：发射与接收信号共用一光学子系统，由发送/接收(T/R)开关隔开。单稳系统结构框图如图\ref{fig:单稳系统的结构框图}所示。
 \end{itemize}
+\begin{figure}[htbp]
+	\centering
+	\includegraphics[width=0.7\linewidth]{figure/Chapter2/双稳系统的结构框图}
+	\caption{双稳系统的结构框图}
+	\label{fig:双稳系统的结构框图}
+\end{figure}
+\begin{figure}[htbp]
+	\centering
+	\includegraphics[width=0.7\linewidth]{figure/Chapter2/单稳系统的结构框图}
+	\caption{单稳系统的结构框图}
+	\label{fig:单稳系统的结构框图}
+\end{figure}
 
 \subsection{光束整形} % Subsection 3.2	光束整形
 
@@ -431,7 +427,7 @@
 		系统接收到的回波信号与来自本地振荡器的参考信号混合之后，由混频器输出的光束聚焦到探测器上然后再进行信号处理。原理如图\ref{fig:外差探测}所示。
 		\begin{figure}[htbp]
 			\centering
-			\includegraphics[width=0.5\linewidth]{figure/Chapter2/外差探测}
+			\includegraphics[width=0.4\linewidth]{figure/Chapter2/外差探测}
 			\caption{外差探测原理}
 			\label{fig:外差探测}
 		\end{figure}
