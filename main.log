@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99996 (TeX Live 2016) (preloaded format=xelatex 2016.10.20)  16 DEC 2016 13:27
+This is XeTeX, Version 3.14159265-2.6-0.99996 (TeX Live 2016) (preloaded format=xelatex 2016.10.20)  17 DEC 2016 21:22
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2956,51 +2956,55 @@ Overfull \hbox (1.1301pt too wide) in alignment at lines 17--19
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 77--77
+Underfull \hbox (badness 10000) in paragraph at lines 76--76
 []|\EU1/xits(0)/m/sc/10.95 DTM \EU1/STSongti-SC-Regular(0)/m/n/10.95 和
  []
 
 
-Underfull \hbox (badness 6204) in paragraph at lines 82--83
+Underfull \hbox (badness 6204) in paragraph at lines 81--82
 []|\EU1/STSongti-SC-Regular(0)/m/n/10.95 量 测 点 的
  []
 
 
-Underfull \hbox (badness 6204) in paragraph at lines 82--83
+Underfull \hbox (badness 6204) in paragraph at lines 81--82
 \EU1/STSongti-SC-Regular(0)/m/n/10.95 密 度 和 分
  []
 
 
-Underfull \hbox (badness 6204) in paragraph at lines 86--87
+Underfull \hbox (badness 6204) in paragraph at lines 85--86
 []|\EU1/STSongti-SC-Regular(0)/m/n/10.95 量 测 方 式
  []
 
 
-Underfull \hbox (badness 6204) in paragraph at lines 93--94
+Underfull \hbox (badness 6204) in paragraph at lines 92--93
 []|\EU1/STSongti-SC-Regular(0)/m/n/10.95 航 高 对 精
  []
 
 
-Underfull \hbox (badness 6204) in paragraph at lines 96--97
+Underfull \hbox (badness 6204) in paragraph at lines 95--96
 []|\EU1/STSongti-SC-Regular(0)/m/n/10.95 平 面 精 度
  []
 
 
-Underfull \hbox (badness 6204) in paragraph at lines 96--97
+Underfull \hbox (badness 6204) in paragraph at lines 95--96
 \EU1/STSongti-SC-Regular(0)/m/n/10.95 与 高 程 精
  []
 
 
-Underfull \hbox (badness 6204) in paragraph at lines 102--103
+Underfull \hbox (badness 6204) in paragraph at lines 101--102
 []|\EU1/STSongti-SC-Regular(0)/m/n/10.95 地 质 地 貌
  []
 
 
-Overfull \hbox (1.1301pt too wide) in alignment at lines 19--108
+Overfull \hbox (1.1301pt too wide) in alignment at lines 19--107
  [] [] [] [] 
  []
 
-[55] [56] [57] [58]) (./table/LiDAR与INSAR的比较.tex) (./table/LiDAR与INSAR的比较.tex
+[55] [56] [57])
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [58]
+(./table/LiDAR与INSAR的比较.tex) (./table/LiDAR与INSAR的比较.tex
 Underfull \hbox (badness 3895) in paragraph at lines 47--47
 []|\EU1/STSongti-SC-Regular(0)/bx/n/10.95 对 植 被 覆 盖 地 区 的
  []
@@ -3336,7 +3340,7 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 Here is how much of TeX's memory you used:
  49904 strings out of 493591
  1017909 string characters out of 6143545
- 1181180 words of memory out of 5000000
+ 1179180 words of memory out of 5000000
  52375 multiletter control sequences out of 15000+600000
  15243 words of font info for 131 fonts, out of 8000000 for 9000
  1347 hyphenation exceptions out of 8191
